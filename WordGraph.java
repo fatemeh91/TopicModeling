@@ -1,3 +1,6 @@
+package org;
+import java.net.*;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.HashMap;
@@ -13,12 +16,13 @@ import org.jgrapht.alg.KruskalMinimumSpanningTree;
 public class WordGraph {
 	private WeightedGraph<String, DefaultWeightedEdge> wordGraph;
 	private WeightedGraph<String, DefaultWeightedEdge> wordMST;
-	HashMap<String, Double> cc;
+	HashMap<String, Double> centralities;
+	List<Map.Entry<String, Double>> centralityList ;
 	public WordGraph() {
 		wordGraph = new SimpleWeightedGraph<String, DefaultWeightedEdge>(DefaultWeightedEdge.class);
 		wordMST = new SimpleWeightedGraph<String, DefaultWeightedEdge>(DefaultWeightedEdge.class);
 	}
-	public void addWeightedEdge(String w1, String w2, double distance)
+    public void addWeightedEdge(String w1, String w2, double distance)
     {
 
         // add the vertices
@@ -29,7 +33,7 @@ public class WordGraph {
     	if (ed != null)
     		wordGraph.setEdgeWeight(ed, distance);
     }
-	public boolean addVertex(String w)
+    public boolean addVertex(String w)
     {
     	return wordGraph.addVertex(w);
     }
@@ -48,9 +52,8 @@ public class WordGraph {
     	{
     		if(!wordMST.addEdge(wordGraph.getEdgeSource(e), wordGraph.getEdgeTarget(e), e))
     		{
-    			System.out.println(wordGraph.getEdgeSource(e) + " " +wordGraph.getEdgeTarget(e) + " **edge add fail**");
+    			System.out.println("edge add fail");
     		}
-    		else System.out.println(wordGraph.getEdgeSource(e) + " " +wordGraph.getEdgeTarget(e) + " **success!**");
     		//wordMST.setEdgeWeight(e, wordGraph.getEdgeWeight(e));
     		//System.out.println("mst making: " + wordMST.getEdgeWeight(e));
     		
@@ -61,41 +64,42 @@ public class WordGraph {
     }
     public void centralityAnalysis()
     {
-    	System.out.println("here1");
-    	this.cc =  new HashMap<String, Double>();
+    	this.centralities =  new HashMap<String, Double>();
     	CentralityComputer<String, DefaultWeightedEdge> cental = new CentralityComputer<String, DefaultWeightedEdge>(this.wordMST);
-    	System.out.println("here2");
     	for(String w : this.wordMST.vertexSet())
+    		centralities.put(w, cental.findClosenessOf(w)); 
+    	centralities = sortByValues(centralities);
+    	for(String k : centralities.keySet())
     	{
-        	System.out.println("getting cc: " + w);
-    		cc.put(w, cental.findClosenessOf(w)); 
-    	}
-    	System.out.println("here3");
-
-    	cc = sortByValues(cc);
-    	System.out.println("here4");
-
-    	for(String k : cc.keySet())
-    	{
-    		System.out.println(k + " = " + cc.get(k));
+    		System.out.println(k + " = " + centralities.get(k));
     	}
     	
     }
-    private static HashMap<String, Double> sortByValues(HashMap<String, Double> map) {
-    	List<Map.Entry<String, Double>> list =
-                new LinkedList<Map.Entry<String, Double>>( map.entrySet() );
-    	Collections.sort( list, new Comparator<Map.Entry<String, Double>>()
+    private HashMap<String, Double> sortByValues(HashMap<String, Double> centralities) {
+    	
+                this.centralityList = new LinkedList<Map.Entry<String, Double>>( centralities.entrySet() );
+    	Collections.sort( centralityList, new Comparator<Map.Entry<String, Double>>()
         {
             public int compare( Map.Entry<String, Double> o1, Map.Entry<String, Double> o2 )
             {
                 return (o1.getValue()).compareTo( o2.getValue() );
             }
         } );
-        map = new LinkedHashMap<String, Double>();
-        for (Map.Entry<String, Double> entry : list)
+        centralities = new LinkedHashMap<String, Double>();
+        for (Map.Entry<String, Double> entry : centralityList)
         {
-            map.put( entry.getKey(), entry.getValue() );
+            centralities.put( entry.getKey(), entry.getValue() );
         }
-    	return map;
+    	return centralities;
+    }
+    public HashMap<String, Double> filterTopics(HashMap<String, Double> centralities, double threshold) 
+    {
+        for (Map.Entry<String, Double> entry : this.centralityList)
+        {
+        	if (entry.getValue() < threshold)
+        		centralities.remove(entry);
+        }
+    	return centralities;
     }
 }
+    
