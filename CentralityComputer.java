@@ -1,3 +1,19 @@
+package org;
+
+/* ==========================================
+  CentralityComputer : a Java centrality measures library
+  ==========================================
+ *
+ * Computes degree centrality, closeness centrality, betweenness centrality, clustering coefficient
+ * for the nodes of a connected undirected unweighted graph.
+ * @author Anastasia Kurdia
+ *  
+ * Changes
+ * -------
+ * 04-Jun-2003 : Initial release;
+ * 23-Aug-2008 : Update;
+
+ */
 
 import java.util.HashMap;
 import java.util.Iterator;
@@ -114,7 +130,7 @@ public class CentralityComputer<V, E> {
           }
 
           // shortest path to w via v?
-          if (d[w] == d[v] + AdjacencyMatrix[w][v]) {
+          if (d[w] >= d[v] + AdjacencyMatrix[w][v]) {
             sigma[w] = sigma[w] + sigma[v];
             P.elementAt(w).add(v);
 
