@@ -611,16 +611,11 @@ public class Stopwords implements RevisionHandler {
 
 		// sort list
 		Collections.sort(list);
-
 		return list.elements();
 	}
 
-	public ArrayList<STINT> read(String filename) throws Exception {
-		ArrayList<STINT> WordDoc = read(new File(filename));
-		return WordDoc;
-	}
 
-	public ArrayList<STINT> read(File file) throws Exception {
+	public ArrayList<STINT> preprocssingonfile(File file) throws Exception {
 		ArrayList<STINT> WordDoc = read(new BufferedReader(new FileReader(file)));
 		return WordDoc;
 	}
@@ -641,14 +636,11 @@ public class Stopwords implements RevisionHandler {
 			
 			
 			if (line.contains("text") && line.contains("review")){
+				line=line.replace("text", " ");
+				line=line.replace("review", " ");
+				
 				newdoc = false;	
 			}
-			
-			
-			
-			
-			
-				
 			
 
 			StringTokenizer tokens = new StringTokenizer(line);
