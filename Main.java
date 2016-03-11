@@ -1,3 +1,7 @@
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
 
 /*
  * To change this license header, choose License Headers in Project Properties.
@@ -15,34 +19,21 @@ public class Main {
 	 * @param args
 	 *            the command line arguments
 	 */
-	public static void main(String[] args) {
-
-		// for every two words w1 and w2
-
-//		W2VUtil util = new W2VUtil(null);
-	//	double dist = util.distance(word1, word2);
-
-		WordGraph wg = new WordGraph();
-		 String w1 = "beauty";
-		 String w2 = "finance";
-		 String w3 = "skincare";
-		 String w4 = "makeup";
-
-		wg.addVertex(w1);
-		wg.addVertex(w2);
-		wg.addVertex(w3);
-		wg.addVertex(w4);
-
-		wg.addWeightedEdge(w1, w2, .9);
-		wg.addWeightedEdge(w2, w3, .9);
-		wg.addWeightedEdge(w3, w4, .5);
-		wg.addWeightedEdge(w4, w1, .5);
-		wg.addWeightedEdge(w1, w3, .5);
-		wg.addWeightedEdge(w2, w4, .9);
-
-		wg.getMST();
-		System.out.println("it's over!");
-
+	public static void main(String[] args) throws IOException {
+		
+		String dspath = "./sample";
+		final Path DSDir = Paths.get(dspath);
+		
+		if (!Files.isReadable(DSDir)) {
+			System.out.println("Data set directory '" + DSDir.toAbsolutePath()
+					+ "' does not exist or is not readable, please check the path");
+			System.exit(1);
+		}
+		
+		WordIndexing loadds=new WordIndexing();
+		loadds.indexDocs(DSDir);// writer + the path of original unindexed documents
+	
 	}
+	
 
 }
