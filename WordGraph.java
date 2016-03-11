@@ -1,5 +1,3 @@
-import java.net.*;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.HashMap;
@@ -50,9 +48,9 @@ public class WordGraph {
     	{
     		if(!wordMST.addEdge(wordGraph.getEdgeSource(e), wordGraph.getEdgeTarget(e), e))
     		{
-    			System.out.println("edge add fail");
+    			System.out.println(wordGraph.getEdgeSource(e) + " " +wordGraph.getEdgeTarget(e) + " **edge add fail**");
     		}
-    		else System.out.println("success!");
+    		else System.out.println(wordGraph.getEdgeSource(e) + " " +wordGraph.getEdgeTarget(e) + " **success!**");
     		//wordMST.setEdgeWeight(e, wordGraph.getEdgeWeight(e));
     		//System.out.println("mst making: " + wordMST.getEdgeWeight(e));
     		
@@ -63,11 +61,20 @@ public class WordGraph {
     }
     public void centralityAnalysis()
     {
+    	System.out.println("here1");
     	this.cc =  new HashMap<String, Double>();
     	CentralityComputer<String, DefaultWeightedEdge> cental = new CentralityComputer<String, DefaultWeightedEdge>(this.wordMST);
+    	System.out.println("here2");
     	for(String w : this.wordMST.vertexSet())
+    	{
+        	System.out.println("getting cc: " + w);
     		cc.put(w, cental.findClosenessOf(w)); 
+    	}
+    	System.out.println("here3");
+
     	cc = sortByValues(cc);
+    	System.out.println("here4");
+
     	for(String k : cc.keySet())
     	{
     		System.out.println(k + " = " + cc.get(k));
