@@ -69,20 +69,30 @@ public class WordGraph {
     	for(String w : this.wordMST.vertexSet())
     		centralities.put(w, cental.findClosenessOf(w)); 
     	centralities = sortByValues(centralities);
+    	centralities = filterTopics(centralities, getThreshold(centralities, "mean"));
     	for(String k : centralities.keySet())
     	{
     		System.out.println(k + " = " + centralities.get(k));
     	}
     	
     }
-    private HashMap<String, Double> sortByValues(HashMap<String, Double> centralities) {
+    private double getThreshold(HashMap<String, Double> centralities, String string) {
+    	double sum = 0;
+    	for(String k : centralities.keySet())
+    	{
+    		sum += centralities.get(k);
+    	}		
+    	System.out.println(sum/centralities.size());
+    	return sum/centralities.size();
+	}
+	private HashMap<String, Double> sortByValues(HashMap<String, Double> centralities) {
     	
                 this.centralityList = new LinkedList<Map.Entry<String, Double>>( centralities.entrySet() );
     	Collections.sort( centralityList, new Comparator<Map.Entry<String, Double>>()
         {
             public int compare( Map.Entry<String, Double> o1, Map.Entry<String, Double> o2 )
             {
-                return (o1.getValue()).compareTo( o2.getValue() );
+                return (o2.getValue()).compareTo( o1.getValue() );
             }
         } );
         centralities = new LinkedHashMap<String, Double>();
@@ -97,7 +107,9 @@ public class WordGraph {
         for (Map.Entry<String, Double> entry : this.centralityList)
         {
         	if (entry.getValue() < threshold)
-        		centralities.remove(entry);
+        	{
+        		centralities.remove(entry.getKey());
+        	}
         }
     	return centralities;
     }
