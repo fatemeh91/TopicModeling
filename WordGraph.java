@@ -1,14 +1,6 @@
-
-import java.io.BufferedWriter;
+package org;
 import java.io.FileNotFoundException;
-import java.io.FileOutputStream;
-import java.io.FileWriter;
 import java.io.IOException;
-import java.io.OutputStreamWriter;
-import java.io.UnsupportedEncodingException;
-import java.io.Writer;
-import java.net.*;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.HashMap;
@@ -24,9 +16,10 @@ import org.jgrapht.alg.KruskalMinimumSpanningTree;
 public class WordGraph {
 	private WeightedGraph<String, DefaultWeightedEdge> wordGraph;
 	private WeightedGraph<String, DefaultWeightedEdge> wordMST;
+	public List<String> topicWords;
 	HashMap<String, Double> centralities;
 	List<Map.Entry<String, Double>> centralityList ;
-	public WordGraph() {
+	public WordGraph() throws IOException {
 		wordGraph = new SimpleWeightedGraph<String, DefaultWeightedEdge>(DefaultWeightedEdge.class);
 		wordMST = new SimpleWeightedGraph<String, DefaultWeightedEdge>(DefaultWeightedEdge.class);
 	}
@@ -66,38 +59,30 @@ public class WordGraph {
     		//System.out.println("mst making: " + wordMST.getEdgeWeight(e));
     		
     	}
-    	
-    	System.out.println(wordMST.toString());
     	return wordMST;
     }
-    public void centralityAnalysis(int docno) throws IOException, FileNotFoundException
+    public void centralityAnalysis() throws IOException, FileNotFoundException
     {
     	this.centralities =  new HashMap<String, Double>();
     	CentralityComputer<String, DefaultWeightedEdge> cental = new CentralityComputer<String, DefaultWeightedEdge>(this.wordMST);
     	for(String w : this.wordMST.vertexSet())
-    		centralities.put(w, cental.findClosenessOf(w)); 
-    	centralities = sortByValues(centralities);
-    	centralities = filterTopics(centralities, getThreshold(centralities, "mean"));
-    	FileWriter fw = new FileWriter("review" + docno + ".txt",true);;
-    	for(String k : centralities.keySet())
-    	{
-    		System.out.println(k + " = " + centralities.get(k));
-    		fw.write("\n"+k +"="+centralities.get(k));
-    	}
-    	fw.close();
+    		this.centralities.put(w, cental.findClosenessOf(w)); 
+    	this.centralities = sortByValues(this.centralities);
+    	centralities = filterTopics(getThreshold("mean"));
+    	this.setTopicWords();
     }
-    private double getThreshold(HashMap<String, Double> centralities, String string) {
+    private double getThreshold(String string) {
     	double sum = 0;
-    	for(String k : centralities.keySet())
+    	for(String k : this.centralities.keySet())
     	{
-    		sum += centralities.get(k);
+    		sum += this.centralities.get(k);
     	}		
-    	System.out.println(sum/centralities.size());
-    	return sum/centralities.size();
+    	System.out.println(sum/this.centralities.size());
+    	return sum/this.centralities.size();
 	}
 	private HashMap<String, Double> sortByValues(HashMap<String, Double> centralities) {
     	
-                this.centralityList = new LinkedList<Map.Entry<String, Double>>( centralities.entrySet() );
+        this.centralityList = new LinkedList<Map.Entry<String, Double>>( centralities.entrySet() );
     	Collections.sort( centralityList, new Comparator<Map.Entry<String, Double>>()
         {
             public int compare( Map.Entry<String, Double> o1, Map.Entry<String, Double> o2 )
@@ -112,8 +97,11 @@ public class WordGraph {
         }
     	return centralities;
     }
-    public HashMap<String, Double> filterTopics(HashMap<String, Double> centralities, double threshold) 
+    public HashMap<String, Double> filterTopics(double threshold) 
     {
+    	if (threshold == -1)
+    		threshold = this.getThreshold("mean");
+    		
         for (Map.Entry<String, Double> entry : this.centralityList)
         {
         	if (entry.getValue() < threshold)
@@ -121,6 +109,24 @@ public class WordGraph {
         		centralities.remove(entry.getKey());
         	}
         }
+        this.setTopicWords();
     	return centralities;
     }
+    public String topicToString()
+    {
+    	String topicsStr = "";
+    	for(String k : topicWords)
+    	{
+    		topicsStr += (k + ", ");
+    	}
+    	return topicsStr;
+    }
+    private void setTopicWords()
+    {
+    	for(String k : this.centralities.keySet())
+    	{
+    		topicWords.add(k);
+    	}   
+    }
 }
+    
