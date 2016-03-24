@@ -1,0 +1,15 @@
+product/productId: B000GI0J6G
+product/title: Welch Allyn Suretemp Plus 690 Electronic Thermometer #01690-200
+product/price: 257.99
+review/userId: A2F6TYEALLXIM
+review/profileName: Bookin
+review/helpfulness: 0/0
+review/score: 5.0
+review/time: 1358294400
+review/summary: Play Doctor
+review/text: Just like the professionals use. Just as accurate. It's not a toy. Well worth the peace of mind. If you have kids use it on the kids, just use adult supervision.
+
+([professionals, accurate, toy, worth, peace, mind, kids, adult, supervision], [{peace,mind}, {adult,supervision}, {professionals,accurate}, {accurate,worth}, {kids,adult}, {mind,kids}, {professionals,adult}, {toy,kids}])
+adult
+kids
+professionals

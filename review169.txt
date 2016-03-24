@@ -1,0 +1,19 @@
+product/productId: B0001VVGLU
+product/title: Vitex Chaste Berry Extract 225 mg By Solaray - 60 Capsules
+product/price: 10.19
+review/userId: A3N6XLU7YVBCBT
+review/profileName: larin20
+review/helpfulness: 0/0
+review/score: 1.0
+review/time: 1361145600
+review/summary: Not one change
+review/text: I have been taking two capsules daily for two months and not felt or seen one difference in my health. This hasn't been the miracle pill to help cure my PCOS or help my ovulate. In fact, I had a period before I started this pill and not one since.
+
+([taking, capsules, daily, months, felt, difference, health, hasn, miracle, pill, cure, PCOS, ovulate, fact, period, started], [{capsules,pill}, {felt,started}, {miracle,cure}, {pill,ovulate}, {pill,cure}, {health,pill}, {PCOS,ovulate}, {hasn,started}, {months,started}, {daily,months}, {months,period}, {felt,fact}, {taking,started}, {difference,fact}, {difference,miracle}])
+fact
+difference
+miracle
+felt
+cure
+started
+pill

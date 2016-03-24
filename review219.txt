@@ -1,0 +1,22 @@
+product/productId: B0002AQLY2
+product/title: Evercare Pet Hair Adhesive Roller
+product/price: 7.95
+review/userId: A2OOQ59V7YWYL1
+review/profileName: Gloria M.
+review/helpfulness: 3/3
+review/score: 5.0
+review/time: 1332288000
+review/summary: Pleased with results
+review/text: I don't think I'll ever get a full proof solution to the pet hair problem. As soon as it starts to warm up, on cue, my dog and cat immediately start shedding. But between brushing, my upholstery vacuum and this, I manage to keep it under control. It really comes in handy when I need something really quick. I use it on, everything but my carpet, and I love it. It beats every thing else I've ever bought.
+
+([don, full, proof, solution, pet, hair, problem, starts, warm, cue, dog, cat, immediately, start, shedding, brushing, upholstery, vacuum, manage, control, handy, quick, carpet, love, beats, thing, bought], [{warm,brushing}, {solution,problem}, {full,quick}, {problem,vacuum}, {shedding,brushing}, {upholstery,carpet}, {solution,manage}, {start,thing}, {starts,start}, {handy,bought}, {hair,dog}, {start,quick}, {immediately,quick}, {pet,dog}, {manage,control}, {starts,beats}, {warm,love}, {proof,solution}, {handy,quick}, {love,thing}, {cue,brushing}, {dog,cat}, {problem,thing}, {don,shedding}, {hair,brushing}, {hair,carpet}])
+thing
+love
+warm
+start
+problem
+brushing
+starts
+quick
+hair
+solution

@@ -1,0 +1,20 @@
+product/productId: B0009DVE7Q
+product/title: Replacement Bulb For Use With Hand Held Massager Infrarex Light Professional Infrared Massager
+product/price: unknown
+review/userId: ARBKYIVNYWK3C
+review/profileName: THATCH "RST"
+review/helpfulness: 5/5
+review/score: 4.0
+review/time: 1265414400
+review/summary: A well liked gift
+review/text: I bought this for my father as a gift. He seems to really enjoy it. Being something he had in years past, the hand held infrared devices became a little hard to locate. While this one doesn't seem to have the super high build quality that ones did from years gone by, it does the job and as the gift receiver my father seems to be very satisfied with it.
+
+([bought, father, gift, enjoy, years, past, hand, held, infrared, devices, hard, locate, doesn, super, high, build, quality, job, receiver, satisfied], [{locate,build}, {enjoy,satisfied}, {gift,hand}, {hard,high}, {hard,doesn}, {years,past}, {infrared,devices}, {super,high}, {infrared,locate}, {father,job}, {devices,receiver}, {high,quality}, {bought,years}, {bought,build}, {hard,job}, {enjoy,held}, {enjoy,build}, {enjoy,quality}, {bought,gift}])
+enjoy
+build
+quality
+bought
+locate
+high
+satisfied
+held

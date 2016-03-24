@@ -1,0 +1,32 @@
+product/productId: B0002406C6
+product/title: Zand Insure Herbal Formula
+product/price: 11.74
+review/userId: A2ASUAHWRI2PAK
+review/profileName: me12321
+review/helpfulness: 1/1
+review/score: 5.0
+review/time: 1340668800
+review/summary: This producct is amazing!
+review/text: As the other reviewers stated, when taken as soon as you feel something coming on (for me it's either the beginning of a sore throat, with or without a headache, or that run-down feeling right before getting sick), this product has stopped those symptoms from advancing into something worse. My last two bottles have had a long shelf life /expiration date. I keep it in a cool, dark cupboard and seal it tight. They each worked more than a year after purchase. Come to think of it, I don't take any other products, just this one. And the taste isn't that bad to me...it's odd, herbal-y, not pleasant, but ok. Well worth the results!
+
+([ers, stated, feel, coming, beginning, sore, throat, headache, run, feeling, sick, product, stopped, symptoms, advancing, worse, bottles, long, shelf, life, expiration, date, cool, dark, cupboard, seal, tight, worked, year, purchase, don, products, taste, isn, bad, odd, herbal, pleasant, worth, results], [{life,pleasant}, {cool,dark}, {feel,feeling}, {bottles,cupboard}, {shelf,seal}, {sick,symptoms}, {purchase,worth}, {product,shelf}, {long,bad}, {ers,don}, {bad,odd}, {headache,symptoms}, {shelf,cupboard}, {sore,headache}, {coming,worked}, {feeling,sick}, {feeling,taste}, {coming,beginning}, {beginning,results}, {date,year}, {coming,run}, {cool,isn}, {cool,tight}, {purchase,products}, {coming,advancing}, {worse,bad}, {expiration,purchase}, {odd,pleasant}, {sore,throat}, {sick,bad}, {product,products}, {stated,date}, {products,herbal}, {cool,pleasant}, {beginning,long}, {beginning,date}, {coming,stopped}, {expiration,date}, {don,isn}])
+beginning
+long
+bad
+date
+odd
+sick
+coming
+worse
+expiration
+results
+pleasant
+year
+stated
+symptoms
+purchase
+feeling
+run
+worked
+stopped
+advancing

@@ -1,0 +1,38 @@
+product/productId: B0009DVE7Q
+product/title: Replacement Bulb For Use With Hand Held Massager Infrarex Light Professional Infrared Massager
+product/price: unknown
+review/userId: A2LQL8SKYLIEO6
+review/profileName: Beth Purkhiser
+review/helpfulness: 7/13
+review/score: 1.0
+review/time: 1244332800
+review/summary: Feels great until it melts and then explodes.
+review/text: I had another infrared massager before this one that I used for years to help with sore muscles and a nasty TMJ condition. It finally shorted out and I bought this product just a few weeks ago. I had one of the worst headaches of my entire life yesterday and was using this on my jaw when I most unfortunately fell asleep. I guess muscle relaxers and vicodin will do that to you. Anyway, when I woke up, I found that I had rolled over and the infrared massager was underneath my pillow. It completely melted and burned through my sheets and a couple inches into my mattress. I had fallen asleep a few times with my other infrared massager with no consequences so this surprised and dismayed me. This is not a safe product - it either needs to be made of sturdier material than cheap plastic or have a timer on it - I would certainly be willing to pay the extra money to not have to worry about setting fire to my house or burning myself. Sorry - can't recommend it.
+
+([infrared, massager, years, sore, muscles, nasty, TMJ, condition, finally, shorted, bought, product, weeks, ago, worst, headaches, entire, life, yesterday, jaw, fell, asleep, guess, muscle, relaxers, vicodin, woke, found, rolled, underneath, pillow, completely, melted, burned, sheets, couple, inches, mattress, fallen, times, consequences, surprised, dismayed, safe, made, sturdier, material, cheap, plastic, timer, pay, extra, money, worry, setting, fire, house, burning, recommend], [{entire,completely}, {sheets,mattress}, {asleep,mattress}, {headaches,worry}, {TMJ,relaxers}, {setting,burning}, {underneath,melted}, {bought,pay}, {guess,recommend}, {pay,money}, {life,consequences}, {muscles,jaw}, {TMJ,jaw}, {guess,surprised}, {mattress,house}, {safe,cheap}, {rolled,made}, {guess,worry}, {fire,house}, {relaxers,vicodin}, {shorted,fallen}, {pay,extra}, {bought,found}, {years,ago}, {ago,yesterday}, {infrared,massager}, {product,material}, {asleep,woke}, {burned,burning}, {nasty,worst}, {sheets,material}, {muscles,muscle}, {fire,burning}, {years,weeks}, {years,times}, {rolled,melted}, {fell,rolled}, {bought,burned}, {pillow,mattress}, {massager,timer}, {woke,surprised}, {pillow,plastic}, {sore,condition}, {sore,headaches}, {massager,muscles}, {bought,cheap}, {melted,burned}, {sturdier,plastic}, {inches,sturdier}, {surprised,dismayed}, {massager,pillow}, {finally,woke}, {fell,fallen}, {sore,nasty}, {headaches,consequences}, {finally,completely}, {weeks,couple}, {finally,ago}])
+mattress
+asleep
+house
+pillow
+woke
+fire
+sheets
+surprised
+massager
+burning
+finally
+plastic
+burned
+dismayed
+guess
+material
+muscles
+ago
+melted
+timer
+completely
+infrared
+setting
+sturdier
+bought
+worry

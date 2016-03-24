@@ -1,0 +1,20 @@
+product/productId: B0001VVGLU
+product/title: Vitex Chaste Berry Extract 225 mg By Solaray - 60 Capsules
+product/price: 10.19
+review/userId: AU8KLVGIO4MOB
+review/profileName: D. RAMSDEN "Shelley Lynn"
+review/helpfulness: 15/15
+review/score: 5.0
+review/time: 1129334400
+review/summary: SLR
+review/text: Finally a natural product that helped me to actually have a semi-normal period. Instead of 1-2 periods a year that last for 30-60 days, I now have a period about every other month for 8-12 days. I can actually function during my period now. I am finally starting to feel much better.This is an excellent product for premenstral cramps.
+
+([Finally, natural, product, helped, semi, normal, period, periods, year, days, month, function, finally, starting, feel, excellent, premenstral, cramps], [{natural,product}, {days,month}, {helped,year}, {normal,days}, {semi,function}, {finally,feel}, {normal,starting}, {periods,days}, {natural,normal}, {Finally,finally}, {period,periods}, {year,month}, {natural,excellent}, {finally,starting}, {normal,function}, {periods,cramps}, {premenstral,cramps}])
+normal
+days
+starting
+month
+periods
+natural
+function
+year

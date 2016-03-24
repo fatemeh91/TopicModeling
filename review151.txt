@@ -1,0 +1,53 @@
+product/productId: B000GI0J6G
+product/title: Welch Allyn Suretemp Plus 690 Electronic Thermometer #01690-200
+product/price: 257.99
+review/userId: A3R7Y10VVNACQA
+review/profileName: Ella'sMom&lt;3
+review/helpfulness: 5/5
+review/score: 1.0
+review/time: 1355788800
+review/summary: SOLD USED THERMOMETER, INACCURATE TEMPS, WELCH ALLYN SAYS IT'S SERIAL NUMBER IS A USED MODEL
+review/text: I purchased this thermometer because we wanted an accurate thermometer and were tired of the generic drug store thermometers. We definitely need to be provided an accurate on spot temp due to my daughters health issues. I was super excited to receive this thermometer right away!!! Shipping was GREAT! I opened it, read the manual and then took her temp ( knowing she was hot ) it said 98.8. I pulled out our old thermometer and it registered 100.4, THIS IS AN ISSUE! I thought maybe it was just this one time and tried it again later that evening, knowing she was still running a fever. It read 99.9, old thermometer read 100.9. YET AGAIN AN ISSUE!!! I continued to try both thermometers the next day while she still had a temp and STILL had the same large variation in temps. My husband decided to call the company. No answer, no answering service. He called WelchAllyn since we had no response from the Medical Supply Company. They asked if we purchased this thermometer in June? He said ummm no we just bought it 5 days ago. The associate said well this thermometer is registered as being purchased in June and we aren't sure if this Medical Supply company is a registered seller of these WelchAllyn thermometers. They are having a supervisor call us tomorrow. We called the Medical supply company yet again and finally had someone answer, unfortunately they seem like they could care less about the fact that it is not working and they definitely do not care that this could have been previously owned and returned. They told us there is a 15% restocking fee for returning it unless WelchAllyn says it was previously owned. WHAT!!! So they don't know if they are selling items that are previously owned and obviously faulty? The associate at WelchAllyn said this may have been returned due to being faulty and now is being sold as "New" through this company. THIS IS RIDICULOUS CUSTOMER SERVICE AND SALES SERVICE!!!! These thermometers may be PREVIOUSLY OWNED AND USED AND BEING SOLD AS "NEW"!!!!!!!!!!!!!!!!!!!!!!!!! I will update this as soon as a I speak with a supervisor tomorrow!
+
+([purchased, thermometer, wanted, accurate, tired, generic, drug, store, thermometers, provided, spot, temp, due, daughters, health, issues, super, excited, receive, Shipping, GREAT, opened, read, manual, knowing, hot, pulled, registered, ISSUE, thought, time, evening, running, fever, continued, day, large, variation, temps, husband, decided, call, company, answer, answering, service, called, WelchAllyn, response, Medical, Supply, Company, asked, June?, ummm, bought, days, ago, associate, June, aren, seller, supervisor, tomorrow, supply, finally, care, fact, working, previously, owned, returned, told, %, restocking, fee, returning, don, selling, items, faulty?, faulty, sold, "New", RIDICULOUS, CUSTOMER, SERVICE, SALES, PREVIOUSLY, OWNED, SOLD, "NEW", update, speak], [{daughters,husband}, {update,speak}, {company,Company}, {health,Medical}, {ISSUE,PREVIOUSLY}, {answer,answering}, {RIDICULOUS,OWNED}, {health,care}, {spot,time}, {returned,returning}, {temp,temps}, {wanted,decided}, {SERVICE,SALES}, {time,day}, {aren,don}, {accurate,faulty}, {seller,selling}, {service,SERVICE}, {spot,hot}, {receive,fee}, {wanted,working}, {RIDICULOUS,PREVIOUSLY}, {decided,returned}, {wanted,excited}, {answer,speak}, {thermometer,thermometers}, {evening,day}, {day,June}, {Supply,supply}, {registered,owned}, {GREAT,"New"}, {accurate,answer}, {super,large}, {wanted,asked}, {GREAT,"NEW"}, {call,called}, {GREAT,RIDICULOUS}, {registered,%}, {thought,time}, {wanted,thought}, {OWNED,SOLD}, {associate,supervisor}, {husband,supervisor}, {provided,receive}, {service,care}, {asked,told}, {knowing,thought}, {answer,response}, {thermometer,hot}, {sold,SOLD}, {bought,owned}, {generic,variation}, {purchased,sold}, {temp,supervisor}, {June,previously}, {continued,returned}, {pulled,bought}, {ummm,RIDICULOUS}, {day,days}, {called,asked}, {thermometer,temps}, {Shipping,Supply}, {supply,selling}, {manual,faulty}, {tired,aren}, {GREAT,faulty?}, {selling,sold}, {read,speak}, {evening,tomorrow}, {drug,health}, {purchased,bought}, {opened,returned}, {company,seller}, {store,company}, {supply,restocking}, {answering,asked}, {pulled,returned}, {super,ummm}, {store,items}, {knowing,fact}, {purchased,provided}, {due,continued}, {tired,excited}, {CUSTOMER,OWNED}, {generic,drug}, {thermometer,fever}, {GREAT,WelchAllyn}, {running,working}, {ago,finally}, {days,ago}, {GREAT,June?}, {CUSTOMER,SERVICE}, {issues,items}])
+returned
+pulled
+decided
+bought
+wanted
+purchased
+sold
+thought
+returning
+asked
+SOLD
+selling
+owned
+opened
+continued
+excited
+provided
+working
+time
+OWNED
+knowing
+answering
+told
+seller
+called
+supply
+RIDICULOUS
+day
+registered
+CUSTOMER
+spot
+tired
+receive
+due
+answer
+running
+company
+fact
+call
+GREAT
+days

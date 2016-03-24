@@ -1,0 +1,18 @@
+product/productId: B0002DUT9C
+product/title: PediFix No Sore Feet Stretch Socks
+product/price: 9.06
+review/userId: A3H411IGWH3X6F
+review/profileName: Doug Loflin
+review/helpfulness: 0/0
+review/score: 5.0
+review/time: 1358812800
+review/summary: Fantastic Over Cast
+review/text: I bought a couple of pair of these to go over my cast from a recent foot surgery. Keeps my toes pretty warm. Very satisfied with this product.
+
+([bought, couple, pair, cast, recent, foot, surgery, toes, pretty, warm, satisfied, product], [{couple,recent}, {pretty,satisfied}, {foot,surgery}, {couple,warm}, {couple,pretty}, {cast,surgery}, {bought,couple}, {foot,toes}, {satisfied,product}, {couple,pair}, {toes,warm}])
+couple
+warm
+pretty
+toes
+pair
+recent

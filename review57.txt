@@ -1,0 +1,17 @@
+product/productId: B0009DVE7Q
+product/title: Replacement Bulb For Use With Hand Held Massager Infrarex Light Professional Infrared Massager
+product/price: unknown
+review/userId: A3PBNN6IFXSK9P
+review/profileName: Pro Girl "happymom"
+review/helpfulness: 5/5
+review/score: 5.0
+review/time: 1233792000
+review/summary: Love It!!
+review/text: So easy to hold. Very relaxing and it really does help with sore achy muscles. The price can't be beat. I bought a few to give to family and friends. Love It!!!
+
+([easy, hold, relaxing, sore, achy, muscles, price, beat, bought, give, family, friends, Love], [{hold,give}, {relaxing,friends}, {achy,Love}, {hold,beat}, {sore,achy}, {relaxing,muscles}, {beat,bought}, {achy,muscles}, {family,friends}, {price,bought}, {easy,relaxing}, {bought,family}])
+friends
+family
+relaxing
+bought
+muscles

@@ -1,0 +1,21 @@
+product/productId: B000N8X01U
+product/title: California Exotics Double Dolphin Arouser
+product/price: 18.62
+review/userId: A1R1W82IEAYHMO
+review/profileName: Lostie in Chicago
+review/helpfulness: 0/0
+review/score: 1.0
+review/time: 1337472000
+review/summary: Don't Waste Your Money
+review/text: First of all you have to already have a pretty stiff erection to get this thing on. Secondly, we've used it twice and the third time we went to use it one of the dolphin heads split apart from the main ring. We've washed it both times we used it with toy cleaner - nothing harsh. It's cheaply made and the batteries do not last at all. Once it was on it really didn't do what it is supposed to do - it's more awkward than anything. Definitely would not recommend.
+
+([pretty, stiff, erection, thing, time, dolphin, heads, split, main, ring, washed, times, toy, cleaner, harsh, cheaply, made, batteries, didn, supposed, awkward, recommend], [{stiff,ring}, {stiff,harsh}, {washed,made}, {didn,supposed}, {cleaner,cheaply}, {time,times}, {stiff,heads}, {toy,batteries}, {cleaner,batteries}, {thing,time}, {erection,ring}, {time,made}, {dolphin,toy}, {pretty,thing}, {thing,supposed}, {time,awkward}, {thing,recommend}, {main,supposed}, {stiff,awkward}, {washed,cleaner}, {split,awkward}])
+time
+made
+awkward
+thing
+times
+washed
+stiff
+supposed
+pretty

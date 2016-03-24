@@ -1,0 +1,16 @@
+product/productId: B000278AD0
+product/title: Jobst Ultrasheer 15-20 Knee-High Silky Beige Large
+product/price: 39.24
+review/userId: AUIZ1GNBTG5OB
+review/profileName: dgodoy
+review/helpfulness: 1/1
+review/score: 2.0
+review/time: 1287014400
+review/summary: sizes recomended in the size chart are not real
+review/text: sizes are much smaller than what is recomended in the chart. I tried to put it and sheer it!. I guess you should not buy this item in the internet..it is better to go to the store and check it
+
+([sizes, smaller, recomended, chart, put, sheer, guess, buy, item, internet, store, check], [{sizes,smaller}, {buy,check}, {buy,store}, {smaller,sheer}, {chart,check}, {sheer,guess}, {recomended,guess}, {put,buy}, {sheer,internet}, {put,guess}, {item,store}])
+guess
+put
+buy
+sheer

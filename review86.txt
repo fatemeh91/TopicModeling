@@ -1,0 +1,22 @@
+product/productId: B000GT5G8Q
+product/title: Shoulder Cushions - Package: 2 per bag, Colour: Black
+product/price: unknown
+review/userId: A3B4VXL3OPE3IA
+review/profileName: Jackie51
+review/helpfulness: 10/10
+review/score: 1.0
+review/time: 1197417600
+review/summary: overpriced/uncomfortable
+review/text: These bra inserts are very stiff and tend toslip out of place on your shoulder----they arerather heavy/bulky and more uncomfortable thanhaving a bra strap dig into you! I have sincefound lightweight ones that stay in place allday and were $1.99 a pair--(commonlyfound in the lingerie sections of most dept.stores).
+
+([bra, inserts, stiff, tend, toslip, place, shoulder, arerather, heavy, bulky, uncomfortable, thanhaving, strap, dig, sincefound, lightweight, stay, allday, $, pair, commonlyfound, lingerie, sections, dept, stores], [{stiff,shoulder}, {thanhaving,dept}, {toslip,dept}, {bra,dept}, {place,allday}, {bulky,lightweight}, {heavy,bulky}, {strap,lightweight}, {tend,allday}, {bra,lingerie}, {arerather,dept}, {stiff,heavy}, {inserts,sections}, {lingerie,stores}, {stiff,uncomfortable}, {bra,strap}, {tend,bulky}, {dig,stay}, {allday,$}, {sincefound,dept}, {commonlyfound,dept}, {tend,stay}, {inserts,strap}, {strap,pair}])
+strap
+lightweight
+bulky
+bra
+tend
+heavy
+inserts
+dept
+lingerie
+pair

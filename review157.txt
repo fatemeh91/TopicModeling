@@ -1,0 +1,32 @@
+product/productId: B000GI0J6G
+product/title: Welch Allyn Suretemp Plus 690 Electronic Thermometer #01690-200
+product/price: 257.99
+review/userId: AQ3V3H6X4EAAD
+review/profileName: James Caron "bubbasbbq"
+review/helpfulness: 1/1
+review/score: 5.0
+review/time: 1325548800
+review/summary: if you need to use a thermometer often, this is the one to get
+review/text: My wife has some health issues and needs to monitor her temperature regularly. We have gone through all of the cheap digital thermometers we could find, I finally got sick of having the variance in readings(some were off by as much as .5 degrees!) I decided to find the best one I could get. this is it. the same one found in hospitals and doctor's offices, the 690 is accurate, fast and reliable. It also has a history, which makes reporting to your doctor if you need to easy to do. if you only need to take your temp once in a while, don't bother with this, but if you even have to take it weekly, I would say this is the only one to consider. make sure you get extra probe covers and replace the battery regularly but otherwise using the model could not be faster or easier.
+
+([wife, health, issues, monitor, temperature, regularly, cheap, digital, thermometers, find, finally, sick, variance, readings, degrees, decided, found, hospitals, doctor, offices, accurate, fast, reliable, history, makes, reporting, easy, temp, don, bother, weekly, make, extra, probe, covers, replace, battery, model, faster, easier], [{makes,make}, {find,replace}, {faster,easier}, {hospitals,offices}, {temperature,degrees}, {monitor,regularly}, {accurate,history}, {find,finally}, {easy,easier}, {temperature,temp}, {thermometers,hospitals}, {monitor,reporting}, {accurate,reliable}, {fast,faster}, {don,bother}, {cheap,easy}, {thermometers,readings}, {hospitals,doctor}, {temperature,thermometers}, {makes,easy}, {digital,thermometers}, {sick,doctor}, {sick,extra}, {variance,readings}, {find,found}, {monitor,thermometers}, {reliable,easy}, {makes,covers}, {wife,doctor}, {monitor,probe}, {regularly,weekly}, {reliable,model}, {health,hospitals}, {bother,easier}, {find,make}, {sick,bother}, {decided,bother}, {temperature,battery}, {health,issues}])
+sick
+doctor
+bother
+hospitals
+easier
+easy
+thermometers
+faster
+wife
+health
+extra
+decided
+don
+offices
+makes
+temperature
+reliable
+monitor
+cheap
+readings

@@ -1,0 +1,24 @@
+product/productId: B000GI0J6G
+product/title: Welch Allyn Suretemp Plus 690 Electronic Thermometer #01690-200
+product/price: 257.99
+review/userId: AO0VOT8HDZ64F
+review/profileName: JustMe
+review/helpfulness: 0/0
+review/score: 5.0
+review/time: 1357776000
+review/summary: Very Accurate, worth the expense
+review/text: We were left with flexible spending money at the end of the year and thus decided to make the plunge and purchase this. This thermometer is expensive but worth it. We have 3 children and have bought many junk thermometers at the local pharmacies over the years that no where compare to this one. It's fast and accurate, takes about 5 seconds for a reading. I'm very satisfied with it so far.
+
+([left, flexible, spending, money, end, year, decided, make, plunge, purchase, thermometer, expensive, worth, children, bought, junk, thermometers, local, pharmacies, years, compare, fast, accurate, takes, seconds, reading, satisfied], [{thermometers,accurate}, {flexible,accurate}, {thermometer,reading}, {flexible,expensive}, {compare,accurate}, {bought,years}, {make,compare}, {expensive,junk}, {worth,bought}, {purchase,bought}, {make,takes}, {spending,money}, {left,end}, {children,reading}, {plunge,thermometer}, {flexible,fast}, {thermometer,thermometers}, {accurate,satisfied}, {money,local}, {thermometers,pharmacies}, {expensive,worth}, {left,seconds}, {left,decided}, {year,years}, {decided,bought}, {money,expensive}])
+expensive
+flexible
+accurate
+worth
+bought
+money
+thermometers
+fast
+junk
+compare
+thermometer
+satisfied

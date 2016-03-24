@@ -1,0 +1,35 @@
+product/productId: B000GI0J6G
+product/title: Welch Allyn Suretemp Plus 690 Electronic Thermometer #01690-200
+product/price: 257.99
+review/userId: A2WWS1RTBVDUV1
+review/profileName: baw
+review/helpfulness: 16/18
+review/score: 5.0
+review/time: 1298851200
+review/summary: Finally, a Quick-Read Thermometer that Works
+review/text: I have wasted a lot of money on inexpensive "instant-read" thermometers. I have found them all to be unreliable, giving wildly inconsistent readings. I consulted with a health practitioner, who recommended the Welch Allyn Suretemp Plus 690. It works. It gives consistent temperature readings. Wahoo!I was concerned by another review that indicated the thermometer wears out quickly, but I decided that pertained to a busy health care office environment, and would not be a concern for limited home use.Note the probe covers are required: without a cover, an artifically high temp is reported. Also, one must use the Welch Allyn brand of probe cover; they are specially made to fit the device.
+
+([wasted, lot, money, inexpensive, "instant, read", thermometers, found, unreliable, giving, wildly, inconsistent, readings, consulted, health, practitioner, recommended, Welch, Allyn, Suretemp, works, consistent, temperature, Wahoo, concerned, thermometer, wears, quickly, decided, pertained, busy, care, office, environment, concern, limited, home, Note, probe, covers, required, cover, artifically, high, temp, reported, brand, cover;, specially, made, fit, device], [{recommended,decided}, {pertained,covers}, {consulted,recommended}, {Allyn,works}, {Welch,Allyn}, {inexpensive,brand}, {lot,limited}, {thermometers,readings}, {money,artifically}, {inconsistent,limited}, {limited,high}, {concerned,concern}, {wildly,quickly}, {artifically,specially}, {lot,money}, {consulted,works}, {limited,required}, {temperature,temp}, {health,care}, {health,environment}, {consulted,concerned}, {works,covers}, {health,practitioner}, {recommended,required}, {consistent,fit}, {inexpensive,thermometers}, {found,recommended}, {covers,cover}, {works,wears}, {Suretemp,Wahoo}, {Wahoo,cover;}, {office,home}, {care,home}, {concerned,care}, {wasted,giving}, {thermometer,device}, {unreliable,wildly}, {inconsistent,consistent}, {inexpensive,unreliable}, {Note,required}, {pertained,made}, {concerned,busy}, {temperature,thermometer}, {thermometers,thermometer}, {unreliable,inconsistent}, {wasted,money}, {office,probe}, {Wahoo,wears}, {found,reported}, {read",Wahoo}, {"instant,Wahoo}])
+recommended
+required
+consulted
+limited
+works
+concerned
+inconsistent
+decided
+found
+lot
+Note
+unreliable
+high
+consistent
+wears
+concern
+care
+covers
+Allyn
+busy
+inexpensive
+reported
+money

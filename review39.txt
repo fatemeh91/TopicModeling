@@ -1,0 +1,22 @@
+product/productId: B0002JEQ4K
+product/title: HoMedics BK-2000 5 Point Back Massager with Heat and Variable Massage Intensity
+product/price: unknown
+review/userId: A1TG2VN6IU5P71
+review/profileName: Darlene E. Meyer
+review/helpfulness: 0/0
+review/score: 3.0
+review/time: 1168819200
+review/summary: VIBRATING CUSHION
+review/text: This cushion is a convenient way to relieve shoulder, back and leg pains.I use it in a stationery place at home, like an oversuffed chair. Sometimes it does cut itself off and must be restarted [a minor inconvenience]. Good for any stationary place to sit.
+
+([cushion, convenient, relieve, shoulder, back, leg, pains, stationery, place, home, oversuffed, chair, cut, restarted, minor, inconvenience, Good, stationary, sit], [{back,restarted}, {relieve,shoulder}, {cushion,relieve}, {back,home}, {place,sit}, {place,home}, {shoulder,leg}, {relieve,pains}, {shoulder,back}, {chair,sit}, {oversuffed,restarted}, {convenient,stationary}, {stationery,stationary}, {convenient,inconvenience}, {pains,inconvenience}, {minor,inconvenience}, {relieve,cut}, {back,Good}])
+shoulder
+relieve
+back
+pains
+leg
+home
+inconvenience
+cushion
+restarted
+cut

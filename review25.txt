@@ -1,0 +1,14 @@
+product/productId: B000HJL97W
+product/title: Elbow Grease Hot Cream 15oz
+product/price: 19.10
+review/userId: AMLTO4MFSPPJP
+review/profileName: rangerman
+review/helpfulness: 0/0
+review/score: 5.0
+review/time: 1356393600
+review/summary: excellent
+review/text: Great to use with that special friend or lover, but great to use if you are alone. Would highly revomend trying...
+
+([Great, special, friend, lover, great, highly, revomend], [{great,revomend}, {special,great}, {friend,great}, {friend,lover}, {Great,great}, {great,highly}])
+great
+friend

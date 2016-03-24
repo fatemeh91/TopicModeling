@@ -1,0 +1,20 @@
+product/productId: B00023DDTU
+product/title: Jobst Ultrasheer 15-20 mmHg Pantyhose
+product/price: 58.43
+review/userId: AX4VWMTFHQE4R
+review/profileName: still_a_student
+review/helpfulness: 0/0
+review/score: 5.0
+review/time: 1336089600
+review/summary: excellent
+review/text: excellent protection for aching legs. i wear them under my scrubs or with dress clothes for work. i am a medical student and by the end of the day my legs are normally hurting in a million & one places. these really help.
+
+([excellent, protection, aching, legs, wear, scrubs, dress, clothes, work, medical, student, end, day, hurting, million, &, places], [{protection,medical}, {day,places}, {end,day}, {scrubs,clothes}, {legs,clothes}, {wear,work}, {wear,dress}, {aching,end}, {aching,hurting}, {end,million}, {scrubs,medical}, {medical,student}, {excellent,work}, {aching,legs}, {dress,clothes}, {excellent,&}])
+clothes
+legs
+dress
+aching
+scrubs
+wear
+end
+medical

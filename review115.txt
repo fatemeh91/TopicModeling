@@ -1,0 +1,25 @@
+product/productId: B0002DUT9C
+product/title: PediFix No Sore Feet Stretch Socks
+product/price: 9.06
+review/userId: A23CJ0KAPJ3ZAQ
+review/profileName: JAC
+review/helpfulness: 0/0
+review/score: 4.0
+review/time: 1353196800
+review/summary: Works like a charm
+review/text: I recently broke my foot and were put in a FP Walker boot. The 1st couple of days were no fun with the skin on the back of my heel rubbing. I could not get a normal sock on due to the swelling.These socks rock! Easy to put on and padding in all the right places.I am definitely buying some more.
+
+([recently, broke, foot, put, FP, Walker, boot, st, couple, days, fun, skin, back, heel, rubbing, normal, sock, due, swelling, socks, rock, Easy, padding, places, buying], [{broke,put}, {boot,heel}, {recently,days}, {heel,rock}, {couple,back}, {days,normal}, {sock,socks}, {boot,sock}, {normal,due}, {foot,heel}, {sock,padding}, {couple,days}, {rubbing,swelling}, {skin,rubbing}, {couple,fun}, {days,places}, {put,rubbing}, {Walker,back}, {rubbing,buying}, {put,back}, {FP,st}, {st,due}, {rubbing,padding}, {fun,Easy}])
+put
+back
+rubbing
+couple
+padding
+days
+broke
+swelling
+skin
+sock
+Walker
+buying
+fun

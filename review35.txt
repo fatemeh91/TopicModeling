@@ -1,0 +1,25 @@
+product/productId: B0002406BW
+product/title: Zand Herbal Mist Throat Spray
+product/price: 5.11
+review/userId: A2UXI0PZY6MDW6
+review/profileName: Terri Ellen
+review/helpfulness: 0/0
+review/score: 5.0
+review/time: 1324512000
+review/summary: Emergency Relief!
+review/text: I had a very bad chest cold and didn't want to take a lot of meds. I knew I had to cough to get all that yucky stuff out of my lungs but there were times I thought I would pass out from coughing. Thank goodness for this throat spray. When I could not stop coughing, it helped to settle the cough enough so I could catch my breath! Cough drops just took to long to work and were too sweet. I am always going to have this one in my medicine chest.
+
+([bad, chest, cold, didn, lot, meds, knew, cough, yucky, stuff, lungs, times, thought, pass, coughing, goodness, throat, spray, stop, helped, settle, catch, breath, Cough, drops, long, work, sweet, medicine], [{stop,settle}, {throat,breath}, {lungs,coughing}, {chest,throat}, {meds,medicine}, {didn,helped}, {knew,stop}, {yucky,sweet}, {bad,cold}, {goodness,sweet}, {lot,stuff}, {cough,drops}, {bad,long}, {bad,yucky}, {cough,spray}, {times,thought}, {stuff,work}, {yucky,stuff}, {stop,catch}, {stuff,thought}, {cough,Cough}, {lungs,throat}, {cough,coughing}, {didn,knew}, {pass,catch}, {cold,cough}, {meds,Cough}, {knew,thought}])
+yucky
+bad
+stuff
+cold
+cough
+thought
+sweet
+knew
+coughing
+lot
+long
+Cough
+work

@@ -1,0 +1,17 @@
+product/productId: B000N8X01U
+product/title: California Exotics Double Dolphin Arouser
+product/price: 18.62
+review/userId: A2Q9YKTEON5Y2V
+review/profileName: K. Nelson
+review/helpfulness: 5/5
+review/score: 4.0
+review/time: 1203638400
+review/summary: Satisfied Customer
+review/text: With the double vibes, this little dude has all the power you will ever need. The wife loves it! The only down side is the size. The ring is a little small, and not very flexible.
+
+([double, vibes, dude, power, wife, loves, side, size, ring, small, flexible], [{vibes,dude}, {vibes,side}, {size,flexible}, {double,size}, {size,small}, {wife,loves}, {dude,ring}, {dude,loves}, {side,small}, {power,size}])
+side
+vibes
+small
+size
+dude

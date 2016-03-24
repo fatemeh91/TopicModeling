@@ -1,0 +1,15 @@
+product/productId: B000N8X01U
+product/title: California Exotics Double Dolphin Arouser
+product/price: 18.62
+review/userId: A3O331QD8TSYE0
+review/profileName: shooz
+review/helpfulness: 1/1
+review/score: 1.0
+review/time: 1338249600
+review/summary: broken
+review/text: I was not even able to use this item because it tore upon putting it together. DO NOT BUY THIS ITEM!
+
+([item, tore, putting, BUY, ITEM], [{BUY,ITEM}, {tore,putting}, {item,ITEM}, {item,putting}])
+item
+ITEM
+putting

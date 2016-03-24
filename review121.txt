@@ -1,0 +1,40 @@
+product/productId: B00023DDSQ
+product/title: Jobst Ultrasheer 15-20 mmHg Pantyhose
+product/price: 50.00
+review/userId: A2089H8OF82RH4
+review/profileName: Faith
+review/helpfulness: 3/3
+review/score: 5.0
+review/time: 1326758400
+review/summary: Compression Pantyhose
+review/text: My dermatologist tried to sell me these exact pantyhose for a cosmetic procedure I had done. I had some spider veins removed and was told to wear these compression hose after. They wanted to charge me $40 more than Amazon. So I bought mine here and they did exactly what I needed them to. I wore them 48 hours straight.. then daily for seven additional days. I actually found I liked having them on b/c they kept me super warm. Definitely wouldn't want to wear these suing the summer! I never got a snag or run in my hose and I wasn't gentle on them. I have small children and am constantly on the ground playing with them. I washed them in my sink with a little soap and hung them to dry. I'm sure you could wash them in the washing machine on a low cycle but it only took me two mins to wash them by hand in the sink. So no complaints here... good buy!
+
+([dermatologist, sell, exact, pantyhose, cosmetic, procedure, spider, veins, removed, told, wear, compression, hose, wanted, charge, $, Amazon, bought, mine, needed, wore, hours, straight, daily, additional, days, found, super, warm, wouldn, suing, summer, snag, run, wasn, gentle, small, children, constantly, ground, playing, washed, sink, soap, hung, dry, wash, washing, machine, low, cycle, mins, hand, complaints, good, buy], [{bought,buy}, {sell,run}, {spider,hose}, {dermatologist,cosmetic}, {sell,buy}, {washed,wash}, {daily,constantly}, {wouldn,wasn}, {exact,additional}, {run,cycle}, {bought,suing}, {charge,run}, {wash,washing}, {needed,additional}, {hose,wash}, {super,run}, {warm,gentle}, {told,wanted}, {wanted,wouldn}, {pantyhose,hose}, {veins,hose}, {$,buy}, {cosmetic,soap}, {spider,Amazon}, {warm,summer}, {dermatologist,procedure}, {hours,mins}, {playing,good}, {soap,washing}, {small,low}, {veins,mine}, {removed,washed}, {straight,run}, {hours,children}, {suing,complaints}, {pantyhose,wear}, {ground,hand}, {wanted,needed}, {sell,snag}, {hours,days}, {wore,hung}, {warm,good}, {days,summer}, {sink,wash}, {dry,wash}, {wanted,wore}, {procedure,compression}, {$,additional}, {warm,dry}, {removed,found}, {low,good}, {wear,wore}, {machine,cycle}, {hours,daily}, {machine,hand}])
+hose
+pantyhose
+wash
+wear
+wore
+wanted
+washing
+dry
+needed
+washed
+veins
+spider
+sink
+warm
+additional
+hung
+soap
+wouldn
+told
+$
+removed
+summer
+good
+gentle
+mine
+wasn
+Amazon
+buy

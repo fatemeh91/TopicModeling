@@ -1,0 +1,24 @@
+product/productId: B000278AD0
+product/title: Jobst Ultrasheer 15-20 Knee-High Silky Beige Large
+product/price: 39.24
+review/userId: A15J55UWZ8JLJM
+review/profileName: Stephen Molsee "AMF missionary"
+review/helpfulness: 2/3
+review/score: 1.0
+review/time: 1206748800
+review/summary: mens ultrasheer
+review/text: This model may be ok for sedentary types, but I'm active and get around alot in my job - consistently found these stockings rolled up down by my ankles! Not Good!! Solution: go with the standard compression stocking, 20-30, stock #114622. Excellent support, stays up and gives me what I need. Both pair of these also tore as I struggled to pull them up all the time. Good riddance/bad investment!
+
+([model, sedentary, types, active, alot, job, consistently, found, stockings, rolled, ankles, Good, Solution, standard, compression, stocking, stock, Excellent, support, stays, pair, tore, struggled, pull, time, riddance, bad, investment], [{model,standard}, {sedentary,active}, {alot,bad}, {stockings,stocking}, {consistently,support}, {rolled,pull}, {struggled,bad}, {Good,bad}, {support,investment}, {stockings,ankles}, {stockings,compression}, {sedentary,ankles}, {Solution,compression}, {consistently,struggled}, {alot,riddance}, {found,rolled}, {rolled,tore}, {tore,struggled}, {standard,compression}, {types,standard}, {alot,job}, {job,time}, {Good,Excellent}, {ankles,pair}, {stays,time}, {consistently,standard}, {stock,investment}])
+consistently
+struggled
+standard
+bad
+compression
+tore
+support
+model
+alot
+types
+Good
+stockings

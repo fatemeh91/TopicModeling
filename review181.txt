@@ -1,0 +1,24 @@
+product/productId: B0001VVGLU
+product/title: Vitex Chaste Berry Extract 225 mg By Solaray - 60 Capsules
+product/price: 10.19
+review/userId: A3V9WLVPX12AHR
+review/profileName: Kat
+review/helpfulness: 1/1
+review/score: 4.0
+review/time: 1350777600
+review/summary: It's Working...
+review/text: My husband and I have been TTC for 2 yrs with no luck (yet) so after much research I decided to order Vitex. My cycles were anywhere between 35-40 days and I had little to no CM. I took it as directed last month and noticed 100% improvement in my CM and I ovulated on day 15 which is unheard of for me! So far, this cycle seems to be identical to last month which is awesome! I haven't gotten a BFP yet but it has helped regulate my cycle!
+
+([husband, TTC, yrs, luck, research, decided, order, Vitex, cycles, days, CM, directed, month, noticed, %, improvement, ovulated, day, unheard, cycle, identical, awesome, haven, BFP, helped, regulate], [{yrs,CM}, {ovulated,regulate}, {days,day}, {TTC,BFP}, {yrs,days}, {unheard,awesome}, {decided,order}, {yrs,haven}, {ovulated,identical}, {month,day}, {decided,noticed}, {husband,luck}, {%,improvement}, {cycles,cycle}, {TTC,CM}, {cycles,days}, {decided,directed}, {unheard,identical}, {decided,helped}, {research,cycle}, {cycles,ovulated}, {luck,awesome}, {yrs,%}, {Vitex,ovulated}, {noticed,unheard}])
+cycles
+ovulated
+days
+identical
+cycle
+unheard
+yrs
+day
+Vitex
+regulate
+noticed
+awesome

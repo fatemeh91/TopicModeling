@@ -1,0 +1,24 @@
+product/productId: B000278AD0
+product/title: Jobst Ultrasheer 15-20 Knee-High Silky Beige Large
+product/price: 39.24
+review/userId: A3J4K29TNC7RV1
+review/profileName: Karen W. "Karen W."
+review/helpfulness: 13/14
+review/score: 5.0
+review/time: 1173312000
+review/summary: Sheer Relief!
+review/text: My doctor recommended the thigh high version of this product, but I became very aggravated with them constantly rolling down through the course of the day. They were never comfortable. With my doctor's permission, I switched over to the knee highs, and they are WONDERFUL!!! I don't even know I'm wearing them! They totally control my calf aching and swelling. Would highly recommend them!!!
+
+([doctor, recommended, thigh, high, version, product, aggravated, constantly, rolling, day, comfortable, permission, switched, knee, highs, WONDERFUL, don, wearing, totally, control, calf, aching, swelling, highly, recommend], [{thigh,wearing}, {switched,totally}, {rolling,swelling}, {aching,swelling}, {knee,aching}, {don,wearing}, {high,highs}, {recommended,recommend}, {aggravated,knee}, {WONDERFUL,totally}, {totally,highly}, {doctor,knee}, {high,highly}, {constantly,totally}, {rolling,control}, {doctor,day}, {comfortable,recommend}, {rolling,switched}, {permission,control}, {thigh,knee}, {version,totally}, {version,product}, {thigh,calf}, {comfortable,wearing}])
+swelling
+aching
+rolling
+knee
+switched
+thigh
+totally
+control
+calf
+doctor
+wearing
+aggravated

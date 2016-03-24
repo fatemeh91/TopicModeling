@@ -1,0 +1,17 @@
+product/productId: B0002AQLY2
+product/title: Evercare Pet Hair Adhesive Roller
+product/price: 7.95
+review/userId: AYQLS0TSFIQHY
+review/profileName: RobtJ
+review/helpfulness: 5/5
+review/score: 5.0
+review/time: 1304467200
+review/summary: Very Sticky
+review/text: This tape is very sticky.I have had products with more sheets - but I think the trade off is good.Good product and good price.More economical to buy the refills.
+
+([tape, sticky, products, sheets, trade, good, Good, product, price, economical, buy, refills], [{products,product}, {products,price}, {good,economical}, {good,Good}, {price,buy}, {product,refills}, {price,economical}, {trade,price}, {tape,sheets}, {sticky,good}, {sticky,sheets}])
+economical
+price
+good
+products
+sticky

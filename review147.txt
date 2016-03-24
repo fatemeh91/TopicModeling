@@ -1,0 +1,15 @@
+product/productId: B000GI0J6G
+product/title: Welch Allyn Suretemp Plus 690 Electronic Thermometer #01690-200
+product/price: 257.99
+review/userId: A2V0JG31SNW5QD
+review/profileName: M. Hsu "Save more money!"
+review/helpfulness: 1/2
+review/score: 5.0
+review/time: 1257465600
+review/summary: Great
+review/text: If you have kids this Electronic Thermometer works great.....very accurate. A little expensive, but when you need the best this is the one....
+
+([kids, Electronic, Thermometer, works, great, accurate, expensive], [{Electronic,Thermometer}, {works,great}, {Thermometer,accurate}, {kids,great}, {accurate,expensive}, {works,expensive}])
+expensive
+accurate
+works

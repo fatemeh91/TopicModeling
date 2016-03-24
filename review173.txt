@@ -1,0 +1,41 @@
+product/productId: B0001VVGLU
+product/title: Vitex Chaste Berry Extract 225 mg By Solaray - 60 Capsules
+product/price: 10.19
+review/userId: A3EXNPVZGL76TI
+review/profileName: AutumnRayne
+review/helpfulness: 2/2
+review/score: 5.0
+review/time: 1358208000
+review/summary: Finally.....OVULATION!
+review/text: I have been reading about vitex for a year or so. I tried using another brand of vitex and I would feel very weird (dizzy, light-headed, super heavy flow)...I guess it was because the levels of vitex varied with each capsule....so I was never able to get the correct dosage. So, after reading the reviews for the Solaray Vitex, I decided to give it one more shot. I highly recommend THIS brand of Vitex because the ingredients are standardized...meaning you are guaranteed get the same potency with every capsule.I have been seeing my doctor for two years now to correct my infertility problems. He told me that I was not able to ovulate on my own. I would have to take drugs. I wanted to try a more natural way first. Last month, I wasn't taking vitex....and I did not ovulate. This month i am pleased to say that I have a positive on my ovulation stick! I was so happy that I took a picture of it to show my doctor!! It is definitely working for me. Good luck ladies!Dosage: 2 capsules at night before bed.
+
+([reading, vitex, year, brand, feel, weird, dizzy, light, headed, super, heavy, flow, guess, levels, varied, capsule, correct, dosage, Solaray, Vitex, decided, give, shot, highly, recommend, ingredients, standardized, meaning, guaranteed, potency, doctor, years, infertility, problems, told, ovulate, drugs, wanted, natural, month, wasn, taking, pleased, positive, ovulation, stick, happy, picture, show, working, Good, luck, ladies, Dosage, capsules, night, bed], [{dosage,drugs}, {vitex,Vitex}, {guess,wasn}, {give,show}, {feel,guess}, {ovulate,ovulation}, {capsule,capsules}, {feel,happy}, {decided,told}, {give,wanted}, {light,picture}, {light,heavy}, {brand,Solaray}, {weird,super}, {varied,natural}, {meaning,guaranteed}, {reading,picture}, {wanted,happy}, {happy,working}, {shot,picture}, {Solaray,capsules}, {Solaray,natural}, {guess,correct}, {headed,shot}, {dosage,potency}, {decided,recommend}, {infertility,problems}, {dizzy,bed}, {guess,luck}, {night,bed}, {pleased,happy}, {ingredients,drugs}, {Solaray,Vitex}, {decided,wanted}, {weird,dizzy}, {super,highly}, {year,years}, {give,taking}, {headed,decided}, {flow,levels}, {dizzy,doctor}, {infertility,ovulate}, {dosage,capsules}, {dosage,ovulation}, {ladies,night}, {correct,standardized}, {guess,stick}, {doctor,infertility}, {dosage,Dosage}, {happy,Good}, {weird,guess}, {month,night}, {positive,happy}, {guess,meaning}, {levels,potency}, {year,month}])
+weird
+guess
+dizzy
+feel
+doctor
+happy
+infertility
+bed
+meaning
+luck
+correct
+stick
+wasn
+super
+ovulate
+wanted
+ovulation
+pleased
+positive
+decided
+working
+problems
+Good
+night
+dosage
+guaranteed
+highly
+standardized
+give

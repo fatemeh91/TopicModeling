@@ -1,0 +1,16 @@
+product/productId: B000NO05UI
+product/title: Celtic Skull Zippo Lighter
+product/price: 24.61
+review/userId: ACUTS1M5RLD5F
+review/profileName: C. Galande "ugachmaaz"
+review/helpfulness: 0/0
+review/score: 4.0
+review/time: 1228089600
+review/summary: excellent
+review/text: Good price, excellent design and shipped well.Would've been better if the vendor also provided personalized engraving.
+
+([Good, price, excellent, design, shipped, vendor, provided, personalized, engraving], [{excellent,personalized}, {design,personalized}, {excellent,provided}, {price,shipped}, {Good,excellent}, {price,vendor}, {shipped,provided}, {design,engraving}])
+excellent
+provided
+personalized
+shipped

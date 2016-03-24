@@ -1,0 +1,39 @@
+product/productId: B0002406BW
+product/title: Zand Herbal Mist Throat Spray
+product/price: 5.11
+review/userId: A3MK4MGSU22GR
+review/profileName: John Kessler "Taos Guy"
+review/helpfulness: 1/1
+review/score: 5.0
+review/time: 1338336000
+review/summary: Helps with serious throat issues!
+review/text: Zand Throat Spray has been a life saver for me.I'm a Cancer survivor and I'm still pretty beat up. A few years ago, during treatment, I collapsed from Anaphylactic Shock. That permanently damaged my Epiglottis, the flap that covers (protects) your windpipe when you swallow food or liquids. I then began aspirating foods into my Lungs. As a result, I had 16 bouts with Terminal Pneumonia. I'm a fighter, so I survived, but only by the Grace of God.So now I experience a strong biting feeling in my deep throat. It causes me to cough uncontrollably. But, with a couple of sprays of this product it ceases. What a gift!I don't know how I could live without it.TaosGuy
+
+([Zand, Throat, Spray, life, saver, Cancer, survivor, pretty, beat, years, ago, treatment, collapsed, Anaphylactic, Shock, permanently, damaged, Epiglottis, flap, covers, protects, windpipe, swallow, food, liquids, began, aspirating, foods, Lungs, result, bouts, Terminal, Pneumonia, fighter, survived, Grace, God, experience, strong, biting, feeling, deep, throat, cough, uncontrollably, couple, sprays, product, ceases, gift, don, live, TaosGuy], [{Zand,Epiglottis}, {Lungs,Pneumonia}, {experience,feeling}, {protects,ceases}, {collapsed,damaged}, {Anaphylactic,aspirating}, {Zand,TaosGuy}, {collapsed,began}, {God,gift}, {beat,strong}, {saver,gift}, {began,uncontrollably}, {treatment,Anaphylactic}, {foods,product}, {Cancer,Pneumonia}, {years,ago}, {Throat,throat}, {life,experience}, {pretty,feeling}, {result,feeling}, {survivor,survived}, {aspirating,sprays}, {began,ceases}, {life,God}, {bouts,fighter}, {Pneumonia,cough}, {food,foods}, {strong,deep}, {Throat,Lungs}, {aspirating,uncontrollably}, {pretty,couple}, {collapsed,survived}, {Spray,sprays}, {Anaphylactic,Shock}, {flap,biting}, {liquids,foods}, {life,live}, {ago,couple}, {permanently,ceases}, {covers,protects}, {Anaphylactic,Pneumonia}, {biting,deep}, {Shock,Epiglottis}, {ago,began}, {swallow,biting}, {survivor,fighter}, {liquids,aspirating}, {liquids,Terminal}, {windpipe,throat}, {biting,throat}, {Grace,God}, {cough,don}])
+aspirating
+uncontrollably
+began
+Anaphylactic
+ago
+Pneumonia
+liquids
+collapsed
+sprays
+ceases
+Shock
+treatment
+couple
+Lungs
+years
+cough
+Spray
+Cancer
+foods
+survived
+damaged
+Terminal
+Throat
+pretty
+protects
+permanently
+Epiglottis

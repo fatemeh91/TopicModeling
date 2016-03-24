@@ -1,0 +1,23 @@
+product/productId: B0009DVE7Q
+product/title: Replacement Bulb For Use With Hand Held Massager Infrarex Light Professional Infrared Massager
+product/price: unknown
+review/userId: AIU5CBUHH169G
+review/profileName: Duped
+review/helpfulness: 1/1
+review/score: 1.0
+review/time: 1322870400
+review/summary: Infrared MASSAGER
+review/text: Amazon responded immediately but forwarded to the supplier. Don't waste your money. It's a hand held wand that may or may not be infrared. Doesn't heat up to any degree that will be helpful. Still waiting to hear back from the supplier (two weeks now) to return this item. Know someone who has the EXACT same item and paid $10.... Enough said
+
+([Amazon, responded, immediately, forwarded, supplier, Don, waste, money, hand, held, wand, infrared, Doesn, heat, degree, helpful, waiting, hear, back, weeks, return, item, EXACT, paid, $], [{infrared,heat}, {immediately,waiting}, {money,$}, {waiting,weeks}, {immediately,forwarded}, {heat,degree}, {responded,hear}, {responded,forwarded}, {item,EXACT}, {Doesn,hear}, {back,return}, {forwarded,paid}, {immediately,return}, {waste,heat}, {hand,wand}, {item,$}, {waste,money}, {Amazon,item}, {wand,infrared}, {money,paid}, {supplier,item}, {held,paid}, {forwarded,helpful}, {Don,Doesn}])
+paid
+money
+forwarded
+$
+waste
+immediately
+responded
+held
+helpful
+heat
+item

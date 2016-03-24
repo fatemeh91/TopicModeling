@@ -1,0 +1,15 @@
+product/productId: B000Q33YW2
+product/title: Country Life Nature's Garlic
+product/price: 11.51
+review/userId: A26Q7SRGGYJDJ6
+review/profileName: Calvin W. Hines
+review/helpfulness: 0/0
+review/score: 5.0
+review/time: 1318636800
+review/summary: GREAT PRODUCT
+review/text: This is a great immunity booster and also when I take it on a daily basis it repels mosquitos. I can recommend it highly.
+
+([great, immunity, booster, daily, basis, repels, mosquitos, recommend, highly], [{repels,highly}, {daily,basis}, {immunity,repels}, {basis,highly}, {great,booster}, {repels,mosquitos}, {immunity,booster}, {immunity,recommend}])
+repels
+immunity
+highly

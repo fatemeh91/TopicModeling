@@ -1,0 +1,26 @@
+product/productId: B000GI0J6G
+product/title: Welch Allyn Suretemp Plus 690 Electronic Thermometer #01690-200
+product/price: 257.99
+review/userId: A28Q4R859IYOPX
+review/profileName: K. Noble
+review/helpfulness: 1/1
+review/score: 5.0
+review/time: 1348185600
+review/summary: Just like the one at the doctor's office
+review/text: This thermometer is great. We went through a number of less-expensive thermometers before finally finding this one. As a parent of a young child, it's really important to be able to quickly and accurately take a temperature. After an unexpected hospital stay, we noticed the really awesome thermometers used by the hospital staff. While this model is not quite the one from the hospital, it is the exact model used by our pediatrician. We can always count on it to be fast and accurate!If you have any money left over in your annual healthcare savings account, I recommend spending the money on one of these!
+
+([thermometer, great, number, expensive, thermometers, finally, finding, parent, young, child, important, quickly, accurately, temperature, unexpected, hospital, stay, noticed, awesome, staff, model, exact, pediatrician, count, fast, accurate, money, left, annual, healthcare, savings, account, recommend, spending], [{expensive,money}, {great,important}, {expensive,important}, {unexpected,awesome}, {great,awesome}, {quickly,accurately}, {number,count}, {finding,young}, {accurately,model}, {thermometer,temperature}, {finally,quickly}, {important,accurate}, {stay,left}, {quickly,fast}, {thermometer,thermometers}, {accurately,accurate}, {parent,child}, {money,savings}, {expensive,recommend}, {noticed,left}, {finding,noticed}, {hospital,healthcare}, {child,pediatrician}, {exact,accurate}, {great,young}, {count,accurate}, {hospital,pediatrician}, {young,child}, {thermometers,accurate}, {unexpected,annual}, {savings,account}, {savings,spending}, {parent,staff}])
+important
+great
+accurate
+young
+expensive
+awesome
+accurately
+child
+exact
+thermometers
+count
+finding
+money
+quickly

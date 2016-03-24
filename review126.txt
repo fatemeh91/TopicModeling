@@ -1,0 +1,25 @@
+product/productId: B0002DUT9M
+product/title: PediFix No Sore Feet Stretch Socks
+product/price: 9.39
+review/userId: A3INGA41VD0TIR
+review/profileName: Timothy A. Wolfe
+review/helpfulness: 1/1
+review/score: 5.0
+review/time: 1327708800
+review/summary: Socks for Cast
+review/text: The package came ahead of schedule and in a nick of time because it started to get really cold, snowy with freezing rain and these socks came in handy to keep my toes warm and dry over my CAST. I plan on buying more because it is really nasty weather up here in New England and I have to wash them often. Also these look a lot better than others posted/advertised on Amazon because some look just like a surgeons mask instead of a sock.
+
+([package, ahead, schedule, nick, time, started, cold, snowy, freezing, rain, socks, handy, toes, warm, dry, CAST, plan, buying, nasty, weather, England, wash, lot, posted, advertised, Amazon, surgeons, mask, sock], [{dry,wash}, {nick,handy}, {schedule,plan}, {socks,sock}, {package,plan}, {schedule,time}, {cold,freezing}, {buying,advertised}, {schedule,weather}, {socks,CAST}, {socks,toes}, {handy,nasty}, {rain,weather}, {mask,sock}, {warm,England}, {cold,warm}, {buying,Amazon}, {cold,nasty}, {toes,warm}, {started,lot}, {time,lot}, {warm,dry}, {ahead,schedule}, {cold,snowy}, {England,surgeons}, {buying,wash}, {cold,weather}, {posted,advertised}])
+cold
+warm
+weather
+dry
+toes
+freezing
+snowy
+nasty
+schedule
+England
+rain
+wash
+socks

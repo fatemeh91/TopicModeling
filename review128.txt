@@ -1,0 +1,16 @@
+product/productId: B0002DUT9M
+product/title: PediFix No Sore Feet Stretch Socks
+product/price: 9.39
+review/userId: A1DV5IQNA5XBWJ
+review/profileName: Sandy Hamilton
+review/helpfulness: 0/0
+review/score: 5.0
+review/time: 1361577600
+review/summary: Very good socks
+review/text: These sock are great, I had surgery on both feet and they are big enough to go over my cast and keep my feet warm. I love them.
+
+([sock, great, surgery, feet, big, cast, warm, love], [{great,love}, {great,warm}, {feet,warm}, {surgery,cast}, {sock,surgery}, {great,big}, {sock,feet}])
+feet
+warm
+great
+sock

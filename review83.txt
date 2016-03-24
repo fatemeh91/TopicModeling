@@ -1,0 +1,15 @@
+product/productId: B000N8X010
+product/title: California Exotics Reckless Rabbit Stimulator
+product/price: 7.43
+review/userId: A18PYQD72ZAK8U
+review/profileName: Jen
+review/helpfulness: 3/3
+review/score: 1.0
+review/time: 1288310400
+review/summary: Waste of money
+review/text: This looked like it would be lots of fun but it's very hard and uncomfortable and doesnt vibrate very well at all. Dont waste your money
+
+([looked, lots, fun, hard, uncomfortable, doesnt, vibrate, Dont, waste, money], [{fun,hard}, {fun,Dont}, {looked,uncomfortable}, {lots,fun}, {uncomfortable,vibrate}, {lots,money}, {waste,money}, {fun,doesnt}, {fun,uncomfortable}])
+fun
+lots
+uncomfortable

@@ -1,0 +1,19 @@
+product/productId: B0001VVGLU
+product/title: Vitex Chaste Berry Extract 225 mg By Solaray - 60 Capsules
+product/price: 10.19
+review/userId: A2RAU10ECD9FJ5
+review/profileName: Vallz
+review/helpfulness: 2/2
+review/score: 1.0
+review/time: 1348876800
+review/summary: Didn't help
+review/text: I found research that said this possibly may help get your cycles back and so after finishing the bottle the cycle never came. I guess if you keep it up after a few months is what might help, but I decided instead of buying more and hoping it would help to talk to my doctor first.
+
+([found, research, possibly, cycles, back, finishing, bottle, cycle, guess, months, decided, buying, hoping, talk, doctor], [{decided,hoping}, {found,research}, {possibly,guess}, {guess,talk}, {back,doctor}, {cycles,months}, {cycles,cycle}, {guess,hoping}, {bottle,doctor}, {back,finishing}, {research,buying}, {back,guess}, {found,possibly}, {research,cycle}])
+guess
+possibly
+found
+back
+research
+hoping
+talk

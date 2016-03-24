@@ -1,0 +1,43 @@
+product/productId: B0002406C6
+product/title: Zand Insure Herbal Formula
+product/price: 11.74
+review/userId: A1OV5INAL7YGMZ
+review/profileName: Jaytee
+review/helpfulness: 0/0
+review/score: 5.0
+review/time: 1360800000
+review/summary: The very best that's out there.
+review/text: I have used this product for 23 years. Nothing even comes close to nipping the cold or flu in the bud. Yes the taste is not great, but I would take 30 seconds of a bad taste in my mouth over getting sick (for 1 to 3 weeks and missing work) any day. I take this when I start to get that little tickle in the back of my throat, or feel any semblance to a cold or flu symptom. This is one of 2 products I keep on hand at all times. Oscillococcinum is equally as effective for those flu symptoms. Buy a box of 6 doses and take one when you start to feel that aching weird feeling in your body and in your head.Zand Insure Herbal cured my chronic cough that I had for 5 years, in 5 days, no joke. I had gone to 3 different doctors and no one could tell me what the hell was going on. I walked into a health food store coughing and the owner gave me a bottle of Zand liquid Immune Herbal (as it was called back in the early 90's) been using it ever since, in fact I ended up getting a job there and worked for him for 10 years. Thank you Janet Zand for creating a truly remarkable product.
+
+([product, years, close, nipping, cold, flu, bud, taste, great, seconds, bad, mouth, sick, weeks, missing, work, day, start, tickle, back, throat, feel, semblance, symptom, products, hand, times, Oscillococcinum, equally, effective, symptoms, Buy, box, doses, aching, weird, feeling, body, head, Zand, Insure, Herbal, cured, chronic, cough, days, joke, doctors, hell, walked, health, food, store, coughing, owner, gave, bottle, liquid, Immune, called, early, fact, ended, job, worked, Janet, creating, remarkable], [{bottle,liquid}, {Oscillococcinum,liquid}, {weeks,days}, {symptom,symptoms}, {bad,weird}, {weird,joke}, {taste,feeling}, {gave,ended}, {symptoms,coughing}, {feel,equally}, {back,semblance}, {walked,gave}, {seconds,days}, {flu,doses}, {mouth,hand}, {great,bad}, {sick,health}, {product,store}, {symptom,chronic}, {cough,coughing}, {flu,symptoms}, {start,early}, {Oscillococcinum,Zand}, {symptoms,cured}, {times,days}, {start,ended}, {gave,called}, {throat,head}, {work,worked}, {mouth,throat}, {flu,sick}, {nipping,tickle}, {day,days}, {tickle,weird}, {doctors,health}, {close,early}, {nipping,bud}, {product,products}, {feel,feeling}, {great,creating}, {aching,feeling}, {back,hell}, {bad,sick}, {feeling,fact}, {Oscillococcinum,Immune}, {throat,body}, {Oscillococcinum,Buy}, {health,food}, {box,bottle}, {health,Janet}, {years,weeks}, {Buy,Insure}, {work,job}, {weird,hell}, {Oscillococcinum,doses}, {store,owner}, {cold,cough}, {Oscillococcinum,effective}, {products,Oscillococcinum}, {great,remarkable}, {Oscillococcinum,Herbal}, {mouth,coughing}, {start,back}, {sick,feeling}, {walked,worked}, {day,start}, {missing,aching}])
+sick
+flu
+bad
+weird
+doses
+symptoms
+feeling
+hell
+health
+great
+Oscillococcinum
+joke
+feel
+back
+tickle
+coughing
+symptom
+aching
+cured
+taste
+doctors
+food
+fact
+start
+remarkable
+Janet
+cough
+creating
+products
+Herbal
+liquid

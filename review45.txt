@@ -1,0 +1,19 @@
+product/productId: B000278AD0
+product/title: Jobst Ultrasheer 15-20 Knee-High Silky Beige Large
+product/price: 39.24
+review/userId: A17KXW1PCUAIIN
+review/profileName: Mark Anthony "Mark"
+review/helpfulness: 4/4
+review/score: 5.0
+review/time: 1174435200
+review/summary: Jobst UltraSheer Knee High Stockings
+review/text: Does a very good job of relieving fatigue. This is a well known brand and is certainly comfortable enough to wear all day. Even if your doctor didn't prescribe these but you are on your feet alot, take care of yourself and buy these.
+
+([good, job, relieving, fatigue, brand, comfortable, wear, day, doctor, didn, prescribe, feet, alot, care, buy], [{job,care}, {good,alot}, {brand,buy}, {good,job}, {day,doctor}, {fatigue,wear}, {comfortable,feet}, {good,comfortable}, {wear,buy}, {doctor,care}, {prescribe,buy}, {doctor,prescribe}, {relieving,fatigue}, {didn,alot}])
+doctor
+care
+prescribe
+job
+buy
+good
+day

@@ -1,0 +1,21 @@
+product/productId: B000278AD0
+product/title: Jobst Ultrasheer 15-20 Knee-High Silky Beige Large
+product/price: 39.24
+review/userId: A1BTRWL1E3T2YB
+review/profileName: A. S. Penuel
+review/helpfulness: 6/6
+review/score: 5.0
+review/time: 1184803200
+review/summary: Jobst UltraSheer Thigh High
+review/text: Excellent product. However, they are very difficult to get on for older people. I feel like I've had a full day workout after getting them on. Also, as the day wears on, they begin to roll down from the top and create a very deep ridge in the skin. I have to wear them, so if those two difficulties could be addressed it would be such a help.
+
+([Excellent, product, difficult, older, people, feel, full, day, workout, wears, begin, roll, top, create, deep, ridge, skin, wear, difficulties, addressed], [{people,feel}, {difficult,difficulties}, {day,workout}, {full,deep}, {full,roll}, {older,skin}, {difficulties,addressed}, {difficult,deep}, {workout,wear}, {Excellent,top}, {Excellent,full}, {full,begin}, {ridge,skin}, {feel,create}, {wears,wear}, {skin,wear}, {day,begin}, {feel,wear}, {product,skin}])
+day
+workout
+wear
+begin
+full
+wears
+skin
+feel
+deep

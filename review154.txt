@@ -1,0 +1,25 @@
+product/productId: B000GI0J6G
+product/title: Welch Allyn Suretemp Plus 690 Electronic Thermometer #01690-200
+product/price: 257.99
+review/userId: AYZYO3O3KQ9EY
+review/profileName: tish873
+review/helpfulness: 2/2
+review/score: 5.0
+review/time: 1346716800
+review/summary: Great thermometer, long-lasting
+review/text: We do home care for my dad and have to take his rectal temperature every 2 hours when we turn and re-position him. We have had the same Welch-Allyn Sure Temp 690 thermometer for 4 1/2 years now. We just replaced the well and probe a few months ago. The casing finally cracked after all of this time. We have only had to change the batteries twice, too. It is still working perfectly and we would recommend this thermometer to anyone who really needs to take temperatures often. It is so reliable. This one gets 5 stars!!!!!
+
+([home, care, dad, rectal, temperature, hours, turn, position, Welch, Allyn, Temp, thermometer, years, replaced, probe, months, ago, casing, finally, cracked, time, change, batteries, working, perfectly, recommend, temperatures, reliable, stars], [{rectal,thermometer}, {batteries,reliable}, {temperature,temperatures}, {home,dad}, {Welch,Allyn}, {hours,months}, {years,months}, {hours,temperatures}, {ago,finally}, {position,time}, {temperature,thermometer}, {replaced,cracked}, {casing,batteries}, {years,ago}, {turn,finally}, {dad,stars}, {dad,Welch}, {probe,casing}, {working,recommend}, {finally,cracked}, {hours,time}, {turn,change}, {temperature,batteries}, {finally,perfectly}, {position,working}, {home,care}, {home,time}, {temperature,Temp}])
+hours
+time
+months
+temperatures
+years
+temperature
+home
+ago
+position
+thermometer
+batteries
+finally
+Temp

@@ -1,0 +1,17 @@
+product/productId: B000278AF8
+product/title: Jobst Women's UltraSheer Firm Support Thigh Highs
+product/price: 72.38
+review/userId: A2R21X4GYTHZPH
+review/profileName: hfs
+review/helpfulness: 0/2
+review/score: 1.0
+review/time: 1279238400
+review/summary: Wouldn't stay up
+review/text: The band was far too thin and would roll down my leg continuously. I returned all pairs I bought for a refund. Very disappointing for a Jobst product.
+
+([band, thin, roll, leg, continuously, returned, pairs, bought, refund, disappointing, Jobst, product], [{Jobst,product}, {thin,disappointing}, {roll,product}, {returned,bought}, {pairs,bought}, {refund,product}, {leg,returned}, {thin,pairs}, {bought,refund}, {continuously,product}, {band,roll}])
+bought
+refund
+product
+pairs
+returned

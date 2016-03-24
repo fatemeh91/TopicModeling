@@ -1,0 +1,38 @@
+product/productId: B0009DVE7Q
+product/title: Replacement Bulb For Use With Hand Held Massager Infrarex Light Professional Infrared Massager
+product/price: unknown
+review/userId: A250RJD1R114F5
+review/profileName: pj
+review/helpfulness: 0/0
+review/score: 4.0
+review/time: 1347148800
+review/summary: Meets my needs, would purchase again
+review/text: At this price (although twice what I've seen it on store shelves), I'm very satisfied. I purchased this gadget to apply semi-deep warmth and relieve swelling and congestion in sinus areas. Its strength is low enough that I can hold it to skin for a longer period of time than some other infrared devices, giving the heat time to do its job and provide comfort. Bonus: it increases blood flow to the skin, smoothing and healing irritated areas. Because of its low wattage I don't have to worry much about being overzealous and causing damage. Only complaint: the threaded plastic where the red cap screws onto the base is thin, a little too much pressure when screwing it back on and the plastic will crack.
+
+([price, store, shelves, satisfied, purchased, gadget, apply, semi, deep, warmth, relieve, swelling, congestion, sinus, areas, strength, low, hold, skin, longer, period, time, infrared, devices, giving, heat, job, provide, comfort, Bonus, increases, blood, flow, smoothing, healing, irritated, wattage, don, worry, overzealous, causing, damage, complaint, threaded, plastic, red, cap, screws, base, thin, pressure, screwing, back, crack], [{flow,threaded}, {skin,smoothing}, {job,worry}, {swelling,flow}, {longer,time}, {infrared,red}, {low,thin}, {causing,damage}, {longer,worry}, {skin,heat}, {price,increases}, {strength,thin}, {heat,pressure}, {worry,causing}, {satisfied,irritated}, {cap,pressure}, {relieve,swelling}, {apply,provide}, {deep,back}, {swelling,sinus}, {price,Bonus}, {sinus,skin}, {heat,wattage}, {irritated,overzealous}, {strength,pressure}, {low,increases}, {time,back}, {strength,healing}, {screws,crack}, {skin,blood}, {don,red}, {warmth,comfort}, {price,purchased}, {gadget,devices}, {infrared,heat}, {period,time}, {infrared,devices}, {areas,base}, {irritated,worry}, {apply,hold}, {store,shelves}, {screws,screwing}, {store,purchased}, {irritated,complaint}, {skin,plastic}, {warmth,heat}, {giving,screwing}, {giving,provide}, {swelling,damage}, {semi,plastic}, {areas,devices}, {plastic,screws}, {relieve,congestion}])
+skin
+heat
+sinus
+swelling
+pressure
+plastic
+infrared
+blood
+warmth
+smoothing
+wattage
+damage
+strength
+screws
+flow
+relieve
+causing
+cap
+semi
+comfort
+devices
+red
+thin
+screwing
+worry
+healing

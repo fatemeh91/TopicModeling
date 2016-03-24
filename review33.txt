@@ -1,0 +1,16 @@
+product/productId: B0002406BW
+product/title: Zand Herbal Mist Throat Spray
+product/price: 5.11
+review/userId: A2A8EWHJLR09N5
+review/profileName: QueenB
+review/helpfulness: 0/0
+review/score: 4.0
+review/time: 1359244800
+review/summary: Helpful for sore throat and cough
+review/text: I have been using this product for years because I have a chronic cough. I think it helps keep my throat moist and helps prevent and alleviate sore throat.
+
+([product, years, chronic, cough, helps, throat, moist, prevent, alleviate, sore], [{moist,sore}, {helps,prevent}, {prevent,alleviate}, {chronic,cough}, {product,helps}, {years,chronic}, {cough,throat}, {chronic,alleviate}, {cough,sore}])
+chronic
+alleviate
+cough
+prevent

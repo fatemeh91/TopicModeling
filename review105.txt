@@ -1,0 +1,20 @@
+product/productId: B0009DVE8A
+product/title: The Squiggler Head Scalp Massager
+product/price: 9.98
+review/userId: A1WTVVSJBN0EF9
+review/profileName: K. Bowlin
+review/helpfulness: 0/0
+review/score: 1.0
+review/time: 1223769600
+review/summary: waste of time and money!!!!!!!!!!!!!
+review/text: The Squiggler fell apart at second use, with no way to put the prongs back into the base. This is a worthless piece of junk! Do not waste your time on this sub-standard, horribly designed and made product!!!!!
+
+([Squiggler, fell, put, prongs, back, base, worthless, piece, junk, waste, time, standard, horribly, designed, made, product], [{worthless,horribly}, {worthless,piece}, {prongs,standard}, {standard,designed}, {fell,put}, {designed,product}, {back,time}, {back,junk}, {put,back}, {junk,waste}, {worthless,junk}, {put,made}, {base,product}, {prongs,piece}, {Squiggler,prongs}])
+worthless
+junk
+piece
+prongs
+back
+horribly
+standard
+waste

@@ -1,0 +1,29 @@
+product/productId: B00062QUC4
+product/title: Magnetic Elbow Brace
+product/price: unknown
+review/userId: A1KGFAINVQK1U3
+review/profileName: Rakesh
+review/helpfulness: 0/0
+review/score: 1.0
+review/time: 1095897600
+review/summary: Unreliable
+review/text: Since I have ordered for this product and inspite of the company debiting the total amount for the product from my account, I have not recieved the product till date. The company promises to deliver the product in 12 hrs but its approx more than 3 weeks since the amount was debited but till now, the product hasnt reached me. The company doesnt respond to email queries and its toll free number (the only other point of contact mentioned from their end other than email address) always sounds busy and goes to voicemail.
+
+([ordered, product, inspite, company, debiting, total, amount, account, recieved, till, date, promises, deliver, hrs, approx, weeks, debited, hasnt, reached, doesnt, respond, email, queries, toll, free, number, point, contact, mentioned, end, address, sounds, busy, voicemail], [{email,voicemail}, {amount,number}, {account,address}, {toll,number}, {total,hasnt}, {till,date}, {email,contact}, {debiting,debited}, {till,hrs}, {total,number}, {email,queries}, {number,busy}, {mentioned,address}, {toll,free}, {total,doesnt}, {promises,sounds}, {product,deliver}, {point,end}, {ordered,promises}, {email,address}, {date,weeks}, {inspite,recieved}, {product,company}, {respond,address}, {inspite,till}, {promises,deliver}, {reached,end}, {till,end}, {total,approx}, {deliver,respond}, {account,toll}, {hrs,approx}, {account,debited}])
+toll
+number
+account
+total
+address
+approx
+respond
+debited
+amount
+free
+hrs
+email
+busy
+mentioned
+hasnt
+doesnt
+deliver

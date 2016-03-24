@@ -1,0 +1,21 @@
+product/productId: B00023DDS6
+product/title: Jobst Ultrasheer 15-20 mmHg Pantyhose
+product/price: 50.00
+review/userId: ALDYXETXBHXIH
+review/profileName: Britta "Britta"
+review/helpfulness: 0/0
+review/score: 1.0
+review/time: 1313280000
+review/summary: Bad run the FIRST time I wore them!
+review/text: Having read the previous reviewers' reports warning about how easily this product could develop runs, I was super careful and tried very much to make my expensive pair last. The first time I had this pantyhose on, I got a bad run that ruined this very expensive pair of hosiery! Unbelievable!
+
+([read, previous, ers, reports, warning, easily, product, develop, runs, super, careful, make, expensive, pair, time, pantyhose, bad, run, ruined, hosiery, Unbelievable], [{runs,run}, {develop,make}, {warning,careful}, {careful,expensive}, {super,run}, {read,careful}, {pantyhose,hosiery}, {read,make}, {reports,warning}, {bad,Unbelievable}, {easily,expensive}, {bad,ruined}, {product,develop}, {product,hosiery}, {ers,super}, {previous,bad}, {careful,bad}, {pair,run}, {make,run}, {make,time}])
+make
+read
+careful
+run
+develop
+bad
+time
+expensive
+warning

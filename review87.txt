@@ -1,0 +1,29 @@
+product/productId: B0002406C6
+product/title: Zand Insure Herbal Formula
+product/price: 11.74
+review/userId: A1LKY3OSP60FD6
+review/profileName: antonia
+review/helpfulness: 3/3
+review/score: 5.0
+review/time: 1308268800
+review/summary: It works!!
+review/text: I am a personal trainer, work a full timejob, teach 5 classes a week at the gym and take care of my children and family. Needless to say, but I put a lot of stress and strain on my body. Before I discovered this I would often get sick because I was so wore down. Someone recommended this product to me. I was very surprised that it actually worked. I always keep some on hand now and recommend it to everyone for immunity support. The taste is horrible but for me, the liquid is the only one that is so highly effective. Take in a small swallow of OJ, then drink a glass of OJ to kill the taste!
+
+([personal, trainer, work, full, timejob, teach, classes, week, gym, care, children, family, Needless, put, lot, stress, strain, body, discovered, sick, wore, recommended, product, surprised, worked, hand, recommend, immunity, support, taste, horrible, liquid, highly, effective, small, swallow, OJ, drink, glass, kill], [{teach,classes}, {hand,glass}, {body,discovered}, {teach,kill}, {work,teach}, {classes,gym}, {horrible,OJ}, {Needless,surprised}, {trainer,gym}, {work,put}, {swallow,drink}, {work,full}, {children,family}, {work,recommend}, {swallow,kill}, {drink,glass}, {stress,strain}, {surprised,recommend}, {sick,horrible}, {product,liquid}, {work,support}, {recommended,effective}, {wore,worked}, {lot,horrible}, {recommended,recommend}, {liquid,glass}, {week,surprised}, {personal,family}, {care,children}, {gym,body}, {immunity,support}, {small,swallow}, {timejob,classes}, {support,highly}, {care,sick}, {teach,children}, {strain,sick}, {work,worked}, {taste,drink}])
+teach
+work
+children
+kill
+classes
+worked
+recommend
+care
+swallow
+support
+put
+family
+full
+gym
+recommended
+timejob
+sick

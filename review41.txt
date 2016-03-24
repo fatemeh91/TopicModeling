@@ -1,0 +1,30 @@
+product/productId: B000278AD0
+product/title: Jobst Ultrasheer 15-20 Knee-High Silky Beige Large
+product/price: 39.24
+review/userId: A21F8C1MDLQDTH
+review/profileName: S. Lawson
+review/helpfulness: 14/15
+review/score: 5.0
+review/time: 1110326400
+review/summary: Fashionable Compression Stockings!
+review/text: After I had a DVT my doctor required me to wear compression stockings. I wore ugly white TED hose and yucky thick brown stockings. Then I found Jobst UltraSheer. They gave me the compression I needed (15-20,) but looked like regular pantyhose. Even though my blood clot has been gone for 4 years, I still buy these to wear as support stockings because they make my legs feel so nice.**Note, I have problems with the rubberized tops rolling down my thigh. I tried the Jobst adhesive, but I hated having my skin pulled all day. I bought an inexpensive garter belt and it works fine and helps keep the stockings from rolling.
+
+([DVT, doctor, required, wear, compression, stockings, wore, ugly, white, TED, hose, yucky, thick, brown, found, Jobst, UltraSheer, gave, needed, looked, regular, pantyhose, blood, clot, years, buy, support, make, legs, feel, nice, Note, problems, rubberized, tops, rolling, thigh, adhesive, hated, skin, pulled, day, bought, inexpensive, garter, belt, works, fine, helps], [{make,feel}, {nice,fine}, {required,Note}, {skin,belt}, {years,bought}, {legs,skin}, {stockings,garter}, {yucky,brown}, {needed,support}, {looked,feel}, {clot,adhesive}, {wore,hated}, {looked,pulled}, {found,looked}, {hose,pantyhose}, {gave,pulled}, {gave,needed}, {pulled,bought}, {needed,problems}, {wear,wore}, {thick,brown}, {adhesive,skin}, {wore,looked}, {needed,helps}, {legs,thigh}, {hose,adhesive}, {TED,UltraSheer}, {stockings,pantyhose}, {yucky,nice}, {works,helps}, {buy,inexpensive}, {years,day}, {required,needed}, {rubberized,adhesive}, {white,brown}, {tops,rolling}, {blood,clot}, {doctor,blood}, {rolling,pulled}, {wore,white}, {ugly,yucky}, {regular,day}, {stockings,Jobst}, {DVT,clot}, {wear,pantyhose}, {buy,bought}, {compression,adhesive}, {Jobst,UltraSheer}])
+wore
+looked
+wear
+pantyhose
+pulled
+white
+hose
+hated
+feel
+found
+stockings
+gave
+bought
+brown
+rolling
+adhesive
+needed
+buy

@@ -1,0 +1,35 @@
+product/productId: B0002DUT9C
+product/title: PediFix No Sore Feet Stretch Socks
+product/price: 9.06
+review/userId: A3TQK6UFQIQAB7
+review/profileName: Edie in the south
+review/helpfulness: 0/0
+review/score: 5.0
+review/time: 1358812800
+review/summary: Perfect sock for wearing with any walking cast (AirCast)
+review/text: This sock saved me from immeasurable pain and discomfort. It gently stretches to go on painlessly; trust me if you break your foot, your old athletic socks will not do, they will kill your broken toe/ foot. The other thing I was desperately looking for when I turned to Amazon, was a sock that would wick away moisture, and not make my foot too hot. This sock is AMAZINGLY dry. And, it is odor free. Just as advertised.My tip: If your foot is extremely swollen I would buy two sizes. When your foot returns to it's normal size you will be glad to have the extra pair. It is a long hard recovery. If your boot and foot can handle it, you can wear double up your socks two, if your walking cast boot captures too much heat and foot perspiration.You always wanted more time to read?!!!
+
+([sock, saved, immeasurable, pain, discomfort, gently, stretches, painlessly;, trust, break, foot, athletic, socks, kill, broken, toe, thing, desperately, turned, Amazon, wick, moisture, make, hot, AMAZINGLY, dry, odor, free, advertised, tip, extremely, swollen, buy, sizes, returns, normal, size, glad, extra, pair, long, hard, recovery, boot, handle, wear, double, walking, cast, captures, heat, perspiration, wanted, time, read?], [{athletic,size}, {hot,heat}, {discomfort,heat}, {gently,wick}, {foot,toe}, {foot,size}, {extra,time}, {pain,recovery}, {toe,boot}, {broken,swollen}, {swollen,normal}, {thing,glad}, {thing,time}, {make,buy}, {stretches,long}, {trust,buy}, {moisture,heat}, {advertised,buy}, {immeasurable,glad}, {long,time}, {moisture,dry}, {socks,wear}, {extra,double}, {Amazon,buy}, {sock,wick}, {break,broken}, {pain,discomfort}, {glad,wanted}, {sizes,size}, {returns,captures}, {saved,kill}, {socks,pair}, {break,tip}, {stretches,walking}, {painlessly;,athletic}, {break,time}, {moisture,odor}, {sock,socks}, {make,handle}, {turned,wanted}, {athletic,read?}, {long,hard}, {wear,cast}, {sock,boot}, {toe,swollen}, {wick,moisture}, {thing,AMAZINGLY}, {moisture,perspiration}, {extremely,hard}, {break,kill}, {returns,recovery}, {buy,wear}, {free,extra}, {desperately,hard}])
+toe
+boot
+swollen
+sock
+broken
+break
+wick
+socks
+foot
+time
+normal
+moisture
+wear
+size
+kill
+tip
+gently
+pair
+thing
+long
+heat
+extra
+dry

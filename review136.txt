@@ -1,0 +1,44 @@
+product/productId: B000GI0J6G
+product/title: Welch Allyn Suretemp Plus 690 Electronic Thermometer #01690-200
+product/price: 257.99
+review/userId: A62UZSL0ECSPH
+review/profileName: kalmguardian
+review/helpfulness: 1/1
+review/score: 5.0
+review/time: 1310083200
+review/summary: Wonderful thermometer
+review/text: I love this thermometer. Don't get me wrong, it is definitely an expensive purchase. However, the money was well spent. My husband and I went through a considerable amount of trouble in regards to our children and trying to determine if they were truly having fevers. For a period of about 6 months, our kids were having fevers ranging from a low grade, to a true textbook definition of having a fever. Well, we were under the impression that they were. We have made several trips to the doctor's office, even switching pediatricians a few times in order to try to figure out what was going on. We were using an Exergen thermometer (which our doctor's office used)that continuously showed higher temperatures. Now, I'm not knocking the thermometer, in fact, it's helped us during other incidents of true fevers. But, based on what our pediatricians kept saying, the only way to get an accurate temperature reading is with a rectal temp. Now, the basic rectal thermometers that can be purchased at local pharmacies/walmart/target/etc never work for us. This Welch Allyn thermometer is accurate and considerable fast considering how long it takes to get rectal temps. So, for parents who have been having difficulty finding an accurate reading of your child's temperature, save yourself the stress and purchase something that will definitely match up to your standards. It's expensive, but will save you money in the long run.
+
+([love, thermometer, Don, wrong, expensive, purchase, money, spent, husband, considerable, amount, trouble, children, determine, fevers, period, months, kids, ranging, low, grade, true, book, definition, fever, impression, made, trips, doctor, office, switching, pediatricians, times, order, figure, Exergen, continuously, showed, higher, temperatures, knocking, fact, helped, incidents, based, accurate, temperature, reading, rectal, temp, basic, thermometers, purchased, local, pharmacies, walmart, target, work, Welch, Allyn, fast, long, takes, temps, parents, difficulty, finding, child, save, stress, match, standards, run], [{husband,parents}, {Don,Allyn}, {ranging,based}, {rectal,thermometers}, {low,higher}, {love,true}, {determine,figure}, {definition,standards}, {difficulty,stress}, {expensive,purchase}, {impression,fact}, {period,months}, {love,husband}, {kids,grade}, {trips,incidents}, {switching,knocking}, {true,basic}, {determine,finding}, {low,target}, {money,local}, {children,parents}, {doctor,pediatricians}, {office,temp}, {showed,helped}, {thermometer,thermometers}, {helped,takes}, {knocking,finding}, {wrong,true}, {knocking,run}, {temperatures,temperature}, {children,child}, {made,helped}, {ranging,basic}, {fact,finding}, {wrong,trouble}, {expensive,money}, {continuously,long}, {amount,period}, {thermometer,Exergen}, {husband,Welch}, {purchase,purchased}, {spent,save}, {trips,run}, {fevers,fever}, {Welch,Allyn}, {temp,temps}, {grade,reading}, {amount,figure}, {considerable,amount}, {book,reading}, {figure,target}, {true,fact}, {pediatricians,parents}, {work,finding}, {money,amount}, {trouble,difficulty}, {fevers,temperatures}, {months,times}, {showed,match}, {spent,trips}, {children,kids}, {pediatricians,pharmacies}, {temperatures,temps}, {times,continuously}, {basic,standards}, {continuously,fast}, {pharmacies,walmart}, {true,accurate}, {thermometer,temperature}, {fevers,doctor}, {order,fact}, {order,helped}])
+true
+fact
+love
+finding
+husband
+determine
+wrong
+basic
+parents
+order
+accurate
+impression
+knocking
+work
+figure
+pediatricians
+children
+Welch
+trouble
+helped
+standards
+ranging
+kids
+doctor
+child
+amount
+run
+switching
+pharmacies
+target
+difficulty
+Allyn

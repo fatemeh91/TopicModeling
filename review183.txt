@@ -1,0 +1,48 @@
+product/productId: B0001VVGLU
+product/title: Vitex Chaste Berry Extract 225 mg By Solaray - 60 Capsules
+product/price: 10.19
+review/userId: A20ZV4TBPDVIWT
+review/profileName: Kristina McLaughlin
+review/helpfulness: 30/30
+review/score: 5.0
+review/time: 1281139200
+review/summary: Miracle herb!
+review/text: I spent a lot of time researching natural remedies to help with fertility. My husband and I had been trying for 2 years and no success. I am 36 years old with no children and it started getting frustrating. I had 100% normal periods, 28 days exactly every month. I had read some reviews that said do not take Vitex if you have normal periods. I also get migraines. BAD migraines, usually the exact day before my period.Because of this economy, my husband moved out of state to look for work and so we have been seperated for the past 9 months. We timed out visits with eachother around ovulation. Still no luck. In May 2010, I started taking vitex. My first period happened as normal as usual but this time, no migraine! In July, I planned a visit up north to visit my husband. Upon returning to Florida, I discovered I was pregnant! This after 2 months of taking Vitex!SO, I am a believer in this! I'm sure there may have been other factors involved, the food is much fresher and healthier up north and we were just haning out having a good time, no stress. If nothing else, if you get hormone related migraines, I would try Vitex. I have had migraines for many years, so bad I have been in the hospital for them and I have a high pain threshold! Still have a long way to go and I am considered 'high risk' because of my age, but an thrilled with Vitex! Highly recommended, even with regular periods.
+
+([spent, lot, time, researching, natural, remedies, fertility, husband, years, success, children, started, frustrating, %, normal, periods, days, month, read, Vitex, migraines, BAD, exact, day, period, economy, moved, state, work, seperated, past, months, timed, visits, eachother, ovulation, luck, taking, vitex, happened, usual, migraine, July, planned, visit, north, returning, Florida, discovered, pregnant, believer, factors, involved, food, fresher, healthier, haning, good, stress, hormone, related, bad, hospital, high, pain, threshold, long, considered, risk, age, thrilled, Highly, recommended, regular], [{success,luck}, {economy,food}, {days,months}, {years,age}, {planned,recommended}, {fertility,vitex}, {considered,recommended}, {state,Florida}, {lot,work}, {good,bad}, {remedies,migraines}, {migraines,hormone}, {healthier,good}, {month,months}, {day,regular}, {good,long}, {stress,risk}, {time,frustrating}, {luck,bad}, {time,period}, {days,day}, {good,high}, {exact,happened}, {threshold,age}, {believer,good}, {fertility,ovulation}, {started,moved}, {ovulation,hormone}, {moved,north}, {researching,read}, {normal,usual}, {stress,pain}, {Vitex,vitex}, {BAD,bad}, {migraine,pain}, {taking,returning}, {moved,returning}, {moved,planned}, {economy,state}, {started,involved}, {visits,visit}, {children,age}, {%,period}, {factors,risk}, {food,healthier}, {husband,children}, {periods,period}, {spent,started}, {ovulation,pregnant}, {seperated,eachother}, {happened,discovered}, {time,day}, {moved,seperated}, {pregnant,hospital}, {frustrating,happened}, {fresher,healthier}, {natural,hormone}, {good,thrilled}, {years,months}, {timed,planned}, {migraines,migraine}, {involved,related}, {usual,regular}, {frustrating,bad}, {considered,Highly}, {children,pregnant}, {lot,good}, {years,past}, {started,happened}, {month,July}, {ovulation,haning}, {researching,discovered}, {visits,regular}])
+frustrating
+time
+day
+days
+happened
+bad
+months
+years
+period
+good
+regular
+started
+month
+age
+BAD
+luck
+periods
+discovered
+exact
+past
+moved
+children
+healthier
+lot
+%
+long
+high
+July
+usual
+believer
+thrilled
+spent
+visits
+involved
+pregnant
+threshold

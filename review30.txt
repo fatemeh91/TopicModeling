@@ -1,0 +1,21 @@
+product/productId: B0001MTA30
+product/title: Camo Condoms - 1 Pack
+product/price: unknown
+review/userId: A1IZK94AO0GYYI
+review/profileName: Robert Burghard
+review/helpfulness: 2/5
+review/score: 5.0
+review/time: 1095897600
+review/summary: OMG
+review/text: This is crazy i purchased this item about a week ago and when i went to put it on and got with my partner she laughed and fell to the ground it was so funny i thought she was going to have a heart attack just having this crazy condom on and in intercourse it just made it alot better the sex seriously try it if im wrong.
+
+([crazy, purchased, item, week, ago, put, partner, laughed, fell, ground, funny, thought, heart, attack, condom, intercourse, made, alot, sex, im, wrong], [{put,made}, {crazy,funny}, {put,laughed}, {laughed,thought}, {crazy,wrong}, {heart,attack}, {sex,wrong}, {purchased,put}, {ago,fell}, {partner,intercourse}, {laughed,funny}, {item,week}, {alot,im}, {crazy,alot}, {condom,sex}, {thought,heart}, {intercourse,sex}, {ago,thought}, {week,ago}, {ground,heart}])
+laughed
+funny
+thought
+crazy
+put
+wrong
+ago
+heart
+alot

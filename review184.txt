@@ -1,0 +1,31 @@
+product/productId: B0001VVGLU
+product/title: Vitex Chaste Berry Extract 225 mg By Solaray - 60 Capsules
+product/price: 10.19
+review/userId: A3FDG1ASGMUQSL
+review/profileName: Love to read
+review/helpfulness: 17/17
+review/score: 5.0
+review/time: 1315440000
+review/summary: Works the same way progesterone does
+review/text: This works! It is AMAZING! It helps your body to produce progesterone. You don't need to take progesterone if you take this. It made a huge difference with my emotional symptoms before my period. I am like a new person! And it helped with spotting that I was having from not having enough progesterone. I didn't have to take the risky progesterone my doctor wanted me to take- I cured myself with this. Make sure that you take the Vitex that is the extract with .5% Agnuside (this one). Don't take the one that is just Chaste Tree fruit. It does nothing and it's a shame that they make it because people might try it and think that Vitex doesn't work. I want every woman who is suffering needlessly to discover Vitex because it helped me SO much!
+
+([works, AMAZING, helps, body, produce, progesterone, don, made, huge, difference, emotional, symptoms, period, person, helped, spotting, didn, risky, doctor, wanted, cured, Make, Vitex, extract, %, Agnuside, Don, Chaste, Tree, fruit, shame, make, people, doesn, work, woman, suffering, needlessly, discover], [{huge,shame}, {progesterone,Vitex}, {produce,fruit}, {works,helps}, {person,woman}, {didn,wanted}, {works,work}, {helped,wanted}, {period,%}, {Chaste,Tree}, {didn,doesn}, {made,helped}, {Agnuside,Don}, {Make,make}, {doctor,woman}, {spotting,discover}, {body,woman}, {AMAZING,didn}, {progesterone,symptoms}, {don,didn}, {shame,suffering}, {symptoms,doctor}, {Tree,fruit}, {made,make}, {difference,doesn}, {extract,discover}, {shame,doesn}, {person,people}, {Don,doesn}, {period,Vitex}, {produce,make}, {risky,needlessly}, {shame,needlessly}, {emotional,suffering}, {produce,extract}, {helps,helped}, {cured,suffering}, {symptoms,suffering}])
+doesn
+didn
+shame
+wanted
+helped
+suffering
+symptoms
+don
+Don
+made
+difference
+needlessly
+AMAZING
+helps
+huge
+make
+cured
+emotional
+doctor

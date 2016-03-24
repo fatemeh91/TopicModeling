@@ -1,0 +1,15 @@
+product/productId: B000POUJHK
+product/title: Calcium Magnesium Zinc Plus Vitamin D by Bluebonnet - 120 Softgels
+product/price: 14.99
+review/userId: A31OMXY7R6U62R
+review/profileName: PromisesK
+review/helpfulness: 1/1
+review/score: 5.0
+review/time: 1352937600
+review/summary: 3 at night
+review/text: I take 3 at night be for I got to bed, it helps me rest better!! TRY IT!! AND THE PRICE IS OK
+
+([night, bed, helps, rest, PRICE], [{night,PRICE}, {helps,rest}, {night,bed}, {bed,rest}])
+bed
+night
+rest

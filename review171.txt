@@ -1,0 +1,35 @@
+product/productId: B0001VVGLU
+product/title: Vitex Chaste Berry Extract 225 mg By Solaray - 60 Capsules
+product/price: 10.19
+review/userId: A1GUKCOFNNC615
+review/profileName: Linda_5757
+review/helpfulness: 0/0
+review/score: 5.0
+review/time: 1349136000
+review/summary: Regulator! Mount up ;)
+review/text: I started taking Vitex after reading about it on many fertility sites. My husband and I have been trying to conceive for over 6 months and are trying everything to make it happen before he deploys. I have always had irregular periods- even my first one was. I had been on birth control mainly to regulate my periods before meeting my husband, and then afterwards to prevent pregnancy. I was having two periods a month or one every 45 days- just all over the map. Since coming off of birth control 7 months ago, my cycles would vary in length between 25 and 35 days. It was driving me crazy having to wonder for weeks at a time if I was just "late" again or if I was pregnant. Then when the cycles were shorter, my luetal phase was not long enough to carry out implantation, thsu preventing pregnancy. So I ordered Vitex. I have had a regular 27 day cycle for four months now. I can even pinpoint the exact day I will start my period which has NEVER happened. I will be taking this from now on instead of birth control (after a pregnancy- hopefully!) to regulate my cycles. I highly reccomend it.
+
+([started, taking, Vitex, reading, fertility, sites, husband, conceive, months, make, happen, deploys, irregular, periods, birth, control, regulate, meeting, prevent, pregnancy, month, days, map, coming, ago, cycles, vary, length, driving, crazy, weeks, time, "late", pregnant, shorter, luetal, phase, long, carry, implantation, thsu, preventing, ordered, regular, day, cycle, pinpoint, exact, start, period, happened, highly, reccomend], [{vary,exact}, {phase,cycle}, {vary,shorter}, {pinpoint,exact}, {regulate,prevent}, {make,happen}, {make,carry}, {sites,map}, {husband,pregnant}, {days,day}, {conceive,pregnancy}, {time,start}, {conceive,pinpoint}, {meeting,regular}, {sites,highly}, {pregnancy,pregnant}, {months,month}, {days,weeks}, {birth,pregnancy}, {time,long}, {time,period}, {crazy,reccomend}, {length,shorter}, {taking,coming}, {fertility,pregnancy}, {started,happened}, {coming,driving}, {months,weeks}, {deploys,carry}, {shorter,luetal}, {periods,cycles}, {reading,day}, {cycles,cycle}, {irregular,regular}, {periods,period}, {time,day}, {happen,crazy}, {regular,day}, {happen,happened}, {Vitex,implantation}, {map,exact}, {"late",shorter}, {control,regulate}, {fertility,implantation}, {shorter,thsu}, {started,start}, {shorter,long}, {month,ordered}, {prevent,preventing}, {months,ago}, {happen,coming}, {happen,prevent}])
+time
+long
+start
+day
+shorter
+started
+period
+vary
+days
+happened
+periods
+length
+regular
+weeks
+exact
+happen
+reading
+luetal
+thsu
+"late"
+months
+cycles
+pinpoint

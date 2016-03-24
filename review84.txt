@@ -1,0 +1,21 @@
+product/productId: B000N8X010
+product/title: California Exotics Reckless Rabbit Stimulator
+product/price: 7.43
+review/userId: A2B8AP5GI7QIY5
+review/profileName: drew "drew"
+review/helpfulness: 5/6
+review/score: 1.0
+review/time: 1112140800
+review/summary: not so reckless
+review/text: First of all, the wire came out as i was untangling the cord, so it is very fragile. It is too tall. It's ears are too high above my girl's clit for her too feel anything. It's not the greatest thing in the world, and i do not recommend that you buy it. huge disappointment.
+
+([wire, untangling, cord, fragile, tall, ears, high, girl, clit, feel, greatest, thing, world, recommend, buy, huge, disappointment], [{high,huge}, {greatest,huge}, {greatest,world}, {girl,clit}, {ears,clit}, {thing,world}, {feel,thing}, {cord,clit}, {recommend,buy}, {feel,recommend}, {feel,disappointment}, {tall,girl}, {untangling,cord}, {wire,cord}, {tall,high}, {fragile,huge}])
+huge
+high
+greatest
+tall
+world
+girl
+thing
+fragile
+clit

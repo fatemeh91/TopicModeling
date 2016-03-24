@@ -1,0 +1,29 @@
+product/productId: B0001VVGLU
+product/title: Vitex Chaste Berry Extract 225 mg By Solaray - 60 Capsules
+product/price: 10.19
+review/userId: AZSNZAF5AU8LL
+review/profileName: kjb9585 "katie"
+review/helpfulness: 5/5
+review/score: 5.0
+review/time: 1324080000
+review/summary: I love this!
+review/text: I was diagnosed with PCOS after I had my 4th baby. Weight gain, had not had a regular period since I got pregnant (2 years), and all the fun bs that goes with pcos. After trying 6 months on Metformin, I went to the health food store in town and they suggested this. I now have regular 6 day periods (from 15+ days of hell), mood swings are under control, excess hair growth is slowing, and the pain from the cysts is much better. I recommend you at least TRY this product if you have PCOS, I take 3 pills 2x daily.
+
+([diagnosed, PCOS, baby, Weight, gain, regular, period, pregnant, years, fun, bs, pcos, months, Metformin, health, food, store, town, suggested, day, periods, +, days, hell, mood, swings, control, excess, hair, growth, slowing, pain, cysts, recommend, product, pills, daily], [{bs,hell}, {growth,product}, {day,daily}, {pregnant,health}, {Metformin,pills}, {suggested,recommend}, {diagnosed,cysts}, {bs,+}, {gain,period}, {store,product}, {control,pills}, {pain,pills}, {health,food}, {mood,swings}, {baby,pregnant}, {excess,growth}, {period,periods}, {pregnant,pills}, {Metformin,product}, {gain,growth}, {growth,slowing}, {store,town}, {regular,recommend}, {regular,daily}, {Weight,Metformin}, {+,excess}, {baby,hair}, {day,days}, {fun,pcos}, {months,days}, {diagnosed,pregnant}, {PCOS,Metformin}, {fun,hell}, {years,months}, {period,months}, {periods,swings}])
+growth
+product
+gain
+Metformin
+period
+excess
+pills
+slowing
+store
+periods
+months
+PCOS
+Weight
+pregnant
++
+days
+years

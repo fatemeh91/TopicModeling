@@ -1,0 +1,16 @@
+product/productId: B0002AQLY2
+product/title: Evercare Pet Hair Adhesive Roller
+product/price: 7.95
+review/userId: A2FJO2EP2W79RW
+review/profileName: Barry Robertson "Bumpn86Civic"
+review/helpfulness: 0/0
+review/score: 5.0
+review/time: 1361923200
+review/summary: Stickiest Roller!
+review/text: I love this extra sticky roller! I've got 4 cats and this thing really works to get your clothes clean! Even fuzzy sweatshirts come clean.
+
+([love, extra, sticky, roller, cats, thing, works, clothes, clean, fuzzy, sweatshirts], [{clothes,sweatshirts}, {clothes,clean}, {love,thing}, {sticky,fuzzy}, {fuzzy,sweatshirts}, {love,fuzzy}, {sticky,roller}, {cats,fuzzy}, {extra,sticky}, {thing,works}])
+fuzzy
+sticky
+sweatshirts
+love

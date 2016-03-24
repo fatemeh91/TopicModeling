@@ -1,0 +1,20 @@
+product/productId: B000GI0J6G
+product/title: Welch Allyn Suretemp Plus 690 Electronic Thermometer #01690-200
+product/price: 257.99
+review/userId: A3JSMTUKCNOR2V
+review/profileName: alex
+review/helpfulness: 0/0
+review/score: 5.0
+review/time: 1325376000
+review/summary: Welch Allen Suretemp Plus 690 Thermometer
+review/text: Finally got fed up with all small digital thermometers, none of which seem to be reliable, or require a full 3-4 minutes to be accurate, which is an aggravating long time for the (OB) patient. I LOVE this "machine", it is accurate and well worth the expense !
+
+([Finally, fed, small, digital, thermometers, reliable, require, full, minutes, accurate, aggravating, long, time, OB, patient, LOVE, "machine", worth, expense], [{minutes,time}, {long,time}, {OB,"machine"}, {reliable,long}, {time,expense}, {small,full}, {OB,LOVE}, {digital,thermometers}, {require,worth}, {aggravating,long}, {Finally,time}, {OB,patient}, {full,long}, {require,time}, {reliable,accurate}, {accurate,patient}, {thermometers,accurate}, {fed,accurate}])
+long
+reliable
+accurate
+time
+patient
+full
+aggravating
+thermometers

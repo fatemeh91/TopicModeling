@@ -1,0 +1,20 @@
+product/productId: B0001VVGLU
+product/title: Vitex Chaste Berry Extract 225 mg By Solaray - 60 Capsules
+product/price: 10.19
+review/userId: AY6P5FTPPU73N
+review/profileName: jess82
+review/helpfulness: 1/1
+review/score: 5.0
+review/time: 1347580800
+review/summary: Got a BFP after one month!
+review/text: I went off birth control in May and had one period after 40 days and then nothing for 50 days so I started taking vitex and by day 65 I ovulated and two weeks later, I got a BFP! It's absolutely amazing if you are trying to conceive and have long or irregular cycles!
+
+([birth, control, period, days, started, taking, vitex, day, ovulated, weeks, BFP, absolutely, amazing, conceive, long, irregular, cycles], [{days,weeks}, {ovulated,conceive}, {irregular,cycles}, {started,taking}, {days,long}, {amazing,long}, {BFP,irregular}, {absolutely,amazing}, {started,long}, {ovulated,cycles}, {birth,conceive}, {vitex,ovulated}, {period,days}, {period,cycles}, {birth,control}, {days,day}])
+period
+days
+cycles
+ovulated
+weeks
+long
+day
+irregular

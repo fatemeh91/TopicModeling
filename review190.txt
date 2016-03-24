@@ -1,0 +1,43 @@
+product/productId: B0001VVGLU
+product/title: Vitex Chaste Berry Extract 225 mg By Solaray - 60 Capsules
+product/price: 10.19
+review/userId: A22GN9ZQJ6MHL5
+review/profileName: JustJane
+review/helpfulness: 6/7
+review/score: 5.0
+review/time: 1333843200
+review/summary: Absolutely Awesome!!!
+review/text: This is the most awesome product ever! I used to have regular periods till I hit my late 20's, then my system started going crazy. I'd miss a period then get one the following month. Then I went for 3 months without...hence a trip to the dr and left with a prescription for Provera. I started researching Provera and only found bad stuff about it being synthetic... my search lead me to Vitex, and since its natural, I thought it's worth a try. I took one pill a day and the following month my period was right on schedule...and each month since!! I think it works wonderfully.Before writing this review, I read the others and noticed one lady writing about the decreased migraines. I used to suffer from migraines at least once a week, and they were bad & horrible. Bad enough to make a trip to the ER sometimes, as I was sure something much more was wrong...they were that intense! I noticed in the last past few months that I've had less migraines and they were less intense, some that I could skip taking a pill. Upon reading the other ladies reviews, I'm now confident it was Vitex regularing out the hormones that were causing the migraines. I too found that I'm less irritable and moody.I want to call Vitex the magic "lady fix".
+
+([awesome, product, regular, periods, till, hit, late, system, started, crazy, miss, period, month, months, trip, dr, left, prescription, Provera, researching, found, bad, stuff, synthetic, search, lead, Vitex, natural, thought, worth, pill, day, schedule, works, wonderfully, writing, read, noticed, lady, decreased, migraines, suffer, week, &, horrible, Bad, make, ER, wrong, intense, past, skip, taking, reading, ladies, confident, regularing, hormones, causing, irritable, moody, call, magic, "lady, fix"], [{stuff,works}, {lady,ladies}, {hit,left}, {suffer,horrible}, {period,decreased}, {month,week}, {bad,wrong}, {miss,make}, {crazy,horrible}, {suffer,causing}, {Provera,Vitex}, {late,started}, {Provera,pill}, {researching,writing}, {months,past}, {migraines,hormones}, {synthetic,hormones}, {trip,lady}, {till,late}, {&,Bad}, {pill,hormones}, {awesome,fix"}, {month,months}, {thought,confident}, {awesome,wonderfully}, {product,prescription}, {miss,suffer}, {period,months}, {decreased,suffer}, {irritable,moody}, {awesome,"lady}, {hit,miss}, {intense,irritable}, {regular,schedule}, {bad,horrible}, {wonderfully,moody}, {dr,ER}, {awesome,regularing}, {periods,period}, {synthetic,natural}, {thought,read}, {trip,week}, {migraines,irritable}, {product,system}, {prescription,pill}, {day,week}, {awesome,crazy}, {crazy,stuff}, {read,reading}, {period,lead}, {found,search}, {bad,Bad}, {awesome,worth}, {thought,noticed}, {crazy,magic}, {writing,reading}, {started,taking}, {stuff,thought}, {thought,call}, {started,noticed}, {miss,skip}, {found,noticed}, {regular,day}, {prescription,ER}])
+crazy
+horrible
+awesome
+stuff
+suffer
+bad
+wonderfully
+thought
+magic
+decreased
+moody
+worth
+miss
+fix"
+regularing
+"lady
+Bad
+works
+causing
+wrong
+noticed
+period
+irritable
+read
+confident
+call
+skip
+periods
+hit
+months
+make

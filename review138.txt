@@ -1,0 +1,25 @@
+product/productId: B000GI0J6G
+product/title: Welch Allyn Suretemp Plus 690 Electronic Thermometer #01690-200
+product/price: 257.99
+review/userId: A1C9CH6DXCWHJR
+review/profileName: Philip Bransky
+review/helpfulness: 1/1
+review/score: 5.0
+review/time: 1274140800
+review/summary: Welch Allyn thermometer
+review/text: My health condition requires frequent monitoring of my temperature. The inexpensive thermometers were inconsistent and replacement batteries were hard to find. The Sure Temp Plus 690 costs more, but is very accurate, easy to use and AA batteries can be purchased anywhere. I feel confident in the readings. A back lit display would be nice, but is not essential. It probably would run down the batteries faster. I would recommend the item to anyone needing fast and accurate temp readings.
+
+([health, condition, requires, frequent, monitoring, temperature, inexpensive, thermometers, inconsistent, replacement, batteries, hard, find, Temp, costs, accurate, easy, AA, purchased, feel, confident, readings, back, lit, display, nice, essential, run, faster, recommend, item, needing, fast, temp], [{temperature,temp}, {health,condition}, {inexpensive,easy}, {inexpensive,replacement}, {easy,essential}, {inexpensive,purchased}, {requires,recommend}, {thermometers,batteries}, {inexpensive,batteries}, {health,thermometers}, {frequent,accurate}, {essential,item}, {monitoring,thermometers}, {Temp,temp}, {feel,nice}, {requires,needing}, {temperature,thermometers}, {feel,confident}, {lit,display}, {faster,fast}, {accurate,easy}, {lit,nice}, {thermometers,readings}, {requires,essential}, {inconsistent,accurate}, {inexpensive,costs}, {find,feel}, {hard,easy}, {hard,back}, {easy,fast}, {back,run}, {easy,nice}, {batteries,AA}])
+easy
+inexpensive
+nice
+batteries
+essential
+hard
+accurate
+fast
+purchased
+thermometers
+costs
+replacement
+feel

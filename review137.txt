@@ -1,0 +1,23 @@
+product/productId: B000GI0J6G
+product/title: Welch Allyn Suretemp Plus 690 Electronic Thermometer #01690-200
+product/price: 257.99
+review/userId: AS72CB3OJFGRB
+review/profileName: palmickey
+review/helpfulness: 1/1
+review/score: 5.0
+review/time: 1303171200
+review/summary: WlechAllyn SureTemp M690
+review/text: Item is exactly what I wanted and expected. I decided after purchasing several other Probe, Ear and Temple Thermometers and them not work properly as well as not being accurate, it was time to spend the money and use exactly what they use at the Dr.'s office. Being in the Medical Field I checked out the reviews and purchased what seemed to be the best fit.
+
+([Item, wanted, expected, decided, purchasing, Probe, Ear, Temple, Thermometers, work, properly, accurate, time, spend, money, Dr, office, Medical, Field, checked, purchased, fit], [{expected,decided}, {time,money}, {Ear,Thermometers}, {Ear,Temple}, {Dr,Medical}, {wanted,decided}, {Ear,Field}, {Thermometers,Medical}, {Probe,Ear}, {purchasing,money}, {checked,purchased}, {properly,checked}, {Thermometers,checked}, {purchasing,purchased}, {work,office}, {work,spend}, {wanted,time}, {checked,fit}, {Item,Thermometers}, {properly,accurate}, {spend,money}])
+checked
+purchased
+purchasing
+Thermometers
+money
+properly
+fit
+Ear
+time
+Medical
+spend

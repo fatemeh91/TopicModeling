@@ -1,0 +1,36 @@
+product/productId: B00028NJTO
+product/title: GABA 750mg - 90 - Tablet
+product/price: 17.73
+review/userId: A2BNXF9M8RH09S
+review/profileName: Pet foodie "Pet foodie"
+review/helpfulness: 1/1
+review/score: 5.0
+review/time: 1327968000
+review/summary: finally, non prescription relief !!
+review/text: After almost a decade on various medications to relieve my anxiety I was tired of relying on and paying for medications. I did research on GABA as a stress reliever and started taking it. First on an as needed basis, and now every day. GABA along with a B Complex vitamin have changed my life around, and for the first time in almost 10 years, I am off of prescription meds!! Back in October I spent 4 weeks out of state to take care of my dying father. Even though it was incredibly difficult and sad, I was able to keep it together without medication. GABA taken at night promotes a restful sleep and together with B Complex has given me a new found relaxation and peace.I do not recommend that anyone takes themselves off medication without their physicians ok - especially for severe depression or overwhelming anxiety. But I highly recommend that people experiencing excessive stress or anxiety issues give Kals GABA 750mg a try along with a quality B complex vitamin
+
+([decade, medications, relieve, anxiety, tired, relying, paying, research, GABA, stress, reliever, started, taking, needed, basis, day, Complex, vitamin, changed, life, time, years, prescription, meds, Back, October, spent, weeks, state, care, dying, father, incredibly, difficult, sad, medication, night, promotes, restful, sleep, found, relaxation, peace, recommend, takes, physicians, severe, depression, overwhelming, highly, people, experiencing, excessive, issues, give, Kals, mg, quality, complex], [{needed,difficult}, {vitamin,mg}, {relying,needed}, {restful,sleep}, {care,medication}, {life,dying}, {recommend,give}, {day,October}, {Complex,complex}, {day,time}, {medications,physicians}, {taking,takes}, {difficult,complex}, {severe,excessive}, {Complex,Kals}, {overwhelming,excessive}, {taking,give}, {care,quality}, {anxiety,depression}, {paying,taking}, {medication,depression}, {medication,mg}, {promotes,takes}, {GABA,vitamin}, {medications,meds}, {anxiety,stress}, {day,weeks}, {medications,medication}, {incredibly,highly}, {time,difficult}, {day,night}, {dying,sad}, {restful,relaxation}, {tired,sad}, {life,father}, {stress,relaxation}, {tired,started}, {relieve,stress}, {relying,basis}, {relieve,reliever}, {needed,give}, {started,spent}, {spent,found}, {started,changed}, {severe,depression}, {difficult,sad}, {anxiety,issues}, {decade,state}, {incredibly,difficult}, {medications,prescription}, {physicians,people}, {research,care}, {severe,experiencing}, {years,weeks}, {difficult,severe}, {life,peace}, {decade,years}, {started,Back}])
+difficult
+severe
+depression
+sad
+needed
+time
+complex
+incredibly
+medication
+anxiety
+experiencing
+excessive
+medications
+tired
+day
+give
+dying
+stress
+Complex
+relying
+highly
+care
+mg
+meds

@@ -1,0 +1,38 @@
+product/productId: B0002DUT9C
+product/title: PediFix No Sore Feet Stretch Socks
+product/price: 9.06
+review/userId: A1KRF68MI0WTDS
+review/profileName: Jen Q
+review/helpfulness: 0/0
+review/score: 5.0
+review/time: 1353369600
+review/summary: Works great over a cast and bulky post-op bandage!
+review/text: I got these in preparation for my ankle surgery and thank God I did. I used them to cover up the large splint/bandage and my toes post-op and now I wear them over the hard cast. It's especially important over the cast - even though it's a smooth fiberglass it gets caught on the furniture and bedding so covering with the sock eliminates that problem and keeps my toes nice and warm as well. It fits perfectly to the top of it (my cast ends a few inches below my knee). I am also using a Cast Cozy for extra warmth when I go outside or when my toes are really cold inside. Both are really needed IMO. Definitely get the XL for covering any cast or bulky bandage. That's what I have and it fits fine but I don't think a smaller size would work. They are also holding up well after 3 weeks of use and washing - no holes to be found (and I take it on and off at least 2x daily to check the swelling in my toes).
+
+([preparation, ankle, surgery, God, cover, large, splint, bandage, toes, post, op, wear, hard, cast, important, smooth, fiberglass, caught, furniture, bedding, covering, sock, eliminates, problem, nice, warm, fits, perfectly, top, ends, inches, knee, Cast, Cozy, extra, warmth, cold, inside, needed, IMO, XL, bulky, fine, don, smaller, size, work, holding, weeks, washing, holes, found, daily, check, swelling], [{warm,cold}, {extra,needed}, {problem,swelling}, {ankle,knee}, {bandage,wear}, {inches,size}, {bedding,washing}, {God,warmth}, {nice,perfectly}, {fits,ends}, {caught,found}, {important,needed}, {fits,perfectly}, {preparation,smooth}, {inside,found}, {IMO,bulky}, {hard,nice}, {fiberglass,furniture}, {cast,Cast}, {surgery,op}, {work,check}, {bedding,Cozy}, {fiberglass,XL}, {splint,fiberglass}, {wear,bulky}, {inches,holes}, {cover,covering}, {bandage,sock}, {surgery,swelling}, {smooth,perfectly}, {warm,warmth}, {smaller,size}, {ankle,toes}, {covering,daily}, {nice,warm}, {bulky,smaller}, {preparation,weeks}, {cover,extra}, {ankle,splint}, {post,op}, {wear,don}, {important,nice}, {nice,inside}, {splint,cast}, {furniture,bedding}, {warm,Cozy}, {hard,work}, {eliminates,fits}, {toes,top}, {perfectly,fine}, {splint,bandage}, {covering,holding}, {large,smaller}, {surgery,knee}])
+bedding
+Cozy
+furniture
+warm
+fiberglass
+nice
+splint
+warmth
+bandage
+cold
+ankle
+perfectly
+important
+washing
+hard
+knee
+XL
+inside
+cast
+wear
+sock
+needed
+toes
+God
+smooth
+surgery

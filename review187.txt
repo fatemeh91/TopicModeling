@@ -1,0 +1,31 @@
+product/productId: B0001VVGLU
+product/title: Vitex Chaste Berry Extract 225 mg By Solaray - 60 Capsules
+product/price: 10.19
+review/userId: A3ETJYNXWAJR13
+review/profileName: Cindy G. Irwin
+review/helpfulness: 7/7
+review/score: 5.0
+review/time: 1301356800
+review/summary: For Premenopause Too!!!
+review/text: Trying to find something to help with premenopausal symptoms: hot flashes, insomnia, irritability, and strange aches and pains with shorter periods. Vitex is a WONDER! Taking a daily dose of 800mg during the days leading up to ovulation and then 800mg 3x a day from ovulation to beginning of period. Symptoms have vanished, sleep great, mood improved and the blessing of a shorter cycle without any struggle. And NO premenstrual headache! I plan on continuing with this product all through the change! Hallelujah!
+
+([find, premenopausal, symptoms, hot, flashes, insomnia, irritability, strange, aches, pains, shorter, periods, Vitex, Taking, daily, dose, mg, days, leading, ovulation, day, beginning, period, Symptoms, vanished, sleep, great, mood, improved, blessing, cycle, struggle, premenstrual, headache, plan, continuing, product, change, Hallelujah], [{ovulation,premenstrual}, {premenopausal,mg}, {dose,mg}, {hot,strange}, {beginning,continuing}, {periods,cycle}, {shorter,improved}, {find,sleep}, {pains,headache}, {sleep,mood}, {premenopausal,premenstrual}, {irritability,Symptoms}, {great,blessing}, {blessing,headache}, {leading,great}, {Vitex,ovulation}, {daily,day}, {plan,continuing}, {symptoms,Symptoms}, {beginning,period}, {Taking,beginning}, {insomnia,irritability}, {aches,pains}, {strange,vanished}, {irritability,premenstrual}, {periods,days}, {Vitex,product}, {blessing,Hallelujah}, {insomnia,sleep}, {cycle,struggle}, {strange,change}, {strange,great}, {periods,premenstrual}, {improved,change}, {days,day}, {periods,period}, {symptoms,aches}, {flashes,irritability}])
+irritability
+premenstrual
+Symptoms
+symptoms
+periods
+insomnia
+aches
+ovulation
+premenopausal
+period
+flashes
+pains
+sleep
+days
+cycle
+headache
+mg
+beginning
+Vitex

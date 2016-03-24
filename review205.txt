@@ -1,0 +1,23 @@
+product/productId: B0002406E4
+product/title: ISS Research Complete Creatine Powder
+product/price: 18.62
+review/userId: ACHFP5P1LSPR
+review/profileName: Malachi Eman
+review/helpfulness: 3/3
+review/score: 4.0
+review/time: 1198713600
+review/summary: Real Creatine.
+review/text: This creatine powder is like many... It's granulated... it tastes horrible.It's icky, and it even looks like an illegal drug.Why do I love this product? Because it is real, high quality creatine.Introduce this supplement to your lifestyle... even if you are not a body builder or an athlete you will notice the difference in six days of taking this product.
+
+([creatine, powder, granulated, tastes, horrible, icky, illegal, drug, love, product?, real, high, quality, Introduce, supplement, lifestyle, body, builder, athlete, notice, difference, days, taking, product], [{love,Introduce}, {tastes,love}, {creatine,drug}, {notice,days}, {real,quality}, {tastes,lifestyle}, {creatine,athlete}, {horrible,real}, {horrible,icky}, {builder,athlete}, {creatine,supplement}, {high,quality}, {horrible,days}, {granulated,product}, {real,taking}, {creatine,powder}, {product?,athlete}, {powder,granulated}, {horrible,love}, {quality,product}, {body,athlete}, {real,difference}, {illegal,drug}])
+quality
+product
+real
+granulated
+horrible
+powder
+creatine
+high
+difference
+love
+taking

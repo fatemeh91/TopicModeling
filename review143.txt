@@ -1,0 +1,25 @@
+product/productId: B000GI0J6G
+product/title: Welch Allyn Suretemp Plus 690 Electronic Thermometer #01690-200
+product/price: 257.99
+review/userId: A1KLE7VJPKN7DC
+review/profileName: Chubsmom
+review/helpfulness: 0/0
+review/score: 5.0
+review/time: 1348272000
+review/summary: Peace of Mind
+review/text: I love having this thermometer. We have three kids and one is an infant.I got rid of my pile of cheap thermometers! I don't have to second guess the reading like I did with the cheap ones. If you have an infant, you will need a rectal probe. I ended up buying that and switch them out depending on which kid we need to check. It's easy to switch out and I recommend spending the money to have that peace of mind.
+
+([love, thermometer, kids, infant, rid, pile, cheap, thermometers, don, guess, reading, rectal, probe, ended, buying, switch, depending, kid, check, easy, recommend, spending, money, peace, mind], [{guess,depending}, {kids,kid}, {thermometer,reading}, {spending,money}, {infant,rectal}, {kids,money}, {buying,switch}, {don,switch}, {thermometers,check}, {love,guess}, {guess,mind}, {rid,guess}, {ended,spending}, {buying,spending}, {pile,probe}, {thermometer,thermometers}, {peace,mind}, {thermometers,rectal}, {cheap,easy}, {cheap,buying}, {guess,kid}, {guess,recommend}, {rid,pile}, {kids,infant}])
+kids
+kid
+money
+guess
+infant
+spending
+rectal
+mind
+rid
+love
+depending
+recommend
+buying

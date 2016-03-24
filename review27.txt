@@ -1,0 +1,15 @@
+product/productId: B000POUJHK
+product/title: Calcium Magnesium Zinc Plus Vitamin D by Bluebonnet - 120 Softgels
+product/price: 14.99
+review/userId: A1EZ9NZIWYJJD3
+review/profileName: M. Jennell "MJ"
+review/helpfulness: 1/1
+review/score: 3.0
+review/time: 1349049600
+review/summary: Huge Capsules
+review/text: These capsules are huge, almost an 1 inch long and big around. I won't order again as they are too difficult to swallow.
+
+([capsules, huge, inch, long, big, won, order, difficult, swallow], [{huge,big}, {capsules,swallow}, {inch,big}, {long,big}, {big,won}, {big,swallow}, {order,difficult}, {difficult,swallow}])
+big
+swallow
+huge
