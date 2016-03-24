@@ -1,0 +1,8 @@
+product/productId: B0000630SB
+product/title: Litecubes 6-Pack, Green
+product/price: 10.99
+review/userId: A33GFHVN535DP7
+review/profileName: Rick Hunter
+review/helpfulness: 3/3
+review/score: 4.0
+review/time: 1039392000

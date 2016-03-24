@@ -1,0 +1,24 @@
+product/productId: B000278ADA
+product/title: Jobst Ultrasheer 15-20 Knee-High Silky Beige Large
+product/price: 46.34
+review/userId: A3J4K29TNC7RV1
+review/profileName: Karen W. "Karen W."
+review/helpfulness: 13/14
+review/score: 5.0
+review/time: 1173312000
+review/summary: Sheer Relief!
+review/text: My doctor recommended the thigh high version of this product, but I became very aggravated with them constantly rolling down through the course of the day. They were never comfortable. With my doctor's permission, I switched over to the knee highs, and they are WONDERFUL!!! I don't even know I'm wearing them! They totally control my calf aching and swelling. Would highly recommend them!!!
+
+
+swelling=0.34327702080240113
+aching=0.3398039707732943
+rolling=0.3391275803627289
+knee=0.32929684376544266
+switched=0.31287623315688945
+thigh=0.30843334491867325
+totally=0.2836019041596804
+control=0.26962156604957616
+calf=0.2662942933164582
+doctor=0.2660900440792588
+wearing=0.26606966959376477
+aggravated=0.26389716309218963

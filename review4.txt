@@ -1,0 +1,17 @@
+product/productId: B000278ADA
+product/title: Jobst Ultrasheer 15-20 Knee-High Silky Beige Large
+product/price: 46.34
+review/userId: A3GQAVM66FA88J
+review/profileName: G. Alosa "wifey"
+review/helpfulness: 6/6
+review/score: 5.0
+review/time: 1204416000
+review/summary: No more uncomfortable flights
+review/text: Stockings fit well and are comfortable. Haven't had the opportunity to see how effective they are in preventing edema from air travel.
+
+
+comfortable=0.57682030226441
+travel=0.5163992887534239
+effective=0.4756269935017841
+fit=0.44767632303598104
+air=0.4337851061486315

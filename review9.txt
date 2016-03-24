@@ -1,0 +1,24 @@
+product/productId: B000278ADA
+product/title: Jobst Ultrasheer 15-20 Knee-High Silky Beige Large
+product/price: 46.34
+review/userId: A15J55UWZ8JLJM
+review/profileName: Stephen Molsee "AMF missionary"
+review/helpfulness: 2/3
+review/score: 1.0
+review/time: 1206748800
+review/summary: mens ultrasheer
+review/text: This model may be ok for sedentary types, but I'm active and get around alot in my job - consistently found these stockings rolled up down by my ankles! Not Good!! Solution: go with the standard compression stocking, 20-30, stock #114622. Excellent support, stays up and gives me what I need. Both pair of these also tore as I struggled to pull them up all the time. Good riddance/bad investment!
+
+
+consistently=0.3675711566984538
+struggled=0.35941688012438533
+standard=0.3430783381554099
+bad=0.3167502181960658
+compression=0.3049414389613438
+tore=0.2928774147343402
+support=0.2904565158399332
+model=0.27187180593373567
+alot=0.2706099509047269
+types=0.27052109288639525
+Good=0.2652792087092721
+stockings=0.2631707406404551
