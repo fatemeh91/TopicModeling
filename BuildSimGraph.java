@@ -1,9 +1,11 @@
+import java.io.FileNotFoundException;
+import java.io.IOException;
 import java.util.ArrayList;
 
 public class BuildSimGraph {
 
 	
-	public  BuildSimGraph(ArrayList<String> GraphWords,W2VUtil util) {
+	public  BuildSimGraph(ArrayList<String> GraphWords,int docno,W2VUtil util) throws FileNotFoundException, IOException {
 	
 		
 		WordGraph wg = new WordGraph();
@@ -12,7 +14,6 @@ public class BuildSimGraph {
 		
 		for (int n = 0; n < GraphWords.size(); n++){
 			wg.addVertex(GraphWords.get(n));
-			System.out.println("tedad loghate document 4: "+GraphWords.get(n));
 		}
 
 		for (int n = 0; n < GraphWords.size()-1; n++) {
@@ -26,7 +27,7 @@ public class BuildSimGraph {
 		}
 				
 		wg.getMST();
-		wg.centralityAnalysis();
+		wg.centralityAnalysis(docno);
 		
 	}
 }

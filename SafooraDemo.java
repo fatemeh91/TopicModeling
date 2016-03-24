@@ -37,7 +37,7 @@ public class SafooraDemo {
     	wg.addWeightedEdge(w2, w4, .9);
     	
     	wg.getMST();
-    	wg.centralityAnalysis();
+    	//wg.centralityAnalysis();
     	System.out.println("it's over!");
     	
     }

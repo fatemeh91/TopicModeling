@@ -94,6 +94,7 @@ public class Stopwords implements RevisionHandler {
 		add("anywhere");
 		add("apart");
 		add("appear");
+		add("eof");
 		add("appreciate");
 		add("appropriate");
 		add("are");
@@ -621,10 +622,10 @@ public class Stopwords implements RevisionHandler {
 		return list.elements();
 	}
 
-
+	
 	public ArrayList<STINT> preprocssingonfile(File file) throws Exception {
-		ArrayList<STINT> WordDoc = read(new BufferedReader(new FileReader(file)));
-		//WriteDistincfile(new BufferedReader(new FileReader(file)));
+		
+		ArrayList<STINT> WordDoc = read(new BufferedReader(new FileReader(file)));	
 		return WordDoc;
 	}
 
@@ -677,26 +678,7 @@ public class Stopwords implements RevisionHandler {
 		return WordDoc;
 	}
 
-	/*private void WriteDistincfile(BufferedReader reader) throws IOException, IOException {
-		Writer writer = null;
-		    String line;
-		    int docno2=0;
-		    boolean samedoc=false;
-		    while((line = reader.readLine()) != null){
-		    	if(line.contains("product") && line.contains("productId")){
-		    		samedoc=!samedoc;
-		    		docno2++;
-		    		writer = new BufferedWriter(new OutputStreamWriter(
-		  		          new FileOutputStream("review"+docno2+".txt"), "utf-8"));
-		    	}
-		    	if(samedoc){
-		    	writer.write(line+"\n");
-		    	writer.close();
-		    	}
-		    } 
-		
-		
-	}*/
+
 
 	public String toString() {
 		Enumeration enm;

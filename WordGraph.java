@@ -1,4 +1,12 @@
 
+import java.io.BufferedWriter;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.io.OutputStreamWriter;
+import java.io.UnsupportedEncodingException;
+import java.io.Writer;
 import java.net.*;
 import java.util.Collection;
 import java.util.Collections;
@@ -62,7 +70,7 @@ public class WordGraph {
     	System.out.println(wordMST.toString());
     	return wordMST;
     }
-    public void centralityAnalysis()
+    public void centralityAnalysis(int docno) throws IOException, FileNotFoundException
     {
     	this.centralities =  new HashMap<String, Double>();
     	CentralityComputer<String, DefaultWeightedEdge> cental = new CentralityComputer<String, DefaultWeightedEdge>(this.wordMST);
@@ -70,11 +78,13 @@ public class WordGraph {
     		centralities.put(w, cental.findClosenessOf(w)); 
     	centralities = sortByValues(centralities);
     	centralities = filterTopics(centralities, getThreshold(centralities, "mean"));
+    	FileWriter fw = new FileWriter("review" + docno + ".txt",true);;
     	for(String k : centralities.keySet())
     	{
     		System.out.println(k + " = " + centralities.get(k));
+    		fw.write("\n"+k +"="+centralities.get(k));
     	}
-    	
+    	fw.close();
     }
     private double getThreshold(HashMap<String, Double> centralities, String string) {
     	double sum = 0;

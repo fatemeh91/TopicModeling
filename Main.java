@@ -20,7 +20,7 @@ public class Main {
 	 *            the command line arguments
 	 */
 	public static void main(String[] args) throws IOException {
-		W2VUtil.DEBUG_MODE = false;
+		W2VUtil.DEBUG_MODE = true;
 
 		String dspath = "./sample";
 		final Path DSDir = Paths.get(dspath);

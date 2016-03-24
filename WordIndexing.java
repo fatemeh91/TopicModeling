@@ -8,11 +8,14 @@ import java.io.IOException;
 import java.nio.file.FileVisitResult;
 import java.nio.file.Files;
 import java.nio.file.Path;
+import java.nio.file.Paths;
 import java.nio.file.SimpleFileVisitor;
 import java.nio.file.attribute.BasicFileAttributes;
 import java.util.ArrayList;
 import java.util.logging.Level;
 import java.util.logging.Logger;
+
+import com.sun.research.ws.wadl.Doc;
 
 /**
  *
@@ -22,14 +25,19 @@ public class WordIndexing {
 	/*
 	 * in this class we read our data set and do some preprocessing on it.
 	 */
+	
 	public Stopwords rawwords;
-
+	public W2VUtil util; 
+	
+	//constructor
 	public WordIndexing() {
+		util = new W2VUtil("GoogleNews-vectors-negative300.bin", W2VUtil.ANGULAR_DIST);
+		
 		rawwords = new Stopwords();
 		rawwords.Docno = 0;
 	}
 
-	// reading all the text file from directory via this function
+	// reading all the text files from directory 
 	public void indexDocs(Path DSpath) throws IOException {
 		if (Files.isDirectory(DSpath)) {
 
@@ -48,32 +56,32 @@ public class WordIndexing {
 		}
 	}
 
-	// index each file in directory
+	
+	// index each text file from directory
 	private void indexDoc(Path file) {
 
 		ArrayList<String> Words = new ArrayList<>();
 
 		try {
-
-			ArrayList<STINT> AllWordsperDoc = rawwords.preprocssingonfile(file.toFile()); // pre-processing
+			FileDetector files=new FileDetector();
+			int Docnomber =files.SepratingDoc(file.toFile());
+			for(int i=1; i<=Docnomber;i++){
+			Path docpath=Paths.get("review"+i+".txt");
+			ArrayList<STINT> AllWordsperDoc = rawwords.preprocssingonfile(docpath.toFile()); // pre-processing
 
 			int totaldocnumberinfile = rawwords.getDocno();
-
-			for (int j = 1; j < totaldocnumberinfile; j++) {
-				for (int i = 0; i < AllWordsperDoc.size(); i++) {
-					if (AllWordsperDoc.get(i).docnumber == j) {
-
-						// build array of distinct words in each
-						// document(review)
-						if (!indexed(Words, AllWordsperDoc.get(i).word))
-							Words.add(AllWordsperDoc.get(i).word);
-
-					}
+			System.out.println(totaldocnumberinfile);
+			Words.clear();
+			
+			for (int k = 0; k < AllWordsperDoc.size(); k++) {
+						if (!indexed(Words, AllWordsperDoc.get(k).word))
+							Words.add(AllWordsperDoc.get(k).word);
 				}
-				new BuildSimGraph(Words);
-				//break;
+			
+			new BuildSimGraph(Words,i,util);
+				
 			}
-		} catch (Exception ex) {
+			} catch (Exception ex) {
 			Logger.getLogger(WordIndexing.class.getName()).log(Level.SEVERE, null, ex);
 		}
 	}
