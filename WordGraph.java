@@ -1,9 +1,6 @@
 package org;
 import java.io.FileNotFoundException;
-import java.io.FileWriter;
 import java.io.IOException;
-import java.net.*;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.HashMap;
@@ -12,7 +9,6 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
-import java.util.Vector;
 
 import org.jgrapht.*;
 import org.jgrapht.graph.*;
@@ -23,7 +19,7 @@ public class WordGraph {
 	public List<String> topicWords;
 	HashMap<String, Double> centralities;
 	List<Map.Entry<String, Double>> centralityList ;
-	public WordGraph() {
+	public WordGraph() throws IOException {
 		wordGraph = new SimpleWeightedGraph<String, DefaultWeightedEdge>(DefaultWeightedEdge.class);
 		wordMST = new SimpleWeightedGraph<String, DefaultWeightedEdge>(DefaultWeightedEdge.class);
 	}
@@ -63,11 +59,9 @@ public class WordGraph {
     		//System.out.println("mst making: " + wordMST.getEdgeWeight(e));
     		
     	}
-    	
-    	System.out.println(wordMST.toString());
     	return wordMST;
     }
-    public void centralityAnalysis(int docno) throws IOException, FileNotFoundException
+    public void centralityAnalysis() throws IOException, FileNotFoundException
     {
     	this.centralities =  new HashMap<String, Double>();
     	CentralityComputer<String, DefaultWeightedEdge> cental = new CentralityComputer<String, DefaultWeightedEdge>(this.wordMST);
@@ -75,13 +69,7 @@ public class WordGraph {
     		this.centralities.put(w, cental.findClosenessOf(w)); 
     	this.centralities = sortByValues(this.centralities);
     	centralities = filterTopics(getThreshold("mean"));
-    	FileWriter fw = new FileWriter("review" + docno + ".txt",true);;
-    	for(String k : centralities.keySet())
-    	{
-    		System.out.println(k + " = " + centralities.get(k));
-    		fw.write("\n"+k +"="+centralities.get(k));
-    	}
-    	fw.close();
+    	this.setTopicWords();
     }
     private double getThreshold(String string) {
     	double sum = 0;
