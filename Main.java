@@ -20,7 +20,8 @@ public class Main {
 	 *            the command line arguments
 	 */
 	public static void main(String[] args) throws IOException {
-		
+		W2VUtil.DEBUG_MODE = false;
+
 		String dspath = "./sample";
 		final Path DSDir = Paths.get(dspath);
 		
@@ -29,6 +30,8 @@ public class Main {
 					+ "' does not exist or is not readable, please check the path");
 			System.exit(1);
 		}
+		
+		
 		
 		WordIndexing loadds=new WordIndexing();
 		loadds.indexDocs(DSDir);// writer + the path of original unindexed documents

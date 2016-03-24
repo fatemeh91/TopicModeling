@@ -1,19 +1,3 @@
-package org;
-
-/* ==========================================
-  CentralityComputer : a Java centrality measures library
-  ==========================================
- *
- * Computes degree centrality, closeness centrality, betweenness centrality, clustering coefficient
- * for the nodes of a connected undirected unweighted graph.
- * @author Anastasia Kurdia
- *  
- * Changes
- * -------
- * 04-Jun-2003 : Initial release;
- * 23-Aug-2008 : Update;
-
- */
 
 import java.util.HashMap;
 import java.util.Iterator;
@@ -22,6 +6,7 @@ import java.util.Set;
 import java.util.Vector;
 
 import org.jgrapht.Graph;
+import org.jgrapht.graph.DefaultWeightedEdge;
 
 public class CentralityComputer<V, E> {
 
@@ -42,6 +27,7 @@ public class CentralityComputer<V, E> {
   public CentralityComputer(Graph<V, E> myGraph) {
     G = myGraph;
     n = G.vertexSet().size();
+    System.out.println("n = " + n);
     IndexMap = new HashMap<V, Integer>();
     // fill the index map
     int i = 0;
@@ -73,16 +59,20 @@ public class CentralityComputer<V, E> {
       AdjacencyList.elementAt(i).add(j);
       AdjacencyList.elementAt(j).add(i);
     }
+	  
 
     Cb = new Double[n];
     Double[] sigma = new Double[n];
     Double[] d = new Double[n];
     Double[] delta = new Double[n];
+	  
+
     for (i = 0; i < n; i++) {
       Cb[i] = 0.0;
       sigma[i] = 0.0;
       d[i] = 0.0;
     }
+	  
 
     Vector<Integer> S = new Vector<Integer>();
 
@@ -91,6 +81,7 @@ public class CentralityComputer<V, E> {
     Vector<Vector<Integer>> P = new Vector<Vector<Integer>>();
     Vector<Integer> tempVector = new Vector<Integer>();
     Iterator<Integer> It;
+	  
 
     Integer v;
     Integer w;
@@ -99,7 +90,8 @@ public class CentralityComputer<V, E> {
     Iterator<Integer> At;
 
     for (Integer s = 0; s < n; s++) {
-
+  	  
+	
       // initialization
       S.clear();
       P.clear();
@@ -116,6 +108,8 @@ public class CentralityComputer<V, E> {
 
       // perform BFS
       while (!Q.isEmpty()) {
+    	  
+    	 
         v = Q.remove();
         S.add(v);
         // for all neighbors of v
@@ -130,13 +124,13 @@ public class CentralityComputer<V, E> {
           }
 
           // shortest path to w via v?
-          if (d[w] >= d[v] + AdjacencyMatrix[w][v]) {
+          if (d[w] == d[v] + AdjacencyMatrix[w][v]) {
             sigma[w] = sigma[w] + sigma[v];
             P.elementAt(w).add(v);
-
           }
         }
       }
+	  
 
       for (i = 0; i < n; i++) {
     	  //System.out.println(i + " " + s + " " + d[i]);
@@ -159,6 +153,7 @@ public class CentralityComputer<V, E> {
       }
 
     }
+	  
 
     // normalize the value of betweenness
     if (n > 2) {
@@ -195,7 +190,6 @@ public class CentralityComputer<V, E> {
   */
 
   public Double findClosenessOf(V vertex) {
-
     // find a sum of path from vertex to all other vertices
     int m = IndexMap.get(vertex);
     Double sum = 0.0;

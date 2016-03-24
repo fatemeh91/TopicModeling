@@ -1,4 +1,4 @@
-package org;
+
 import java.net.*;
 import java.util.Collection;
 import java.util.Collections;
@@ -114,4 +114,3 @@ public class WordGraph {
     	return centralities;
     }
 }
-    

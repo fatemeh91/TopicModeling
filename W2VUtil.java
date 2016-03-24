@@ -1,4 +1,3 @@
-package org;
 /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
@@ -19,8 +18,6 @@ import org.deeplearning4j.models.embeddings.wordvectors.*;
 public class W2VUtil {
 	public static boolean DEBUG_MODE;
     public String command;
-    public String word1 = "beauty";
-    public String word2 = "cosmetics";
     WordVectors vec;
     public static final int ANGULAR_DIST = 1;
     public int distMeasure;
@@ -77,12 +74,23 @@ public class W2VUtil {
         try{
         	if (!DEBUG_MODE)
         	{
-        	if (this.distMeasure == ANGULAR_DIST)
-        		return Math.acos(vec.similarity(word1, word2)) * 2 / Math.PI;
-            return 1 - vec.similarity(word1, word2);
+        		try
+        		{
+		        	if (this.distMeasure == ANGULAR_DIST)
+		        	{
+		        		return Math.acos(vec.similarity(word1, word2)) * 2 / Math.PI;
+		        	}
+		            return 1 - vec.similarity(word1, word2);
+        		}
+        		catch(NullPointerException e)
+        		{
+        			System.exit(1);
+        			return 0;
+        		}
         	}
         	else return Math.random();
-        }catch(Exception e)
+        }
+        catch(Exception e)
         {
             e.printStackTrace();
             return -1.0;

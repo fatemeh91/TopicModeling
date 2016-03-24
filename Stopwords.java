@@ -8,8 +8,15 @@
  * @author fatemeh
  */
 import java.io.BufferedReader;
+import java.io.BufferedWriter;
 import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
 import java.io.FileReader;
+import java.io.IOException;
+import java.io.OutputStreamWriter;
+import java.io.UnsupportedEncodingException;
+import java.io.Writer;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Enumeration;
@@ -617,6 +624,7 @@ public class Stopwords implements RevisionHandler {
 
 	public ArrayList<STINT> preprocssingonfile(File file) throws Exception {
 		ArrayList<STINT> WordDoc = read(new BufferedReader(new FileReader(file)));
+		//WriteDistincfile(new BufferedReader(new FileReader(file)));
 		return WordDoc;
 	}
 
@@ -630,7 +638,8 @@ public class Stopwords implements RevisionHandler {
 			
 			if (line.contains("product") && line.contains("productId")){
 				newdoc = true;
-				Docno++;	
+				Docno++;
+				
 			}
 			
 			
@@ -663,9 +672,31 @@ public class Stopwords implements RevisionHandler {
 			}
 
 		}
+		
 		reader.close();
 		return WordDoc;
 	}
+
+	/*private void WriteDistincfile(BufferedReader reader) throws IOException, IOException {
+		Writer writer = null;
+		    String line;
+		    int docno2=0;
+		    boolean samedoc=false;
+		    while((line = reader.readLine()) != null){
+		    	if(line.contains("product") && line.contains("productId")){
+		    		samedoc=!samedoc;
+		    		docno2++;
+		    		writer = new BufferedWriter(new OutputStreamWriter(
+		  		          new FileOutputStream("review"+docno2+".txt"), "utf-8"));
+		    	}
+		    	if(samedoc){
+		    	writer.write(line+"\n");
+		    	writer.close();
+		    	}
+		    } 
+		
+		
+	}*/
 
 	public String toString() {
 		Enumeration enm;
@@ -699,6 +730,8 @@ public class Stopwords implements RevisionHandler {
 	}
 
 	private String NormalizingLine(String line) {
+		line=line.replaceAll("\\p{P}\\p{S}", " ");
+		
 		line = line.replace(",", " ");
 		line = line.replace(".", " ");
 		line = line.replace("'", " ");
@@ -714,7 +747,22 @@ public class Stopwords implements RevisionHandler {
 		line = line.replace("!", " ");
 		line = line.replace("(", " ");
 		line = line.replace(")", " ");
+		line = line.replace("}", " ");
 		line = line.replace("-", " ");
+		line = line.replace("{", " ");
+		line = line.replace("]", " ");
+		line = line.replace("[", " ");
+		line = line.replace("0", " ");
+		line = line.replace("1", " ");
+		line = line.replace("2", " ");
+		line = line.replace("3", " ");
+		line = line.replace("4", " ");
+		line = line.replace("5", " ");
+		line = line.replace("6", " ");
+		line = line.replace("7", " ");
+		line = line.replace("8", " ");
+		line = line.replace("9", " ");
+		line = line.replace("*", " ");
 
 		return line;
 	}
