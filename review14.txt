@@ -1,0 +1,28 @@
+product/productId: B0002DUT7E
+product/title: Pedifix Gel Ball of Foot Cushions - 1 Pair
+product/price: unknown
+review/userId: A2OV1Y76EYUDLN
+review/profileName: MStafford
+review/helpfulness: 0/0
+review/score: 1.0
+review/time: 1309046400
+review/summary: Product didn't match the picture/description
+review/text: Unless they sent me the wrong product by mistake, the foot cushion picture and description does not match the item delivered. I was under the impression I would receive two (a pair) of water filled foot cushions that I could insert into my shoes. Instead I received ONE foot cushion, filled with another material (not water) that you attach to your foot via a toe strap. I was definately not happy with the item and sent it back for a refund. Luckily for me Amazon has a great return policy... they make returns very easy!
+
+([wrong, product, mistake, foot, cushion, picture, description, match, item, delivered, impression, receive, pair, water, filled, cushions, insert, shoes, received, material, attach, toe, strap, definately, happy, back, refund, Luckily, Amazon, great, return, policy, make, returns, easy], [{cushion,cushions}, {receive,received}, {refund,return}, {definately,great}, {wrong,back}, {shoes,toe}, {wrong,mistake}, {insert,attach}, {cushions,strap}, {picture,description}, {attach,strap}, {definately,Luckily}, {delivered,filled}, {item,refund}, {pair,shoes}, {receive,make}, {foot,toe}, {product,material}, {toe,back}, {great,easy}, {item,Amazon}, {shoes,strap}, {product,item}, {mistake,easy}, {return,returns}, {receive,return}, {picture,impression}, {happy,great}, {match,definately}, {mistake,impression}, {back,return}, {mistake,policy}, {water,material}, {delivered,received}])
+back
+return
+wrong
+toe
+mistake
+returns
+refund
+receive
+shoes
+easy
+foot
+impression
+received
+item
+policy
+strap

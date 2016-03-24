@@ -1,0 +1,23 @@
+product/productId: B000J0WAL8
+product/title: Case Logic Armrest Cover for Wheelchairs, Scooters and Power Chairs, Large
+product/price: unknown
+review/userId: A13HM114N5JIH3
+review/profileName: roadrunner
+review/helpfulness: 0/0
+review/score: 3.0
+review/time: 1326758400
+review/summary: Armrest Slides
+review/text: I have had this armrest for several months. It was difficult to get onto the arm of the chair and it will not stay in place. At this moment, it is upside down with the lacing on top of the arm. It will not stay in place. It is a really good idea and it is quite comfortable when it is where it is supposed to be. It is very hard to move back into the proper position once it has moved around.
+
+([armrest, months, difficult, arm, chair, stay, place, moment, upside, lacing, top, good, idea, comfortable, supposed, hard, move, back, proper, position, moved], [{move,position}, {supposed,proper}, {move,moved}, {good,hard}, {armrest,chair}, {arm,position}, {good,proper}, {idea,supposed}, {move,back}, {place,position}, {months,moment}, {stay,move}, {arm,chair}, {top,position}, {armrest,lacing}, {moment,back}, {armrest,upside}, {hard,back}, {difficult,hard}, {good,comfortable}])
+move
+back
+position
+hard
+moved
+arm
+stay
+good
+moment
+difficult
+place

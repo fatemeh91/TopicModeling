@@ -9,11 +9,11 @@ review/time: 1174435200
 review/summary: Jobst UltraSheer Knee High Stockings
 review/text: Does a very good job of relieving fatigue. This is a well known brand and is certainly comfortable enough to wear all day. Even if your doctor didn't prescribe these but you are on your feet alot, take care of yourself and buy these.
 
-
-doctor=0.4050428764871465
-care=0.39603907940422456
-prescribe=0.38079693357337796
-job=0.36922973571090123
-buy=0.3428557292653542
-good=0.3335385001638229
-day=0.3048076155361856
+([good, job, relieving, fatigue, brand, comfortable, wear, day, doctor, didn, prescribe, feet, alot, care, buy], [{didn,alot}, {doctor,prescribe}, {good,job}, {brand,buy}, {comfortable,feet}, {wear,buy}, {fatigue,wear}, {good,alot}, {relieving,fatigue}, {doctor,care}, {prescribe,buy}, {good,comfortable}, {day,doctor}, {job,care}])
+doctor
+care
+prescribe
+job
+buy
+good
+day

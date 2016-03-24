@@ -9,9 +9,9 @@ review/time: 1204416000
 review/summary: No more uncomfortable flights
 review/text: Stockings fit well and are comfortable. Haven't had the opportunity to see how effective they are in preventing edema from air travel.
 
-
-comfortable=0.57682030226441
-travel=0.5163992887534239
-effective=0.4756269935017841
-fit=0.44767632303598104
-air=0.4337851061486315
+([Stockings, fit, comfortable, Haven, opportunity, effective, preventing, edema, air, travel], [{fit,comfortable}, {Stockings,Haven}, {Stockings,air}, {air,travel}, {effective,edema}, {comfortable,effective}, {effective,preventing}, {fit,opportunity}, {comfortable,travel}])
+comfortable
+travel
+effective
+fit
+air

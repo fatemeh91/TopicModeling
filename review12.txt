@@ -1,0 +1,22 @@
+product/productId: B000278ADA
+product/title: Jobst Ultrasheer 15-20 Knee-High Silky Beige Large
+product/price: 46.34
+review/userId: A1DEHAP5BK7X7J
+review/profileName: Jamiejaymes
+review/helpfulness: 0/0
+review/score: 5.0
+review/time: 1292544000
+review/summary: impression of the product
+review/text: the item was very pleasing to my wife. she has bought this product before in a local store that was probably a previous model, the top of the hose was not as secure as the ones i ordered from the amazon provider.the order was shipped as i was told it would be. i am satisfied with the over all purchase process.
+
+([item, pleasing, wife, bought, product, local, store, previous, model, top, hose, secure, ordered, amazon, provider, order, shipped, told, satisfied, purchase, process], [{bought,shipped}, {product,model}, {secure,purchase}, {bought,ordered}, {provider,purchase}, {secure,satisfied}, {product,process}, {ordered,told}, {product,hose}, {item,amazon}, {top,order}, {item,product}, {local,top}, {bought,purchase}, {item,store}, {wife,bought}, {bought,store}, {previous,satisfied}, {pleasing,satisfied}, {ordered,order}])
+bought
+purchase
+store
+ordered
+item
+shipped
+secure
+wife
+order
+provider

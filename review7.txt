@@ -9,12 +9,12 @@ review/time: 1352505600
 review/summary: Delivery was very long wait.....
 review/text: It took almost 3 weeks to recieve the two pairs of stockings I ordered and when they arrived they were not in a box nor did they have any tags on them so I am not certain they are actually Jobst brand stockings. The Sun Bronze pair fits okay but quality is less than the pair I bought at an actual compression store.
 
-
-brand=0.4985296775102261
-tags=0.48699750303526956
-pairs=0.43752466495181236
-store=0.429723584892739
-quality=0.36928039380715477
-pair=0.3526019333593445
-fits=0.34988723642872066
-actual=0.3454417496266673
+([weeks, recieve, pairs, stockings, ordered, arrived, box, tags, Jobst, brand, Sun, Bronze, pair, fits, quality, bought, actual, compression, store], [{stockings,Jobst}, {pairs,stockings}, {quality,compression}, {weeks,pairs}, {ordered,bought}, {Sun,pair}, {recieve,box}, {brand,store}, {tags,brand}, {tags,actual}, {brand,quality}, {brand,fits}, {pairs,pair}, {bought,store}, {pairs,tags}, {box,store}, {pairs,Bronze}, {arrived,bought}])
+brand
+tags
+pairs
+store
+quality
+pair
+fits
+actual

@@ -9,13 +9,13 @@ review/time: 1184803200
 review/summary: Jobst UltraSheer Thigh High
 review/text: Excellent product. However, they are very difficult to get on for older people. I feel like I've had a full day workout after getting them on. Also, as the day wears on, they begin to roll down from the top and create a very deep ridge in the skin. I have to wear them, so if those two difficulties could be addressed it would be such a help.
 
-
-day=0.3559978101153698
-workout=0.35599781011536974
-wear=0.3448628984254528
-begin=0.34484170270528114
-full=0.3247874086767095
-wears=0.2951718635507619
-skin=0.29362345132055784
-feel=0.2863415286096531
-deep=0.27566577574441653
+([Excellent, product, difficult, older, people, feel, full, day, workout, wears, begin, roll, top, create, deep, ridge, skin, wear, difficulties, addressed], [{older,skin}, {Excellent,top}, {full,begin}, {workout,wear}, {full,deep}, {skin,wear}, {difficulties,addressed}, {feel,wear}, {people,feel}, {difficult,difficulties}, {feel,create}, {ridge,skin}, {difficult,deep}, {wears,wear}, {day,workout}, {day,begin}, {full,roll}, {Excellent,full}, {product,skin}])
+day
+workout
+wear
+begin
+full
+wears
+skin
+feel
+deep

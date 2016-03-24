@@ -1,0 +1,18 @@
+product/productId: B000N8X006
+product/title: California Exotics Waterproof Delights Blue Ballsy
+product/price: 19.94
+review/userId: A3752ZS0O37QUA
+review/profileName: Guidoo
+review/helpfulness: 0/0
+review/score: 1.0
+review/time: 1357776000
+review/summary: waste off money
+review/text: this is not waterproof.its GARBAGE where batteries go in broke,while trying to adj.DO NOT BUY.you turn the end to control it,that loosens the battery cover where water gets in so how is it waterproff?????
+
+([waterproof, GARBAGE, batteries, broke, adj, BUY, turn, end, control, loosens, battery, cover, water, waterproff?????], [{waterproof,cover}, {broke,loosens}, {waterproof,batteries}, {adj,loosens}, {turn,control}, {turn,end}, {waterproof,waterproff?????}, {control,cover}, {batteries,battery}, {broke,end}, {adj,BUY}, {GARBAGE,BUY}, {waterproof,water}])
+turn
+control
+end
+cover
+broke
+waterproof

@@ -9,22 +9,22 @@ review/time: 1110326400
 review/summary: Fashionable Compression Stockings!
 review/text: After I had a DVT my doctor required me to wear compression stockings. I wore ugly white TED hose and yucky thick brown stockings. Then I found Jobst UltraSheer. They gave me the compression I needed (15-20,) but looked like regular pantyhose. Even though my blood clot has been gone for 4 years, I still buy these to wear as support stockings because they make my legs feel so nice.**Note, I have problems with the rubberized tops rolling down my thigh. I tried the Jobst adhesive, but I hated having my skin pulled all day. I bought an inexpensive garter belt and it works fine and helps keep the stockings from rolling.
 
-
-wore=0.3341823609862795
-looked=0.32231988259556527
-wear=0.3219641344738992
-pantyhose=0.3015451520568296
-pulled=0.2988865053451514
-white=0.2810405494705343
-hose=0.2695539216040321
-hated=0.2649835062654133
-feel=0.263505456059277
-found=0.2619458679637326
-stockings=0.25910654485277385
-gave=0.2586423045038834
-bought=0.2521219061505312
-brown=0.25147316235879413
-rolling=0.24458578434208825
-adhesive=0.24102759076696048
-needed=0.2260170846394628
-buy=0.22554362430665525
+([DVT, doctor, required, wear, compression, stockings, wore, ugly, white, TED, hose, yucky, thick, brown, found, Jobst, UltraSheer, gave, needed, looked, regular, pantyhose, blood, clot, years, buy, support, make, legs, feel, nice, Note, problems, rubberized, tops, rolling, thigh, adhesive, hated, skin, pulled, day, bought, inexpensive, garter, belt, works, fine, helps], [{years,day}, {compression,adhesive}, {wear,wore}, {make,feel}, {nice,fine}, {legs,thigh}, {years,bought}, {yucky,brown}, {legs,skin}, {tops,rolling}, {looked,pulled}, {wore,hated}, {works,helps}, {clot,adhesive}, {needed,support}, {stockings,pantyhose}, {hose,pantyhose}, {wore,white}, {wear,pantyhose}, {buy,bought}, {gave,pulled}, {yucky,nice}, {hose,adhesive}, {rolling,pulled}, {required,Note}, {Jobst,UltraSheer}, {stockings,Jobst}, {blood,clot}, {rubberized,adhesive}, {TED,UltraSheer}, {gave,needed}, {needed,helps}, {DVT,clot}, {ugly,yucky}, {white,brown}, {looked,feel}, {skin,belt}, {found,looked}, {thick,brown}, {required,needed}, {wore,looked}, {needed,problems}, {regular,day}, {doctor,blood}, {adhesive,skin}, {stockings,garter}, {pulled,bought}, {buy,inexpensive}])
+wore
+looked
+wear
+pantyhose
+pulled
+white
+hose
+hated
+feel
+found
+stockings
+gave
+bought
+brown
+rolling
+adhesive
+needed
+buy
