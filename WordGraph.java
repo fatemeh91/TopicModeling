@@ -9,6 +9,7 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
+import java.util.Vector;
 
 import org.jgrapht.*;
 import org.jgrapht.graph.*;
@@ -16,12 +17,12 @@ import org.jgrapht.alg.KruskalMinimumSpanningTree;
 public class WordGraph {
 	private WeightedGraph<String, DefaultWeightedEdge> wordGraph;
 	private WeightedGraph<String, DefaultWeightedEdge> wordMST;
-	public List<String> topicWords;
+	public Vector<String> topicWords;
 	HashMap<String, Double> centralities;
 	List<Map.Entry<String, Double>> centralityList ;
-	public WordGraph() throws IOException {
+	public WordGraph(){
 		wordGraph = new SimpleWeightedGraph<String, DefaultWeightedEdge>(DefaultWeightedEdge.class);
-		wordMST = new SimpleWeightedGraph<String, DefaultWeightedEdge>(DefaultWeightedEdge.class);
+		topicWords = new Vector<String>();
 	}
     public void addWeightedEdge(String w1, String w2, double distance)
     {
@@ -38,8 +39,16 @@ public class WordGraph {
     {
     	return wordGraph.addVertex(w);
     }
+    public WeightedGraph<String, DefaultWeightedEdge> getWordGraph()
+    {
+    	return this.wordGraph;
+    }
     public WeightedGraph<String, DefaultWeightedEdge> getMST()
     {
+    	if (wordMST != null)
+    		return wordMST;
+    	
+    	wordMST = new SimpleWeightedGraph<String, DefaultWeightedEdge>(DefaultWeightedEdge.class);
     	KruskalMinimumSpanningTree<String, DefaultWeightedEdge> kmst;
     	kmst =  new KruskalMinimumSpanningTree<String, DefaultWeightedEdge>(wordGraph);
     	Set<DefaultWeightedEdge> edgeSet = kmst.getMinimumSpanningTreeEdgeSet();
@@ -61,11 +70,11 @@ public class WordGraph {
     	}
     	return wordMST;
     }
-    public void centralityAnalysis() throws IOException, FileNotFoundException
+    public void centralityAnalysis(WeightedGraph<String, DefaultWeightedEdge> graph)
     {
     	this.centralities =  new HashMap<String, Double>();
-    	CentralityComputer<String, DefaultWeightedEdge> cental = new CentralityComputer<String, DefaultWeightedEdge>(this.wordMST);
-    	for(String w : this.wordMST.vertexSet())
+    	CentralityComputer<String, DefaultWeightedEdge> cental = new CentralityComputer<String, DefaultWeightedEdge>(graph);
+    	for(String w : graph.vertexSet())
     		this.centralities.put(w, cental.findClosenessOf(w)); 
     	this.centralities = sortByValues(this.centralities);
     	centralities = filterTopics(getThreshold("mean"));
@@ -109,11 +118,12 @@ public class WordGraph {
         		centralities.remove(entry.getKey());
         	}
         }
-        this.setTopicWords();
     	return centralities;
     }
     public String topicToString()
     {
+    	if (topicWords.isEmpty())
+    		this.setTopicWords();
     	String topicsStr = "";
     	for(String k : topicWords)
     	{
@@ -123,6 +133,8 @@ public class WordGraph {
     }
     private void setTopicWords()
     {
+    	if (!topicWords.isEmpty())
+    		topicWords.clear();
     	for(String k : this.centralities.keySet())
     	{
     		topicWords.add(k);
