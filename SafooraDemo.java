@@ -1,3 +1,4 @@
+package org;
 /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
@@ -8,7 +9,7 @@
  *
  * @author Ayine
  */
-public class SafooraDemo {
+public class Main {
 
     /**
      * @param args the command line arguments
@@ -37,7 +38,9 @@ public class SafooraDemo {
     	wg.addWeightedEdge(w2, w4, .9);
     	
     	wg.getMST();
-    	//wg.centralityAnalysis();
+    	wg.centralityAnalysis(wg.getWordGraph());
+    	wg.filterTopics(-1.0);
+    	System.out.println("Topic Words:" + wg.topicToString());
     	System.out.println("it's over!");
     	
     }
