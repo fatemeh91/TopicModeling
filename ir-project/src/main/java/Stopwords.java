@@ -8,15 +8,8 @@
  * @author fatemeh
  */
 import java.io.BufferedReader;
-import java.io.BufferedWriter;
 import java.io.File;
-import java.io.FileNotFoundException;
-import java.io.FileOutputStream;
 import java.io.FileReader;
-import java.io.IOException;
-import java.io.OutputStreamWriter;
-import java.io.UnsupportedEncodingException;
-import java.io.Writer;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Enumeration;
@@ -30,7 +23,7 @@ import weka.core.RevisionUtils;
 
 public class Stopwords implements RevisionHandler {
 	public int Docno;
-	protected HashSet m_Words = null;
+	protected HashSet<String> m_Words = null;
 	protected static Stopwords m_Stopwords;
 
 	static {
@@ -49,7 +42,7 @@ public class Stopwords implements RevisionHandler {
 
 	public Stopwords() {
 
-		m_Words = new HashSet();
+		m_Words = new HashSet<String>();
 
 		// Stopwords list from Rainbow
 		add(".");
@@ -606,12 +599,12 @@ public class Stopwords implements RevisionHandler {
 		return m_Words.contains(word.toLowerCase());
 	}
 
-	public Enumeration elements() {
-		Iterator iter;
-		Vector list;
+	public Enumeration<String> elements() {
+		Iterator<String> iter;
+		Vector<String> list;
 
 		iter = m_Words.iterator();
-		list = new Vector();
+		list = new Vector<String>();
 
 		while (iter.hasNext()) {
 			list.add(iter.next());
@@ -681,7 +674,7 @@ public class Stopwords implements RevisionHandler {
 
 
 	public String toString() {
-		Enumeration enm;
+		Enumeration<String> enm;
 		StringBuffer result;
 
 		result = new StringBuffer();

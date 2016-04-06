@@ -3,9 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-import java.io.BufferedWriter;
 import java.io.File;
-import java.io.FileWriter;
 import java.io.IOException;
 import org.deeplearning4j.models.embeddings.loader.WordVectorSerializer;
 //import org.deeplearning4j.models.word2vec.Word2Vec;

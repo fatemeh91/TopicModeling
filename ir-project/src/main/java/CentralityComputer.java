@@ -6,7 +6,6 @@ import java.util.Set;
 import java.util.Vector;
 
 import org.jgrapht.Graph;
-import org.jgrapht.graph.DefaultWeightedEdge;
 
 public class CentralityComputer<V, E> {
 
