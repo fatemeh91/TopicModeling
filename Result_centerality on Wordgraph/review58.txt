@@ -1,0 +1,13 @@
+product/productId: B0009DVE7Q
+product/title: Replacement Bulb For Use With Hand Held Massager Infrarex Light Professional Infrared Massager
+product/price: unknown
+review/userId: A2UDYS4SVS4AEI
+review/profileName: K. Montgomery
+review/helpfulness: 8/11
+review/score: 1.0
+review/time: 1260230400
+review/summary: Horrible Quality
+review/text: This isn't really a massager, it doesn't vibrate or sooth muscles. It is really more of a flashlight with a dinky infrared bulb in it that isn't powerful enough to do any good anyways. Save your money, folks. This one is a complete dud.
+
+isn, doesn, dinky, good, vibrate, flashlight, massager, bulb, folks, 
+isn, doesn, dinky, good, vibrate, flashlight, massager, bulb, folks, 

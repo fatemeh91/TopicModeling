@@ -1,0 +1,13 @@
+product/productId: B0002DUT9C
+product/title: PediFix No Sore Feet Stretch Socks
+product/price: 9.06
+review/userId: A2BUPFYUOFL8WH
+review/profileName: Mommy Goblin
+review/helpfulness: 0/0
+review/score: 2.0
+review/time: 1332201600
+review/summary: Not great
+review/text: I guess these would be good if you had foot surgery and wanted to place something lose and protective over bandaging, but not for under a boot cast. I was under the impression these would be tall enough to almost reach my knee. They only go about 4" above the ankle. Very wimpy, probably wouldn't hold up to too many washes.
+
+knee, ankle, guess, foot, good, boot, bandaging, tall, surgery, hold, wouldn, 
+knee, ankle, guess, foot, good, boot, bandaging, tall, surgery, hold, wouldn, 

@@ -1,0 +1,13 @@
+product/productId: B0002DUT7Y
+product/title: PediFix Heel Straights
+product/price: 12.95
+review/userId: A1L1P2VO9O87NJ
+review/profileName: Nelson Ribeiro
+review/helpfulness: 0/0
+review/score: 1.0
+review/time: 1339718400
+review/summary: Fall apart
+review/text: I don't understand why these inserts are made up from 2 pieces. It should just be one piece. The 2 pieces are held together with a small piece of double sided tape and COMPLETELY fall apart after 1 day of walking. No problem with seller, this is just a HORRIBLY made product.
+
+piece, pieces, sided, fall, day, tape, inserts, understand, 
+piece, pieces, sided, fall, day, tape, inserts, understand, 

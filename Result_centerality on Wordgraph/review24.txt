@@ -1,0 +1,13 @@
+product/productId: B00028NJTO
+product/title: GABA 750mg - 90 - Tablet
+product/price: 17.73
+review/userId: A2BNXF9M8RH09S
+review/profileName: Pet foodie "Pet foodie"
+review/helpfulness: 1/1
+review/score: 5.0
+review/time: 1327968000
+review/summary: finally, non prescription relief !!
+review/text: After almost a decade on various medications to relieve my anxiety I was tired of relying on and paying for medications. I did research on GABA as a stress reliever and started taking it. First on an as needed basis, and now every day. GABA along with a B Complex vitamin have changed my life around, and for the first time in almost 10 years, I am off of prescription meds!! Back in October I spent 4 weeks out of state to take care of my dying father. Even though it was incredibly difficult and sad, I was able to keep it together without medication. GABA taken at night promotes a restful sleep and together with B Complex has given me a new found relaxation and peace.I do not recommend that anyone takes themselves off medication without their physicians ok - especially for severe depression or overwhelming anxiety. But I highly recommend that people experiencing excessive stress or anxiety issues give Kals GABA 750mg a try along with a quality B complex vitamin
+
+medication, medications, sleep, meds, stress, day, time, anxiety, depression, care, tired, needed, life, prescription, severe, restful, relaxation, relieve, difficult, people, dying, weeks, experiencing, years, taking, sad, paying, physicians, 
+medication, medications, sleep, meds, stress, day, time, anxiety, depression, care, tired, needed, life, prescription, severe, restful, relaxation, relieve, difficult, people, dying, weeks, experiencing, years, taking, sad, paying, physicians, 

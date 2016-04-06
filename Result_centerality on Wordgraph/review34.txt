@@ -1,0 +1,13 @@
+product/productId: B0002406BW
+product/title: Zand Herbal Mist Throat Spray
+product/price: 5.11
+review/userId: A12UC87U5NUT0W
+review/profileName: VoraciousBuyer
+review/helpfulness: 0/0
+review/score: 5.0
+review/time: 1348531200
+review/summary: A life-saver during the flu season
+review/text: I've been using this product for many years during flues and when I would get sore throats. Gurgle your throat with salt, spray this in your throat and don't eat for a few hours. If you catch your sore throat during an early stage, you can CURE it with this spray. Otherwise, it will become a lot more manageable.
+
+eat, throat, spray, throats, catch, lot, sore, manageable, salt, 
+eat, throat, spray, throats, catch, lot, sore, manageable, salt, 

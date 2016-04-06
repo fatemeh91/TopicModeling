@@ -1,0 +1,13 @@
+product/productId: B000N8X010
+product/title: California Exotics Reckless Rabbit Stimulator
+product/price: 7.43
+review/userId: A3J5ZTLJMYG58I
+review/profileName: tiffga
+review/helpfulness: 2/2
+review/score: 1.0
+review/time: 1284595200
+review/summary: Not fun, not comfortable!
+review/text: This product looked fun but in reality was very uncomfortable and it vibes only at the middle! It's also very large (long) and didn't fit very well! Anyway, in summary, a neat idea, but not a staple or even fun for a one time use!
+
+neat, fun, idea, fit, uncomfortable, long, looked, time, didn, 
+neat, fun, idea, fit, uncomfortable, long, looked, time, didn, 

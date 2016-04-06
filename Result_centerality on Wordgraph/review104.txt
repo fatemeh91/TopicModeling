@@ -1,0 +1,13 @@
+product/productId: B0009DVE8A
+product/title: The Squiggler Head Scalp Massager
+product/price: 9.98
+review/userId: AQXY5178O9OUK
+review/profileName: Bert T. Lyles
+review/helpfulness: 0/0
+review/score: 5.0
+review/time: 1345334400
+review/summary: Pleased
+review/text: I have had a Sqwiggler for a number of years and never had a problem with it. I am ordering another for my dad, who has advanced alzheimer's and responds to the tactile very well. It is nice to squiggle yourself, and wonderful to have someone else do it for you.
+
+nice, wonderful, tactile, dad, alzheimer, 
+nice, wonderful, tactile, dad, alzheimer, 

@@ -1,0 +1,13 @@
+product/productId: B000GI0J6G
+product/title: Welch Allyn Suretemp Plus 690 Electronic Thermometer #01690-200
+product/price: 257.99
+review/userId: A2WWS1RTBVDUV1
+review/profileName: baw
+review/helpfulness: 16/18
+review/score: 5.0
+review/time: 1298851200
+review/summary: Finally, a Quick-Read Thermometer that Works
+review/text: I have wasted a lot of money on inexpensive "instant-read" thermometers. I have found them all to be unreliable, giving wildly inconsistent readings. I consulted with a health practitioner, who recommended the Welch Allyn Suretemp Plus 690. It works. It gives consistent temperature readings. Wahoo!I was concerned by another review that indicated the thermometer wears out quickly, but I decided that pertained to a busy health care office environment, and would not be a concern for limited home use.Note the probe covers are required: without a cover, an artifically high temp is reported. Also, one must use the Welch Allyn brand of probe cover; they are specially made to fit the device.
+
+Suretemp, cover;, read", "instant, required, concerned, thermometers, limited, consistent, lot, recommended, inexpensive, thermometer, inconsistent, care, health, consulted, works, concern, unreliable, temperature, high, cover, pertained, temp, found, covers, busy, fit, quickly, money, made, readings, decided, device, home, office, wasted, giving, Allyn, wears, reported, Welch, environment, brand, practitioner, probe, Note, Wahoo, artifically, specially, wildly, 
+Suretemp, cover;, read", "instant, required, concerned, thermometers, limited, consistent, lot, recommended, inexpensive, thermometer, inconsistent, care, health, consulted, works, concern, unreliable, temperature, high, cover, pertained, temp, found, covers, busy, fit, quickly, money, made, readings, decided, device, home, office, wasted, giving, Allyn, wears, reported, Welch, environment, brand, practitioner, probe, Note, Wahoo, artifically, specially, wildly, 

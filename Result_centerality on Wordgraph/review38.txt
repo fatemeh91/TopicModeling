@@ -1,0 +1,13 @@
+product/productId: B0002JEQ4K
+product/title: HoMedics BK-2000 5 Point Back Massager with Heat and Variable Massage Intensity
+product/price: unknown
+review/userId: A1W3AA1FHH1A1
+review/profileName: Lynn B. Scheiner "Knowledgeable Woman"
+review/helpfulness: 260/277
+review/score: 1.0
+review/time: 1107129600
+review/summary: A Piece of Crap!
+review/text: Noisy, crude five point vibration pad.NOT! a massager, a vibration pad!We purchased three of these and we sent back three of these!Worthless, no, worse than worthless!
+
+worthless, Worthless, pad, back, worse, 
+worthless, Worthless, pad, back, worse, 

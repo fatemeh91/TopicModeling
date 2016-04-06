@@ -1,0 +1,13 @@
+product/productId: B0001VVGLU
+product/title: Vitex Chaste Berry Extract 225 mg By Solaray - 60 Capsules
+product/price: 10.19
+review/userId: A3USQ0WQNU5291
+review/profileName: M. Brown
+review/helpfulness: 8/9
+review/score: 2.0
+review/time: 1322265600
+review/summary: Caused tiredness and confusion
+review/text: I noticed I was very tired and headachy after taking Vitex, but I read that is a common side effect and that it was temporary. After the first week, I only noticed the tiredness increasing. I would feel almost confused at times and just plain strange. When taking it during the day, one time, I completely drove past the shopping center I was going to. I'd go through these spells where I felt very heady, like I was going to pass out. I was only taking 250mg per day. I had high hopes for this as a treatment for PCOS, but I couldn't continue with it. This doesn't seem like a common result, but malaise and confusion are listed among vitex's side effects. Maybe I should have tried vitex fruit which is less potent than vitex extract, but this is something I'm not messing around with any more! Back to progesterone cream!
+
+feel, headachy, tired, felt, tiredness, time, strange, confused, noticed, day, couldn, times, plain, effects, side, doesn, result, week, completely, messing, 
+feel, headachy, tired, felt, tiredness, time, strange, confused, noticed, day, couldn, times, plain, effects, side, doesn, result, week, completely, messing, 

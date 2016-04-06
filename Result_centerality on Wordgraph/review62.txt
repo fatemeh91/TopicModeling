@@ -1,0 +1,13 @@
+product/productId: B0009DVE7Q
+product/title: Replacement Bulb For Use With Hand Held Massager Infrarex Light Professional Infrared Massager
+product/price: unknown
+review/userId: A1BO0QVLEVEF7W
+review/profileName: smrbrz
+review/helpfulness: 0/0
+review/score: 5.0
+review/time: 1348444800
+review/summary: infrared heating device
+review/text: I found this little lamp to be very effective for a painful joint or stiff neck and shoulders. I've read other reviews saying it melted from use. That hasn't happened with mine but I usually use it for a half hour at a time and it's great.
+
+time, painful, happened, neck, half, great, melted, stiff, hour, 
+time, painful, happened, neck, half, great, melted, stiff, hour, 

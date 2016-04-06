@@ -1,0 +1,13 @@
+product/productId: B000GI0J6G
+product/title: Welch Allyn Suretemp Plus 690 Electronic Thermometer #01690-200
+product/price: 257.99
+review/userId: A1GGB5N8TTW28V
+review/profileName: Amelie
+review/helpfulness: 6/7
+review/score: 3.0
+review/time: 1237939200
+review/summary: Welch Allyn Suretemp Plus 690 Electronic Thermometer
+review/text: The thermometer is really good once you get it working. I was not very happy that I bought it "Brand New" and when I tried to use it, didn't work. I had to ship the Thermometer Probe back, then waited for a week, then tried again and still wasn't working, so I ended having to ship back the Thermometer with all accesories. It took a few weeks to get it back and working.Welch Allyn however, were very good at keeping the guaranty and sending back to me the thermometer after it was fixed.
+
+New", "Brand, good, didn, happy, wasn, back, working, work, waited, weeks, week, keeping, bought, sending, accesories, Allyn, Welch, ended, fixed, thermometer, ship, Thermometer, Probe, guaranty, 
+New", "Brand, good, didn, happy, wasn, back, working, work, waited, weeks, week, keeping, bought, sending, accesories, Allyn, Welch, ended, fixed, thermometer, ship, Thermometer, Probe, guaranty, 

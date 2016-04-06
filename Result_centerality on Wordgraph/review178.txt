@@ -1,0 +1,13 @@
+product/productId: B0001VVGLU
+product/title: Vitex Chaste Berry Extract 225 mg By Solaray - 60 Capsules
+product/price: 10.19
+review/userId: A3Q07CK15TK9X2
+review/profileName: Cristy Adams
+review/helpfulness: 2/2
+review/score: 4.0
+review/time: 1335052800
+review/summary: I THINK IT IS WORKING
+review/text: I have been taking vitex for two weeks now.I take a pill in the morning and one at night.I have been noticing my breast becoming sore..So I'm going to start taking one a day.. and see if that helps..the reason why I started taking vitex.For the past year I have been having night sweats and been moody..Vitex has helped with the night sweats...but my husband says I'm still moody.Maybe he makes me moody..(lol) Will let yall now if just taking one pill day works, and hope it helps with the soreness of my breast.
+
+day, started, weeks, morning, start, night, soreness, sore, helps, year, hope, noticing, yall, sweats, pill, 
+day, started, weeks, morning, start, night, soreness, sore, helps, year, hope, noticing, yall, sweats, pill, 

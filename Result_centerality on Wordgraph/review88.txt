@@ -1,0 +1,13 @@
+product/productId: B0002406C6
+product/title: Zand Insure Herbal Formula
+product/price: 11.74
+review/userId: A10ZA56DLYE4XS
+review/profileName: Kat
+review/helpfulness: 2/2
+review/score: 1.0
+review/time: 1343088000
+review/summary: Not happy with seller
+review/text: I ordered and paid for an 8 ounce product and received a 4 ounce product. Now the seller wants me to take a picture of the product and the bar code and send it to them before they will make good on it. I've ordered from them before and there have been issues. Never again....What a pain.
+
+paid, make, send, good, received, ordered, 
+paid, make, send, good, received, ordered, 

@@ -1,0 +1,13 @@
+product/productId: B00023DDTU
+product/title: Jobst Ultrasheer 15-20 mmHg Pantyhose
+product/price: 58.43
+review/userId: A30VXJLCK3IQBU
+review/profileName: Jen
+review/helpfulness: 9/10
+review/score: 2.0
+review/time: 1258416000
+review/summary: Bad quality
+review/text: I read a previous review that said hers got a run the first time she used them and I figured I'd just be more careful...mine got a run the second time I used them! Unless you're desperate, don't bother. I expected better quality for the price I paid!
+
+figured, time, bother, paid, careful, 
+figured, time, bother, paid, careful, 

@@ -1,0 +1,13 @@
+product/productId: B00023DDSG
+product/title: Jobst Ultrasheer 15-20 mmHg Pantyhose
+product/price: 50.00
+review/userId: A3L950KFY8I6HR
+review/profileName: cb
+review/helpfulness: 4/4
+review/score: 1.0
+review/time: 1315353600
+review/summary: ran the first time I wore them
+review/text: I have worn Jobst compression hose for a few years now. I havenever had a problem. I was thrilled when I had the option fora sheer pair....great for summer. The third time I wore one pair,I got a hole in them. I am not even sure how that happened. I figuredI must have done something. I put on my backup pair and the first timeI wore them I developed a hole in them...the same leg (right one). Nowthat I see these posts I know I will never purchase them again.
+
+figuredI, timeI, Nowthat, havenever, time, great, put, worn, summer, wore, option, problem, pair, leg, hole, Jobst, hose, years, backup, happened, sheer, compression, developed, thrilled, purchase, posts, fora, 
+figuredI, timeI, Nowthat, havenever, time, great, put, worn, summer, wore, option, problem, pair, leg, hole, Jobst, hose, years, backup, happened, sheer, compression, developed, thrilled, purchase, posts, fora, 

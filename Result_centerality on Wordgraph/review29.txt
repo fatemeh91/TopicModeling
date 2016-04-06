@@ -1,0 +1,13 @@
+product/productId: B0001VVGJC
+product/title: Solaray Vitamin D-3 -- 400 IU - 120 Softgels
+product/price: 8.49
+review/userId: A38C3RFBGUPA0P
+review/profileName: Judith A. McKinney
+review/helpfulness: 0/0
+review/score: 5.0
+review/time: 1356480000
+review/summary: Keeps me healthy and I am not allergic to this brand.
+review/text: I like the Solaray Brand. I am not allergic to it. Vitamin D-3 was recommended by my doctor. The Vitamin D-3 keeps me healthy.
+
+Vitamin, Solaray, allergic, healthy, 
+Vitamin, Solaray, allergic, healthy, 

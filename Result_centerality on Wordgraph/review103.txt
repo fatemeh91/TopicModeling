@@ -1,0 +1,13 @@
+product/productId: B0002406DK
+product/title: Zand Thistle Cleanse
+product/price: 9.49
+review/userId: A26M5O53PHZTKN
+review/profileName: Debs "peanut"
+review/helpfulness: 1/1
+review/score: 3.0
+review/time: 1314316800
+review/summary: Strong smell of alcohol
+review/text: I ordered this item assuming it was similar to the one I had before. I give milk thistle to my dogs on their dinner for their liver health. However, I did not realize this version has alcohol in it and it smells really strong. My dogs won't go near it. I should have checked more closely....
+
+milk, alcohol, checked, dogs, health, liver, smells, realize, give, dinner, 
+milk, alcohol, checked, dogs, health, liver, smells, realize, give, dinner, 

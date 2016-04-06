@@ -1,0 +1,13 @@
+product/productId: B0002406C6
+product/title: Zand Insure Herbal Formula
+product/price: 11.74
+review/userId: A69R3I0UKJGW2
+review/profileName: Andrea Raab
+review/helpfulness: 0/0
+review/score: 5.0
+review/time: 1356652800
+review/summary: Forget the flu shot
+review/text: I have been using this product for many years now. Granted I eat a mediteranian diet with loads of fruits and vegatables and fish, so I have generally good health. But I also us a small dose of this daily in my Kombusha/Greentea mix and it works fantastic. During the cold and flu season I just up the dosage a bit. I still catch colds but it never gets past the stage of just starting to come down with it. Never becomes a full blown cold. Why pay for terrible medical care when you can care for yourself in a much friendlier healthier manner?
+
+manner?, Kombusha, Greentea, mediteranian, good, eat, bit, healthier, colds, vegatables, diet, health, fantastic, starting, dose, terrible, care, mix, generally, dosage, season, flu, cold, loads, catch, full, fruits, pay, fish, medical, daily, product, small, blown, past, friendlier, years, works, Granted, stage, 
+manner?, Kombusha, Greentea, mediteranian, good, eat, bit, healthier, colds, vegatables, diet, health, fantastic, starting, dose, terrible, care, mix, generally, dosage, season, flu, cold, loads, catch, full, fruits, pay, fish, medical, daily, product, small, blown, past, friendlier, years, works, Granted, stage, 

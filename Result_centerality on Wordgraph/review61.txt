@@ -1,0 +1,13 @@
+product/productId: B0009DVE7Q
+product/title: Replacement Bulb For Use With Hand Held Massager Infrarex Light Professional Infrared Massager
+product/price: unknown
+review/userId: A22TJPVCJR4JBN
+review/profileName: Linda
+review/helpfulness: 0/0
+review/score: 5.0
+review/time: 1354492800
+review/summary: Great product
+review/text: USING THIS PRODUCT FOR SORE MUSCLES OF MY OWN AND OTHERS. PROVIDES A DEEP HEAT SOOTHING RELIEF. CAN'T WAIT FOR IT TO BE BACK ON THE MARKET
+
+MUSCLES, BACK, SORE, WAIT, RELIEF, 
+MUSCLES, BACK, SORE, WAIT, RELIEF, 

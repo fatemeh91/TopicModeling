@@ -1,0 +1,13 @@
+product/productId: B0002406C6
+product/title: Zand Insure Herbal Formula
+product/price: 11.74
+review/userId: A1LKY3OSP60FD6
+review/profileName: antonia
+review/helpfulness: 3/3
+review/score: 5.0
+review/time: 1308268800
+review/summary: It works!!
+review/text: I am a personal trainer, work a full timejob, teach 5 classes a week at the gym and take care of my children and family. Needless to say, but I put a lot of stress and strain on my body. Before I discovered this I would often get sick because I was so wore down. Someone recommended this product to me. I was very surprised that it actually worked. I always keep some on hand now and recommend it to everyone for immunity support. The taste is horrible but for me, the liquid is the only one that is so highly effective. Take in a small swallow of OJ, then drink a glass of OJ to kill the taste!
+
+work, sick, lot, teach, recommend, horrible, stress, swallow, put, care, classes, gym, drink, family, worked, recommended, kill, taste, personal, children, body, 
+work, sick, lot, teach, recommend, horrible, stress, swallow, put, care, classes, gym, drink, family, worked, recommended, kill, taste, personal, children, body, 

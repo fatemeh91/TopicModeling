@@ -1,0 +1,13 @@
+product/productId: B0002AQLY2
+product/title: Evercare Pet Hair Adhesive Roller
+product/price: 7.95
+review/userId: A9NVMZNKUIH4F
+review/profileName: nance
+review/helpfulness: 2/2
+review/score: 5.0
+review/time: 1349740800
+review/summary: sticky situation ,evercare pet hair removers
+review/text: i've used evercare productss before.I expected it to work as well as their lint removers.Well it didn't .It worked better.I have a dog but I am rediculously bent about there being hair all over me and my home. Absolutely no hair ,anywhere.
+
+productss, evercare, hair, work, didn, rediculously, lint, worked, removers, bent, dog, Absolutely, home, expected, 
+productss, evercare, hair, work, didn, rediculously, lint, worked, removers, bent, dog, Absolutely, home, expected, 

@@ -1,0 +1,13 @@
+product/productId: B0002406BW
+product/title: Zand Herbal Mist Throat Spray
+product/price: 5.11
+review/userId: A1JMOGVDVSC0VS
+review/profileName: Angeline Haw
+review/helpfulness: 0/1
+review/score: 1.0
+review/time: 1358899200
+review/summary: My Daughter Hates It
+review/text: I got this throat spray in a hurry hoping to relieve my 3.5 yo daughter from a bad sore throat. It tastes awful, and it's just not meant for a young child. I got it after a recommendation from another mom, and it was a bad decision. I'll keep it to numb a scratched-up knee or elbow.
+
+sore, numb, mom, elbow, awful, knee, bad, daughter, scratched, hurry, 
+sore, numb, mom, elbow, awful, knee, bad, daughter, scratched, hurry, 

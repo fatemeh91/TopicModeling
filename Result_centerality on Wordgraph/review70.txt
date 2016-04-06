@@ -1,0 +1,13 @@
+product/productId: B000N8X01U
+product/title: California Exotics Double Dolphin Arouser
+product/price: 18.62
+review/userId: A3MW55RTGWEUSZ
+review/profileName: R. Butwin
+review/helpfulness: 1/1
+review/score: 2.0
+review/time: 1216080000
+review/summary: Didn't do much
+review/text: Maybe my husband is bigger than normal but we had the hardest time getting this on. Once it was on we wanted it off pretty quick. The vibrations weren't very strong and one of the vibes was stuck in the on position so we had to remove batteries to turn it off. I didn't get any benefit from it and I don't think he got much.
+
+didn, pretty, wanted, weren, stuck, time, turn, bigger, 
+didn, pretty, wanted, weren, stuck, time, turn, bigger, 

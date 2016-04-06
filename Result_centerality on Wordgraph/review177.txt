@@ -1,0 +1,13 @@
+product/productId: B0001VVGLU
+product/title: Vitex Chaste Berry Extract 225 mg By Solaray - 60 Capsules
+product/price: 10.19
+review/userId: A1EV81KR8DZBH
+review/profileName: Recycler
+review/helpfulness: 2/2
+review/score: 5.0
+review/time: 1339545600
+review/summary: Pretty sure it's working.
+review/text: I started taking this because I have irregular menstrual cycles and I want to get pregnant. So far I've been taking this Solaray Vitex for 3-4 months. I'm not pregnant yet but my cycles are getting closer to what is considered normal. They used to be anywhere from 30-45 days and now I'm running more like 32-34 days. On a side note, about two years ago I bought some Vitex for PMS and it didn't seem to work. Later I found out from reading that it's the Vitex Extract that is supposed to be more effective for these feminine problems and what I had purchased before was just Vitex Fruit. I'm not sure whether or not the Solaray Vitex Extract I'm taking now is helping my PMS crabbiness but I think it is helping with my bloating.
+
+months, days, years, normal, menstrual, started, supposed, bought, pregnant, work, found, cycles, ago, taking, bloating, crabbiness, problems, 
+months, days, years, normal, menstrual, started, supposed, bought, pregnant, work, found, cycles, ago, taking, bloating, crabbiness, problems, 

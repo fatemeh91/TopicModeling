@@ -1,0 +1,13 @@
+product/productId: B000POUJHK
+product/title: Calcium Magnesium Zinc Plus Vitamin D by Bluebonnet - 120 Softgels
+product/price: 14.99
+review/userId: A31D5HQ8EQZ293
+review/profileName: bobbysgirl
+review/helpfulness: 1/1
+review/score: 5.0
+review/time: 1344124800
+review/summary: Great product
+review/text: I love this product and love this company...all of their supplements are superb quality!!! I finshed my bottle and need to buy another one. Much better than the liquid form that you have to drink.
+
+product, liquid, drink, bottle, quality, supplements, 
+product, liquid, drink, bottle, quality, supplements, 

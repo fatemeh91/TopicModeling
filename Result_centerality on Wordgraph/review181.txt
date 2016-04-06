@@ -1,0 +1,13 @@
+product/productId: B0001VVGLU
+product/title: Vitex Chaste Berry Extract 225 mg By Solaray - 60 Capsules
+product/price: 10.19
+review/userId: A3V9WLVPX12AHR
+review/profileName: Kat
+review/helpfulness: 1/1
+review/score: 4.0
+review/time: 1350777600
+review/summary: It's Working...
+review/text: My husband and I have been TTC for 2 yrs with no luck (yet) so after much research I decided to order Vitex. My cycles were anywhere between 35-40 days and I had little to no CM. I took it as directed last month and noticed 100% improvement in my CM and I ovulated on day 15 which is unheard of for me! So far, this cycle seems to be identical to last month which is awesome! I haven't gotten a BFP yet but it has helped regulate my cycle!
+
+days, cycles, day, month, cycle, ovulated, unheard, yrs, %, decided, noticed, 
+days, cycles, day, month, cycle, ovulated, unheard, yrs, %, decided, noticed, 

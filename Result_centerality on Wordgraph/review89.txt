@@ -1,0 +1,13 @@
+product/productId: B0002406C6
+product/title: Zand Insure Herbal Formula
+product/price: 11.74
+review/userId: A2ASUAHWRI2PAK
+review/profileName: me12321
+review/helpfulness: 1/1
+review/score: 5.0
+review/time: 1340668800
+review/summary: This producct is amazing!
+review/text: As the other reviewers stated, when taken as soon as you feel something coming on (for me it's either the beginning of a sore throat, with or without a headache, or that run-down feeling right before getting sick), this product has stopped those symptoms from advancing into something worse. My last two bottles have had a long shelf life /expiration date. I keep it in a cool, dark cupboard and seal it tight. They each worked more than a year after purchase. Come to think of it, I don't take any other products, just this one. And the taste isn't that bad to me...it's odd, herbal-y, not pleasant, but ok. Well worth the results!
+
+bad, feeling, coming, feel, sick, cool, pleasant, taste, long, worse, headache, sore, dark, isn, beginning, odd, worth, symptoms, 
+bad, feeling, coming, feel, sick, cool, pleasant, taste, long, worse, headache, sore, dark, isn, beginning, odd, worth, symptoms, 

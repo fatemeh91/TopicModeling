@@ -1,0 +1,13 @@
+product/productId: B0002DUT9C
+product/title: PediFix No Sore Feet Stretch Socks
+product/price: 9.06
+review/userId: A3INGA41VD0TIR
+review/profileName: Timothy A. Wolfe
+review/helpfulness: 1/1
+review/score: 5.0
+review/time: 1327708800
+review/summary: Socks for Cast
+review/text: The package came ahead of schedule and in a nick of time because it started to get really cold, snowy with freezing rain and these socks came in handy to keep my toes warm and dry over my CAST. I plan on buying more because it is really nasty weather up here in New England and I have to wash them often. Also these look a lot better than others posted/advertised on Amazon because some look just like a surgeons mask instead of a sock.
+
+cold, warm, dry, weather, snowy, socks, freezing, rain, sock, wash, nasty, handy, lot, time, 
+cold, warm, dry, weather, snowy, socks, freezing, rain, sock, wash, nasty, handy, lot, time, 

@@ -1,0 +1,13 @@
+product/productId: B0002DUT9C
+product/title: PediFix No Sore Feet Stretch Socks
+product/price: 9.06
+review/userId: AJWI8DS7AD3B8
+review/profileName: Healing Holistically
+review/helpfulness: 0/0
+review/score: 5.0
+review/time: 1358812800
+review/summary: Perfect
+review/text: Warm, soft and cozy. I ordered this for my mom's broken foot, thinking it was made for a cast (I guess the reviews made it show up in my search?) and had a good laugh when they arrived as a pair and we realized these were just regular -- albeit very, very, very large -- socks. Highly recommended for abnormally large feet and/or foot casts.Thanks, Pedifix :D
+
+search?, Pedifix, guess, good, laugh, thinking, socks, foot, feet, pair, made, realized, mom, casts, cozy, soft, broken, albeit, Warm, cast, show, regular, large, arrived, abnormally, recommended, ordered, Highly, 
+search?, Pedifix, guess, good, laugh, thinking, socks, foot, feet, pair, made, realized, mom, casts, cozy, soft, broken, albeit, Warm, cast, show, regular, large, arrived, abnormally, recommended, ordered, Highly, 

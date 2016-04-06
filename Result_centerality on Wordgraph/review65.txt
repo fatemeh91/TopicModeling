@@ -1,0 +1,13 @@
+product/productId: B0009DVE7Q
+product/title: Replacement Bulb For Use With Hand Held Massager Infrarex Light Professional Infrared Massager
+product/price: unknown
+review/userId: A2KDZVD9SCC5NS
+review/profileName: Ken "Ken, computer nut"
+review/helpfulness: 0/0
+review/score: 4.0
+review/time: 1286323200
+review/summary: Infrared Massager and Heating Device
+review/text: I received the product in a timely manner. It was as advertised. I have used it a number of times and it works well although I haven't gotten the results from it I had hoped for. No fault of the seller or the product though.
+
+advertised, product, timely, seller, works, number, results, received, 
+advertised, product, timely, seller, works, number, results, received, 

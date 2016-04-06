@@ -1,0 +1,13 @@
+product/productId: B0001VVGLU
+product/title: Vitex Chaste Berry Extract 225 mg By Solaray - 60 Capsules
+product/price: 10.19
+review/userId: A1L7R2764ED46Y
+review/profileName: G. Hembrough
+review/helpfulness: 14/15
+review/score: 5.0
+review/time: 1235779200
+review/summary: REGULATES MENSTRAL CYCLE!
+review/text: I have always had a normal menstral cycle until about a year ago when I stopped getting my period. I went to the doctor and they prescribed Provera for me to take for a week every four months to get my period. I wanted to get my period regulated again to having it every month like I had it before. I read in a book that Chaste Berry Extract could make that possible. It said it could take a few months but I thought I would give it a try. I have been taking it (one pill a day) for months now and for the first few months, the change was minimal but I could tell a little bit of a difference. Now it seems to be working, it is a lot more regulated than it was. I've only had to take the Provera one time during the first few months of taking this extract. Hopefully soon I won't need the Provera at all! I will continue to take this product for a long while. If you are having the same problem as me, I STRONGLY recommend this! I've also heard it helps improve inferility!
+
+inferility, menstral, time, day, week, thought, month, wanted, year, lot, months, bit, give, make, normal, change, stopped, long, recommend, improve, period, difference, continue, prescribed, taking, read, cycle, helps, heard, problem, pill, working, doctor, minimal, ago, book, won, product, regulated, extract, Berry, Provera, Extract, STRONGLY, Chaste, 
+inferility, menstral, time, day, week, thought, month, wanted, year, lot, months, bit, give, make, normal, change, stopped, long, recommend, improve, period, difference, continue, prescribed, taking, read, cycle, helps, heard, problem, pill, working, doctor, minimal, ago, book, won, product, regulated, extract, Berry, Provera, Extract, STRONGLY, Chaste, 

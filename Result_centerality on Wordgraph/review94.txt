@@ -1,0 +1,13 @@
+product/productId: B0002406C6
+product/title: Zand Insure Herbal Formula
+product/price: 11.74
+review/userId: A2QFJ1WLW9HA65
+review/profileName: Totentanz1980
+review/helpfulness: 0/0
+review/score: 5.0
+review/time: 1353888000
+review/summary: Great value
+review/text: This particular product is a great value over the smaller bottles. You are basically stupid not to order this size if this is a product you use a lot. Obviously you know the benefits of this product if you are reading this. Yes, it is a great product for staying healthy. For anyone looking for anything with the herbs contained in this, look no further, just buy this one.
+
+basically, lot, great, healthy, smaller, size, stupid, buy, 
+basically, lot, great, healthy, smaller, size, stupid, buy, 

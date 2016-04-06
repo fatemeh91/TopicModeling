@@ -1,0 +1,13 @@
+product/productId: B0009DVE7Q
+product/title: Replacement Bulb For Use With Hand Held Massager Infrarex Light Professional Infrared Massager
+product/price: unknown
+review/userId: AXOIVPCVO27NQ
+review/profileName: massage mom
+review/helpfulness: 8/11
+review/score: 2.0
+review/time: 1200873600
+review/summary: heat therapy
+review/text: I used this product a couple of times and was not really impressed. To get good results I guess you would have to use it in a specific area for a good length of time, otherwise not much good.
+
+time, good, guess, times, couple, 
+time, good, guess, times, couple, 

@@ -1,0 +1,13 @@
+product/productId: B0002406C6
+product/title: Zand Insure Herbal Formula
+product/price: 11.74
+review/userId: A1OV5INAL7YGMZ
+review/profileName: Jaytee
+review/helpfulness: 0/0
+review/score: 5.0
+review/time: 1360800000
+review/summary: The very best that's out there.
+review/text: I have used this product for 23 years. Nothing even comes close to nipping the cold or flu in the bud. Yes the taste is not great, but I would take 30 seconds of a bad taste in my mouth over getting sick (for 1 to 3 weeks and missing work) any day. I take this when I start to get that little tickle in the back of my throat, or feel any semblance to a cold or flu symptom. This is one of 2 products I keep on hand at all times. Oscillococcinum is equally as effective for those flu symptoms. Buy a box of 6 doses and take one when you start to feel that aching weird feeling in your body and in your head.Zand Insure Herbal cured my chronic cough that I had for 5 years, in 5 days, no joke. I had gone to 3 different doctors and no one could tell me what the hell was going on. I walked into a health food store coughing and the owner gave me a bottle of Zand liquid Immune Herbal (as it was called back in the early 90's) been using it ever since, in fact I ended up getting a job there and worked for him for 10 years. Thank you Janet Zand for creating a truly remarkable product.
+
+sick, feeling, bad, cough, weird, feel, symptoms, coughing, Oscillococcinum, days, aching, cold, symptom, back, day, mouth, start, chronic, taste, weeks, cured, joke, doctors, flu, great, throat, times, bottle, job, work, health, hell, 
+sick, feeling, bad, cough, weird, feel, symptoms, coughing, Oscillococcinum, days, aching, cold, symptom, back, day, mouth, start, chronic, taste, weeks, cured, joke, doctors, flu, great, throat, times, bottle, job, work, health, hell, 

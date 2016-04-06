@@ -1,0 +1,13 @@
+product/productId: B000GI0J6G
+product/title: Welch Allyn Suretemp Plus 690 Electronic Thermometer #01690-200
+product/price: 257.99
+review/userId: A18TFKE2I0DERJ
+review/profileName: Hasan
+review/helpfulness: 0/0
+review/score: 5.0
+review/time: 1336694400
+review/summary: Good deal
+review/text: It is the best and easy way to purchase your needs ,it is safe in money and time thanks to amazone
+
+money, easy, time, safe, 
+money, easy, time, safe, 

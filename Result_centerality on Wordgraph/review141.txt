@@ -1,0 +1,13 @@
+product/productId: B000GI0J6G
+product/title: Welch Allyn Suretemp Plus 690 Electronic Thermometer #01690-200
+product/price: 257.99
+review/userId: A1XAA4PBYYSG67
+review/profileName: ned
+review/helpfulness: 0/0
+review/score: 5.0
+review/time: 1357344000
+review/summary: Excellent product
+review/text: Very sturdy. Holds up well and performs accurately for long periods, even in the context of high humidity and difficult conditions in a developing world hospital.
+
+long, difficult, accurately, conditions, high, humidity, periods, sturdy, developing, 
+long, difficult, accurately, conditions, high, humidity, periods, sturdy, developing, 

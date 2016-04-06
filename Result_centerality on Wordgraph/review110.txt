@@ -1,0 +1,13 @@
+product/productId: B0002DUT9C
+product/title: PediFix No Sore Feet Stretch Socks
+product/price: 9.06
+review/userId: A1OB9JEK466FGY
+review/profileName: yekagan
+review/helpfulness: 1/1
+review/score: 4.0
+review/time: 1318723200
+review/summary: Decent product
+review/text: I ordered the largest size of the sock but my cast is too big for it to completely go over the entire thing. However, it does cover my toes and keeps them warm. Overall, I'm a happy camper with these. If you have a smaller cast, they work perfectly.Pedifix Stretch Socks
+
+big, thing, size, entire, happy, perfectly, sock, completely, smaller, toes, warm, 
+big, thing, size, entire, happy, perfectly, sock, completely, smaller, toes, warm, 

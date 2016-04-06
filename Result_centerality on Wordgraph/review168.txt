@@ -1,0 +1,13 @@
+product/productId: B0001VVGLU
+product/title: Vitex Chaste Berry Extract 225 mg By Solaray - 60 Capsules
+product/price: 10.19
+review/userId: ATBRKFSL0V9OW
+review/profileName: K. Hirsch "Animal Lover"
+review/helpfulness: 3/4
+review/score: 1.0
+review/time: 1342396800
+review/summary: Made Me Feel Worse!
+review/text: A friend suggested this herb to me to help with my awful PMS. After taking Vitex for only three days during PMS, I began to feel horrible: very irritable, nauseous and foggy. After doing some research, I found that a percentage of women react very negatively to this herb -- some people remarked that they initially felt better, but then progressively felt worse and thought they were going crazy; some said they immediately felt terrible. I guess it's a gamble that many of us are willing to take to feel better though. Wish it had worked!
+
+thought, horrible, felt, terrible, guess, awful, feel, nauseous, worse, irritable, people, remarked, suggested, 
+thought, horrible, felt, terrible, guess, awful, feel, nauseous, worse, irritable, people, remarked, suggested, 

@@ -1,0 +1,13 @@
+product/productId: B00023DDTA
+product/title: Jobst Ultrasheer 15-20 mmHg Pantyhose
+product/price: 57.26
+review/userId: A35IUG9J5BZCA1
+review/profileName: agustin iglesia
+review/helpfulness: 0/0
+review/score: 4.0
+review/time: 1361404800
+review/summary: Good
+review/text: muy buen producto. rapido facil y a tiempo la entrega. sin contratiempos en todo el proceso. lo recomiendo a a
+
+recomiendo, contratiempos, tiempo, buen, producto, entrega, muy, proceso, en, rapido, el, facil, todo, la, lo, sin, 
+recomiendo, contratiempos, tiempo, buen, producto, entrega, muy, proceso, en, rapido, el, facil, todo, la, lo, sin, 

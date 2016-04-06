@@ -1,0 +1,13 @@
+product/productId: B0002DUT9C
+product/title: PediFix No Sore Feet Stretch Socks
+product/price: 9.06
+review/userId: A3JT3H3CEXCYYT
+review/profileName: R Thomas
+review/helpfulness: 0/0
+review/score: 4.0
+review/time: 1342051200
+review/summary: Perfect for post-surgery footwear
+review/text: I recently had surgery on my ankle after breaking it pretty badly & needed to find socks to wear under my brace (aircast boot). My doc said I could just wear my own socks, but my own socks are way too tight to comfortably wear with my swollen foot & ankle. I found these & they're perfect to comfortably fit without putting any pressure on my incredibly sensitive foot. The only con would be the price - not sure why it's so expensive to make what are basically incredibly lightweight mesh socks (they do have extra padding on the feet, but they're still very light/thin socks). But ultimately, they're worth the price for me (so much so I'm buying a second pair).
+
+pretty, fit, boot, padding, tight, basically, putting, thin, expensive, needed, socks, wear, incredibly, make, mesh, find, perfect, brace, extra, comfortably, foot, pair, lightweight, worth, badly, ankle, feet, 
+pretty, fit, boot, padding, tight, basically, putting, thin, expensive, needed, socks, wear, incredibly, make, mesh, find, perfect, brace, extra, comfortably, foot, pair, lightweight, worth, badly, ankle, feet, 

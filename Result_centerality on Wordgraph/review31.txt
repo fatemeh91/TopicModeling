@@ -1,0 +1,13 @@
+product/productId: B0002406BW
+product/title: Zand Herbal Mist Throat Spray
+product/price: 5.11
+review/userId: A3EXWV8FNSSFL6
+review/profileName: Daniel G. Lebryk
+review/helpfulness: 3/3
+review/score: 5.0
+review/time: 1290816000
+review/summary: Works Great - Tastes Awful
+review/text: This has to be the worst tasting spray in the universe, it is simply awful. But, it works incredibly well.Two sprays just before going to bed and it seems to help whenever my throat feels raw or I have a slight cough. Nothing scientific, but it also seems to help with my snoring. There is a double benefit. I don't use this every night, only when my throat feels a bit raw.Over time I've gotten used to the nasty taste. Because it works so well, it's beginning to taste just fine. The flavor is a bit like those ancient horehound drops my grandmother made me take, without the sweetness (Horehound Drops Bag: 24 Count).I'd like to claim that this spray cures all diseases and makes you more attractive - but it really only has two uses in my book, sore throat and snoring.
+
+horehound, bit, taste, awful, sweetness, flavor, nasty, makes, feels, cough, tasting, sprays, Horehound, drops, simply, spray, sore, incredibly, cures, throat, slight, time, raw, 
+horehound, bit, taste, awful, sweetness, flavor, nasty, makes, feels, cough, tasting, sprays, Horehound, drops, simply, spray, sore, incredibly, cures, throat, slight, time, raw, 

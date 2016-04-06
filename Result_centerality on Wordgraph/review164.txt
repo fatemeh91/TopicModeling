@@ -1,0 +1,13 @@
+product/productId: B00023DDS6
+product/title: Jobst Ultrasheer 15-20 mmHg Pantyhose
+product/price: 50.00
+review/userId: ABY5HO9UBX91P
+review/profileName: Dina L. Bruzek
+review/helpfulness: 0/0
+review/score: 2.0
+review/time: 1354924800
+review/summary: Also ran the first time I wore them
+review/text: I put them on at the doctor's office and the first time I had to take them off, sure enough, ran them. Otherwise, liked them very much.
+
+put, time, ran, 
+put, time, ran, 

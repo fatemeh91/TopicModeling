@@ -1,0 +1,13 @@
+product/productId: B000GI0J6G
+product/title: Welch Allyn Suretemp Plus 690 Electronic Thermometer #01690-200
+product/price: 257.99
+review/userId: A21FCIYLM0XKAH
+review/profileName: K. Nguyen
+review/helpfulness: 0/0
+review/score: 4.0
+review/time: 1341360000
+review/summary: Just like the hospital and doc's clinic
+review/text: I bought 3 other types of thermometers -temporal scan, auxuliary thermometer (but), oral thermometer, but was getting tired of guessing her temperature. I just decided to purchase this one, the same one used by my hospital and personal doc. So happy to have peace of mind.
+
+thermometers, thermometer, mind, temperature, guessing, happy, scan, tired, 
+thermometers, thermometer, mind, temperature, guessing, happy, scan, tired, 

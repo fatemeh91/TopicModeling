@@ -1,0 +1,13 @@
+product/productId: B0002AQLY2
+product/title: Evercare Pet Hair Adhesive Roller
+product/price: 7.95
+review/userId: AQ3PYZ5BTINUV
+review/profileName: Whitney A Joslin
+review/helpfulness: 0/0
+review/score: 5.0
+review/time: 1355097600
+review/summary: Gets the job done right!
+review/text: I have two long haired cats and these are by far my favorite lint rollers--super sticky and gets the job done in record time.
+
+sticky, long, time, haired, lint, rollers, 
+sticky, long, time, haired, lint, rollers, 

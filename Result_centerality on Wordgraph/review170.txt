@@ -1,0 +1,13 @@
+product/productId: B0001VVGLU
+product/title: Vitex Chaste Berry Extract 225 mg By Solaray - 60 Capsules
+product/price: 10.19
+review/userId: A2AZAGU49TY5P6
+review/profileName: SW
+review/helpfulness: 0/0
+review/score: 4.0
+review/time: 1359936000
+review/summary: Seems to Work
+review/text: So far I have no complaints. It seems to be working, but I think in more time, I will know if I absolutely love it. I have low progesterone and suffer from PMDD. My last cycle, my pms symptoms were less pronounced, so I think it is working.
+
+PMDD, progesterone, symptoms, suffer, pms, 
+PMDD, progesterone, symptoms, suffer, pms, 

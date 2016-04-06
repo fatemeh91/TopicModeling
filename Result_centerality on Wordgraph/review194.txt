@@ -1,0 +1,13 @@
+product/productId: B000278AFI
+product/title: Jobst Women's UltraSheer Firm Support Thigh Highs
+product/price: 72.95
+review/userId: A3HJUN1OFY5E6M
+review/profileName: just marylou
+review/helpfulness: 0/0
+review/score: 5.0
+review/time: 1344384000
+review/summary: just marylou
+review/text: I must tell anyone who wears these stockings...I wear them everyday...thigh highs...you need to get the Jobst "It Stays" roll on body fixative and just put a couple of dots around your legs at the top of where the stockings will be...they WILL NOT ROLL DOWN...They stay put ALL day for me. I wouldn't even put them on with out it.
+
+"It, Stays", wear, wears, legs, put, thigh, stay, roll, day, wouldn, stockings, everyday, couple, body, highs, top, Jobst, fixative, ROLL, dots, 
+"It, Stays", wear, wears, legs, put, thigh, stay, roll, day, wouldn, stockings, everyday, couple, body, highs, top, Jobst, fixative, ROLL, dots, 

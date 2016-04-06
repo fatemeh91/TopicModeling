@@ -1,0 +1,13 @@
+product/productId: B000GI0J6G
+product/title: Welch Allyn Suretemp Plus 690 Electronic Thermometer #01690-200
+product/price: 257.99
+review/userId: AYA52086AIH6V
+review/profileName: Guy Percival
+review/helpfulness: 5/6
+review/score: 5.0
+review/time: 1231804800
+review/summary: Takes Temperature Fast & Is really Reliable
+review/text: I am tracking my temperature every morning and need a thermometer with a screen that is easy to read. This one is great. Bought two others cheaper ones that broke in use quickly. Really does take my temperature in 4 seconds.
+
+easy, thermometer, temperature, quickly, screen, 
+easy, thermometer, temperature, quickly, screen, 

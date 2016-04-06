@@ -1,0 +1,13 @@
+product/productId: B000GI0J6G
+product/title: Welch Allyn Suretemp Plus 690 Electronic Thermometer #01690-200
+product/price: 257.99
+review/userId: A1EZN8BLC9NOZB
+review/profileName: K. Rogers
+review/helpfulness: 1/1
+review/score: 5.0
+review/time: 1317772800
+review/summary: Great product
+review/text: I purchased this because I had FSA money I HAD to use. That being said, I am happy I made the purchase. While this is obviously a very expensive device, it reads a temperature very quickly which comes in handy when dealing with sick toddlers.
+
+expensive, purchase, purchased, handy, money, sick, happy, quickly, 
+expensive, purchase, purchased, handy, money, sick, happy, quickly, 

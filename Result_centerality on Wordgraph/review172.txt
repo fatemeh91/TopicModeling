@@ -1,0 +1,13 @@
+product/productId: B0001VVGLU
+product/title: Vitex Chaste Berry Extract 225 mg By Solaray - 60 Capsules
+product/price: 10.19
+review/userId: A2X0ZAK9SHBZKT
+review/profileName: Michelle N. Wehrli
+review/helpfulness: 0/2
+review/score: 1.0
+review/time: 1353801600
+review/summary: made my head spin
+review/text: this made me really dizzy so I had to stop using it after only one use. I ended up tossing it out.
+
+ended, stop, made, 
+ended, stop, made, 

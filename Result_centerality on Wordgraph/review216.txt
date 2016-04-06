@@ -1,0 +1,13 @@
+product/productId: B0007IQQ76
+product/title: Duro-Med 1046 Compact Folding Steel Frame Transport Chair with Hand Brakes, Burgundy
+product/price: 146.47
+review/userId: A1A0JAQ623VE2Y
+review/profileName: William Howard
+review/helpfulness: 0/0
+review/score: 5.0
+review/time: 1359244800
+review/summary: Great Chair.
+review/text: Has been a great transport chair for my wife. Easily to get my wife into and also easier to push her arond in then a wheel chair.
+
+easier, wheel, great, push, chair, 
+easier, wheel, great, push, chair, 

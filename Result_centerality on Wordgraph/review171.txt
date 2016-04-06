@@ -1,0 +1,13 @@
+product/productId: B0001VVGLU
+product/title: Vitex Chaste Berry Extract 225 mg By Solaray - 60 Capsules
+product/price: 10.19
+review/userId: A1GUKCOFNNC615
+review/profileName: Linda_5757
+review/helpfulness: 0/0
+review/score: 5.0
+review/time: 1349136000
+review/summary: Regulator! Mount up ;)
+review/text: I started taking Vitex after reading about it on many fertility sites. My husband and I have been trying to conceive for over 6 months and are trying everything to make it happen before he deploys. I have always had irregular periods- even my first one was. I had been on birth control mainly to regulate my periods before meeting my husband, and then afterwards to prevent pregnancy. I was having two periods a month or one every 45 days- just all over the map. Since coming off of birth control 7 months ago, my cycles would vary in length between 25 and 35 days. It was driving me crazy having to wonder for weeks at a time if I was just "late" again or if I was pregnant. Then when the cycles were shorter, my luetal phase was not long enough to carry out implantation, thsu preventing pregnancy. So I ordered Vitex. I have had a regular 27 day cycle for four months now. I can even pinpoint the exact day I will start my period which has NEVER happened. I will be taking this from now on instead of birth control (after a pregnancy- hopefully!) to regulate my cycles. I highly reccomend it.
+
+luetal, thsu, "late", time, days, weeks, months, day, periods, happen, period, start, month, cycles, cycle, coming, pregnancy, conceive, happened, long, phase, shorter, started, birth, pregnant, regular, make, crazy, carry, exact, taking, prevent, implantation, pinpoint, control, ago, preventing, regulate, fertility, length, vary, irregular, reading, driving, sites, husband, reccomend, meeting, map, ordered, deploys, highly, Vitex, 
+luetal, thsu, "late", time, days, weeks, months, day, periods, happen, period, start, month, cycles, cycle, coming, pregnancy, conceive, happened, long, phase, shorter, started, birth, pregnant, regular, make, crazy, carry, exact, taking, prevent, implantation, pinpoint, control, ago, preventing, regulate, fertility, length, vary, irregular, reading, driving, sites, husband, reccomend, meeting, map, ordered, deploys, highly, Vitex, 

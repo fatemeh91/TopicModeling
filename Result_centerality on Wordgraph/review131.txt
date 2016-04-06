@@ -1,0 +1,13 @@
+product/productId: B0002DUT9M
+product/title: PediFix No Sore Feet Stretch Socks
+product/price: 9.39
+review/userId: A3TQK6UFQIQAB7
+review/profileName: Edie in the south
+review/helpfulness: 0/0
+review/score: 5.0
+review/time: 1358812800
+review/summary: Perfect sock for wearing with any walking cast (AirCast)
+review/text: This sock saved me from immeasurable pain and discomfort. It gently stretches to go on painlessly; trust me if you break your foot, your old athletic socks will not do, they will kill your broken toe/ foot. The other thing I was desperately looking for when I turned to Amazon, was a sock that would wick away moisture, and not make my foot too hot. This sock is AMAZINGLY dry. And, it is odor free. Just as advertised.My tip: If your foot is extremely swollen I would buy two sizes. When your foot returns to it's normal size you will be glad to have the extra pair. It is a long hard recovery. If your boot and foot can handle it, you can wear double up your socks two, if your walking cast boot captures too much heat and foot perspiration.You always wanted more time to read?!!!
+
+read?, painlessly;, sock, socks, wear, boot, thing, hard, dry, break, extra, toe, time, pain, perspiration, discomfort, long, hot, make, foot, heat, glad, swollen, wick, stretches, tip, broken, moisture, wanted, handle, turned, walking, normal, desperately, size, pair, free, extremely, gently, athletic, saved, buy, sizes, kill, returns, odor, double, recovery, AMAZINGLY, immeasurable, cast, trust, Amazon, advertised, captures, 
+read?, painlessly;, sock, socks, wear, boot, thing, hard, dry, break, extra, toe, time, pain, perspiration, discomfort, long, hot, make, foot, heat, glad, swollen, wick, stretches, tip, broken, moisture, wanted, handle, turned, walking, normal, desperately, size, pair, free, extremely, gently, athletic, saved, buy, sizes, kill, returns, odor, double, recovery, AMAZINGLY, immeasurable, cast, trust, Amazon, advertised, captures, 

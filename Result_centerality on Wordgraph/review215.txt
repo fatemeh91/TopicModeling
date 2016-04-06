@@ -1,0 +1,13 @@
+product/productId: B00062QUC4
+product/title: Magnetic Elbow Brace
+product/price: unknown
+review/userId: A1KGFAINVQK1U3
+review/profileName: Rakesh
+review/helpfulness: 0/0
+review/score: 1.0
+review/time: 1095897600
+review/summary: Unreliable
+review/text: Since I have ordered for this product and inspite of the company debiting the total amount for the product from my account, I have not recieved the product till date. The company promises to deliver the product in 12 hrs but its approx more than 3 weeks since the amount was debited but till now, the product hasnt reached me. The company doesnt respond to email queries and its toll free number (the only other point of contact mentioned from their end other than email address) always sounds busy and goes to voicemail.
+
+hasnt, doesnt, date, debited, email, amount, number, total, account, voicemail, debiting, till, address, end, approx, queries, toll, respond, contact, hrs, recieved, reached, point, deliver, mentioned, inspite, free, product, busy, promises, weeks, ordered, company, sounds, 
+hasnt, doesnt, date, debited, email, amount, number, total, account, voicemail, debiting, till, address, end, approx, queries, toll, respond, contact, hrs, recieved, reached, point, deliver, mentioned, inspite, free, product, busy, promises, weeks, ordered, company, sounds, 

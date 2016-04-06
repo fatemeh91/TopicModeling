@@ -1,0 +1,13 @@
+product/productId: B00023DDSG
+product/title: Jobst Ultrasheer 15-20 mmHg Pantyhose
+product/price: 50.00
+review/userId: A2089H8OF82RH4
+review/profileName: Faith
+review/helpfulness: 3/3
+review/score: 5.0
+review/time: 1326758400
+review/summary: Compression Pantyhose
+review/text: My dermatologist tried to sell me these exact pantyhose for a cosmetic procedure I had done. I had some spider veins removed and was told to wear these compression hose after. They wanted to charge me $40 more than Amazon. So I bought mine here and they did exactly what I needed them to. I wore them 48 hours straight.. then daily for seven additional days. I actually found I liked having them on b/c they kept me super warm. Definitely wouldn't want to wear these suing the summer! I never got a snag or run in my hose and I wasn't gentle on them. I have small children and am constantly on the ground playing with them. I washed them in my sink with a little soap and hung them to dry. I'm sure you could wash them in the washing machine on a low cycle but it only took me two mins to wash them by hand in the sink. So no complaints here... good buy!
+
+wash, dry, buy, wear, washing, wouldn, good, bought, wasn, sink, washed, needed, sell, hose, wanted, warm, days, wore, removed, run, pantyhose, hung, small, hours, soap, summer, 
+wash, dry, buy, wear, washing, wouldn, good, bought, wasn, sink, washed, needed, sell, hose, wanted, warm, days, wore, removed, run, pantyhose, hung, small, hours, soap, summer, 

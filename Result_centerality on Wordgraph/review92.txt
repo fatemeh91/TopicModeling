@@ -1,0 +1,13 @@
+product/productId: B0002406C6
+product/title: Zand Insure Herbal Formula
+product/price: 11.74
+review/userId: A1OMI2HAQZ15JZ
+review/profileName: W. JOYCE
+review/helpfulness: 0/0
+review/score: 5.0
+review/time: 1357948800
+review/summary: Taken at First Sign of Cold
+review/text: My wife and I have used this product for a number of years and feel it helps to avoid most colds and lessens the severity of colds that you get. We combine this with an increased dose of Vitamin C when we feel the onset of a cold. We use three stopper full doses three or four times a day when we feel it necessary.
+
+dose, onset, lessens, doses, colds, times, day, cold, increased, severity, 
+dose, onset, lessens, doses, colds, times, day, cold, increased, severity, 

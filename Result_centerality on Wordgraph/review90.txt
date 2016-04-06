@@ -1,0 +1,13 @@
+product/productId: B0002406C6
+product/title: Zand Insure Herbal Formula
+product/price: 11.74
+review/userId: A1R8W7F1R74HUD
+review/profileName: irishwebfoot
+review/helpfulness: 1/1
+review/score: 4.0
+review/time: 1334361600
+review/summary: Insure Herbal works for me
+review/text: If I take this 3 or 4 times a day at the first sign of a cold, it usually makes the symptoms go away. I mix 1 1/2 droppers in a bit of pulpy OJ.... not such a bad taste that way...The key to it working for me seems to be in taking it as soon as I feel the onset of a cold. If I wait a day or two the results aren't as good.
+
+good, bad, bit, feel, taste, wait, cold, aren, 
+good, bad, bit, feel, taste, wait, cold, aren, 
