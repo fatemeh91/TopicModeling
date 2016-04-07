@@ -27,7 +27,7 @@ public class BuildSimGraph {
 		String filename="review"+docno+".txt";
 		FileWriter fw=new FileWriter(filename,true);
 		wg.getMST();
-    	wg.centralityAnalysis(wg.getWordGraph());
+    	wg.centralityAnalysis(wg.getWordGraph(), "exhaustive");
     	wg.filterTopics(-1.0);
     	System.out.println("Topic Words:" + wg.topicToString());
     	System.out.println("it's over!");
