@@ -3,6 +3,8 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 
+import org.netlib.util.booleanW;
+
 /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
@@ -20,10 +22,15 @@ public class Main {
 	 *            the command line arguments
 	 */
 	public static void main(String[] args) throws IOException {
-		W2VUtil.DEBUG_MODE = false;
+		W2VUtil.DEBUG_MODE = true;
 
-		String dspath = "./sample";
+		String dspath = "sample/Health.txt";
+		String splitppath="spilitdata";
+		String reviewpath="review";
 		final Path DSDir = Paths.get(dspath);
+		final Path SDir = Paths.get(splitppath);
+		final Path reviwe_path=Paths.get(reviewpath);
+		final boolean splitds=true;
 		
 		if (!Files.isReadable(DSDir)) {
 			System.out.println("Data set directory '" + DSDir.toAbsolutePath()
@@ -34,7 +41,8 @@ public class Main {
 		
 		
 		WordIndexing loadds=new WordIndexing();
-		loadds.indexDocs(DSDir);// writer + the path of original unindexed documents
+		loadds.split_dataset(DSDir,SDir,reviwe_path,splitds);
+		//loadds.indexDocs(DSDir);// writer + the path of original unindexed documents
 	
 	}
 	
