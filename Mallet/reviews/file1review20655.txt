@@ -1,1 +1,0 @@
-review/text: Works as expected ... Will replace in a year as is recommended in the book.  

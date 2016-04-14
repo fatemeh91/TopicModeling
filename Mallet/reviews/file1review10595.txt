@@ -1,1 +1,0 @@
-review/text: The headline says: "Carlson Laboratories - A & D, 300 softgels", which I interpreted as quantity = 300.But the package quantity is actually 100.Screenshot: [...]I expect that this is unintentional, but it's nonetheless deceptive.Sad, because the actual price for 300 softgels is quite attractive.Fix the headline, and all will be good.  

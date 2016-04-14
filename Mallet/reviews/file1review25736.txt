@@ -1,1 +1,0 @@
-review/text: doesn't seem to rotate fast enough so makes the job a bit too painful  

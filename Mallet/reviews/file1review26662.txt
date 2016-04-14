@@ -1,1 +1,0 @@
-review/text: Does what it needs to do---but has a slow leak so must be reinflated every 24 hours. That's a disappointment.  

@@ -1,1 +1,0 @@
-review/text: Clock that makes vocal announcements of current time, in a female voice, either by an automatic setting or manually by pressing a button on top of the unit. Would be great if the clock would announce, "You have a meeting at &lt;time>", instead of just announcing the time on the hour.  

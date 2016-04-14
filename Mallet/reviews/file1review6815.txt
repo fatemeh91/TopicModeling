@@ -1,1 +1,0 @@
-review/text: Works as advertised. The Loupe needs to be set down on the object your viewing. If you raise the Loupe up, then the object gets blurry.  

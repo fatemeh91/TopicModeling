@@ -1,1 +1,0 @@
-review/text: This was a replacement for an old CVS brand unit. It works great and giv es much more accurate readings.  

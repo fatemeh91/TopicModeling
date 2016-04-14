@@ -1,1 +1,0 @@
-review/text: A complicated running system where it should simply shut itself off, it does not, I find it quite irksome.  

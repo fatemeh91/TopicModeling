@@ -1,1 +1,0 @@
-review/text: Very good except when starting. It starts and then I have to push "clean" in order to clean. How do you make "clean" the default for starting?  

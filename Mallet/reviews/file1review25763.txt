@@ -1,1 +1,0 @@
-review/text: At first this worked great, but after a few months the RPMs went way down, and I don't know how to make it run properly anymore. (Changing batteries and cleaning it don't help much.) When it's spinning slowly, it pinches and doesn't do a very good job.  

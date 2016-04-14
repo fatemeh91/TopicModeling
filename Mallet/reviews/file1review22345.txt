@@ -1,1 +1,0 @@
-review/text: LB-51 cannot be used directly with the i70 or i80 printer. It needs the housing that is only available within the CK-51 or LK-51 (of which, the LB-51 is part of those packages)  
