@@ -1,5 +1,3 @@
-import java.io.FileNotFoundException;
-import java.io.IOException;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.HashMap;
@@ -17,8 +15,14 @@ public class WordGraph {
 	private WeightedGraph<String, DefaultWeightedEdge> wordGraph;
 	private WeightedGraph<String, DefaultWeightedEdge> wordMST;
 	public Vector<String> topicWords;
-	HashMap<String, Double> centralities;
+
 	List<Map.Entry<String, Double>> centralityList ;
+	private HashMap<String, Double> bCentralities;
+	private HashMap<String, Double> dCentralities;
+	private HashMap<String, Double> cCentralities;
+	private HashMap<String, Double> neighborCentralities;
+	private HashMap<String, Double> centralities;
+
 	public WordGraph(){
 		wordGraph = new SimpleWeightedGraph<String, DefaultWeightedEdge>(DefaultWeightedEdge.class);
 		topicWords = new Vector<String>();
@@ -69,15 +73,33 @@ public class WordGraph {
     	}
     	return wordMST;
     }
-    public void centralityAnalysis(WeightedGraph<String, DefaultWeightedEdge> graph)
+    public void centralityAnalysis(WeightedGraph<String, DefaultWeightedEdge> graph, String mode)
     {
+    	this.cCentralities =  new HashMap<String, Double>();
+    	this.bCentralities =  new HashMap<String, Double>();
+    	this.dCentralities =  new HashMap<String, Double>();
     	this.centralities =  new HashMap<String, Double>();
+    	double bc, dc, cc;
+    	
     	CentralityComputer<String, DefaultWeightedEdge> cental = new CentralityComputer<String, DefaultWeightedEdge>(graph);
+    	
     	for(String w : graph.vertexSet())
-    		this.centralities.put(w, cental.findClosenessOf(w)); 
+    	{
+    		cc = cental.findClosenessOf(w);
+    		dc = cental.findDegreeOf(w);
+    		bc = cental.findBetweennessOf(w);
+    		this.cCentralities.put(w, cc);
+    		this.dCentralities.put(w, dc);
+    		this.bCentralities.put(w, bc);
+    		if (mode.equals("exhaustive"))
+    			this.centralities.put(w, cc + dc + bc);
+    		else if (mode.equals("betweenness"))
+    			this.centralities.put(w, bc);
+    		else this.centralities.put(w, cc);
+    	}
+    	System.out.println(this.centralities);
+
     	this.centralities = sortByValues(this.centralities);
-    	centralities = filterTopics(getThreshold("mean"));
-    	this.setTopicWords();
     }
     private double getThreshold(String string) {
     	double sum = 0;
@@ -85,7 +107,7 @@ public class WordGraph {
     	{
     		sum += this.centralities.get(k);
     	}		
-    	System.out.println(sum/this.centralities.size());
+    	System.out.println("Threshold = " + sum/this.centralities.size());
     	return sum/this.centralities.size();
 	}
 	private HashMap<String, Double> sortByValues(HashMap<String, Double> centralities) {
@@ -140,3 +162,4 @@ public class WordGraph {
     	}   
     }
 }
+    
