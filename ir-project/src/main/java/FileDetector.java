@@ -44,17 +44,9 @@ public class FileDetector {
 			}
 			}
 			
-			if(writer==null){
-				System.out.println("\n same doc :"+samedoc+"\n");
-				System.out.println("file number: "+filenumber+"\n");
-				System.out.println("file numebram"+file+"\n");
-				System.out.println("writeram nullle\n");
-				//System.exit(1);
-			}
+		
 			if (samedoc && writer != null) {
-				System.out.println("\n same doc :"+samedoc+"\n");
-				System.out.println("file number: "+filenumber);
-				System.out.println(writer);
+				
 				writer.write(line + "\n");	
 				
 			}
