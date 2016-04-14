@@ -1,0 +1,1 @@
+review/text: The price per ounce Amazon.com lists for this product appears to be incorrect. Amazon lists the the price of an 8.45 ounce bottle as $25.95 ($1.62 per ounce). In fact $1.62 x 8.45oz. would equal $13.69. The price per ounce SHOULD be listed as $3.07 per ounce.  

@@ -1,0 +1,1 @@
+review/text: This is the recommended replacement fro SunzaGo and it works perfectly. Do NOT be confused and get the 3.0V version, it MUST be 3.6V in order to work with Snuza.I was REALLY confused because the battery that came WITH the Snuza said 3.0V on it, and I don't know how to explain it, but 3.0V replacements will not work.  

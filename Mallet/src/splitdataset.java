@@ -3,18 +3,21 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.RandomAccessFile;
 
+import javax.swing.SpinnerListModel;
+
 public class splitdataset {
 String Ds_path;
 String Split_Ds_path;
-	public splitdataset(String Ds_path,String Split_Ds_path){
+	public splitdataset(String Ds_path,String Split_Ds_path) throws IOException{
 		this.Ds_path=Ds_path;
 		this.Split_Ds_path=Split_Ds_path;
+		splitting();
 	}
 	
 	public void splitting() throws IOException{
 		String filepath=Ds_path;
 		 RandomAccessFile raf = new RandomAccessFile(filepath, "r");
-		    long numSplits = 100; //from user input, extract it from args
+		    long numSplits = 10; //from user input, extract it from args
 		    long sourceSize = raf.length();
 		    long bytesPerSplit = sourceSize/numSplits ;
 		    long remainingBytes = sourceSize % numSplits;
@@ -39,7 +42,7 @@ String Split_Ds_path;
 		        bw.close();
 		    }
 		    if(remainingBytes > 0) {
-		        BufferedOutputStream bw = new BufferedOutputStream(new FileOutputStream(Spath+"split"+(numSplits+1)+".txt"));
+		        BufferedOutputStream bw = new BufferedOutputStream(new FileOutputStream(Spath+"/split"+(numSplits+1)+".txt"));
 		        readWrite(raf, bw, remainingBytes);
 		        bw.close();
 		    }

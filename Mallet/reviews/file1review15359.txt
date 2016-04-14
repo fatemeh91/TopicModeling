@@ -1,0 +1,1 @@
+review/text: the locks used to keep it from opening all the way during normal use, but open to empty are poorly designed... i expected more from zippo, and after i learned this was made in china rather than the USA like most of zippo products, things started to make sense.  

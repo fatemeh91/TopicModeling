@@ -1,0 +1,1 @@
+review/text: The unit performs well, but rechargeable NiMH batteries will only power it for a few readings. With that experience, I have not tried using regular alkaline batteries (because of the potential expense). Of course, the included AC adapter solves this minor problem.  

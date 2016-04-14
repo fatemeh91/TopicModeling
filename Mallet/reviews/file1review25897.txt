@@ -1,0 +1,1 @@
+review/text: This charger is very simple. You just put in the battery, select either 2 battery or 4 battery, it starts to work. You can tell whether the charging is completed by looking at the led light.  

@@ -1,0 +1,1 @@
+review/text: The cold and hot functions work great, although you do need to remember that it won't be staying at that temperature for very long. My biggest complaint is that it doesn't really fit my nose. If i leave it on for too long, it gets uncomfortable across the bridge of my nose and I have to take it off.  

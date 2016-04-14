@@ -1,0 +1,1 @@
+review/text: I was concerned that this might leak around the edges, but this works great. It washes easily and looks great.  
