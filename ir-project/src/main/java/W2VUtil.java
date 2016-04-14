@@ -1,12 +1,14 @@
+package org;
+
 /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-import java.io.BufferedWriter;
 import java.io.File;
-import java.io.FileWriter;
 import java.io.IOException;
+import java.util.List;
+
 import org.deeplearning4j.models.embeddings.loader.WordVectorSerializer;
 //import org.deeplearning4j.models.word2vec.Word2Vec;
 import org.deeplearning4j.models.embeddings.wordvectors.*;
@@ -95,5 +97,42 @@ public class W2VUtil {
             e.printStackTrace();
             return -1.0;
         }
+    }
+    public double distance(List<String> y, List<String> p)
+    {
+    	double distSum = 0;
+
+    	if (!DEBUG_MODE)
+    	{
+    		try
+    		{
+    		for (String wy: y)
+    		{
+    			for (String wp: p)
+    			{
+    				if (this.distMeasure == ANGULAR_DIST)
+    	        		distSum +=  Math.acos(vec.similarity(wy, wp)) * 2 / Math.PI;
+    				else
+    					distSum += 1 - vec.similarity(wy, wp);
+    			}
+    		}
+    		}catch(Exception e)
+            {
+                e.printStackTrace();
+                return -1.0;
+            }
+    	}
+    	else 
+    	{
+    		for (String wy: y)
+    		{
+    			for (String wp: p)
+    			{
+    				distSum =+ Math.random();
+    			}
+    		}
+    	}
+    	distSum /= (y.size()*p.size());
+    	return distSum;
     }
 }
