@@ -27,7 +27,7 @@ public class BuildSimGraph {
 		String filename=reviwe_path+"/file"+filenumber+"review"+docno+".txt";
 		FileWriter fw=new FileWriter(filename,true);
 		wg.getMST();
-    	wg.centralityAnalysis(wg.getWordGraph());
+    	wg.centralityAnalysis(wg.getWordGraph(),"exhaustive");
     	wg.filterTopics(-1.0);    	
 		//fw.write(wg.topicToString());		
 		fw.flush();	
