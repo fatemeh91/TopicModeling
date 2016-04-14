@@ -37,7 +37,7 @@ public class WordIndexing {
 		util = new W2VUtil("GoogleNews-vectors-negative300.bin", W2VUtil.ANGULAR_DIST);
 		rawwords = new Stopwords();
 		rawwords.Docno = 0;
-		filenumber=1;
+		filenumber=0;
 	}
 	/*
 	 * first of all spliting our data to be fit in memory
@@ -51,6 +51,7 @@ public class WordIndexing {
 	}
 	// reading all the text files from directory 
 	public void indexDocs(Path DSpath,final Path reviwe_path) throws IOException {
+		System.out.println("Index a single review");
 		if (Files.isDirectory(DSpath)) {
 
 			Files.walkFileTree(DSpath, new SimpleFileVisitor<Path>() {
@@ -59,6 +60,7 @@ public class WordIndexing {
 
 					if (file.getFileName().toString().endsWith(".txt"))
 						filenumber++;
+					System.out.println(filenumber);
 						indexDoc(file,reviwe_path.toString());
 
 					return FileVisitResult.CONTINUE;
@@ -77,13 +79,13 @@ public class WordIndexing {
 		try {
 			FileDetector files=new FileDetector();
 			int Docnomber =files.SepratingDoc(file.toFile(),filenumber,reviwe_path);
-			System.out.println(Docnomber);
+			
 			for(int i=1; i<=Docnomber;i++){
 			Path docpath=Paths.get(reviwe_path+"/file"+filenumber+"review"+i+".txt");
 			ArrayList<STINT> AllWordsperDoc = rawwords.preprocssingonfile(docpath.toFile()); // pre-processing
 
 			int totaldocnumberinfile = rawwords.getDocno();
-			System.out.println(totaldocnumberinfile);
+			
 			Words.clear();
 			
 			for (int k = 0; k < AllWordsperDoc.size(); k++) {
