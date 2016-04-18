@@ -21,16 +21,20 @@ public class Main {
 	 * @param args
 	 *            the command line arguments
 	 */
+	
 	public static void main(String[] args) throws IOException {
 		W2VUtil.DEBUG_MODE = true;
 
 		String dspath = "sample/Health.txt";
 		String splitppath="spilitdata";
 		String reviewpath="review";
+		String output_path="output_MST_weighted";
+		boolean data_set_splited=false; // set true if you want to split data 
+		boolean data_set_seperating_reviews=true; // set true if you want to seperate each reviews 
 		final Path DSDir = Paths.get(dspath);
 		final Path SDir = Paths.get(splitppath);
 		final Path reviwe_path=Paths.get(reviewpath);
-		final boolean splitds=true;
+		
 		
 		if (!Files.isReadable(DSDir)) {
 			System.out.println("Data set directory '" + DSDir.toAbsolutePath()
@@ -39,9 +43,8 @@ public class Main {
 		}
 		
 		
-		
 		WordIndexing loadds=new WordIndexing();
-		loadds.split_dataset(DSDir,SDir,reviwe_path,splitds);
+		loadds.split_dataset(DSDir,SDir,reviwe_path,data_set_splited,data_set_seperating_reviews,output_path);
 		//loadds.indexDocs(DSDir);// writer + the path of original unindexed documents
 	
 	}

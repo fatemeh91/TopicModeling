@@ -44,7 +44,7 @@ public void splitting() throws IOException{
 	        bw.close();
 	    }
 	    if(remainingBytes > 0) {
-	        BufferedOutputStream bw = new BufferedOutputStream(new FileOutputStream(Spath+"split"+(numSplits+1)+".txt"));
+	        BufferedOutputStream bw = new BufferedOutputStream(new FileOutputStream(Spath+"/split"+(numSplits+1)+".txt"));
 	        readWrite(raf, bw, remainingBytes);
 	        bw.close();
 	    }

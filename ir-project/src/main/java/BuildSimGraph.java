@@ -6,7 +6,7 @@ import java.util.ArrayList;
 public class BuildSimGraph {
 
 	
-	public  BuildSimGraph(ArrayList<String> GraphWords,String reviwe_path,int filenumber,int docno,W2VUtil util) throws FileNotFoundException, IOException {
+	public  BuildSimGraph(ArrayList<String> GraphWords,String output_path,int filenumber,int docno,W2VUtil util) throws FileNotFoundException, IOException {
 		
 		WordGraph wg = new WordGraph();
 		//adding nodes 
@@ -24,10 +24,10 @@ public class BuildSimGraph {
 		}
 				
 		//wg.getMST();
-		String filename=reviwe_path+"/file"+filenumber+"review"+docno+".txt";
+		String filename=output_path+"/file"+filenumber+"review"+docno+".txt";
 		FileWriter fw=new FileWriter(filename,true);
 		wg.getMST();
-    	wg.centralityAnalysis(wg.getWordGraph(),"exhaustive");
+    	wg.centralityAnalysis(wg.getWordGraph(),"weighted");
     	wg.filterTopics(-1.0);    	
 		//fw.write(wg.topicToString());		
 		fw.flush();	

@@ -14,6 +14,7 @@ import java.nio.file.attribute.BasicFileAttributes;
 import java.util.ArrayList;
 import java.util.logging.Level;
 import java.util.logging.Logger;
+import java.util.stream.Stream;
 
 import org.netlib.util.booleanW;
 
@@ -42,50 +43,64 @@ public class WordIndexing {
 	/*
 	 * first of all spliting our data to be fit in memory
 	 */
-	public void split_dataset(Path RDSpath,Path DSpath,Path reviwe_path,boolean splitds) throws IOException{
+	public void split_dataset(Path RDSpath,Path DSpath,Path reviwe_path,boolean splitds,boolean reviews_ds_must_created,String output_path) throws IOException{
 		if(splitds){
 		Splitingds Sp_DS=new  Splitingds(RDSpath,DSpath);
 		Sp_DS.splitting();
+		indexDocs(DSpath,reviwe_path,reviews_ds_must_created,output_path);
 		}
-		indexDocs(DSpath,reviwe_path);
+		else {
+			System.out.println("splilit nemishe");
+			indexDocs(DSpath,reviwe_path,reviews_ds_must_created,output_path);
+		}
+		
 	}
+	
 	// reading all the text files from directory 
-	public void indexDocs(Path DSpath,final Path reviwe_path) throws IOException {
-		System.out.println("Index a single review");
+	public void indexDocs(Path DSpath,final Path reviwe_path,final boolean reviews_ds_must_created,final String output_path) throws IOException {
 		if (Files.isDirectory(DSpath)) {
-
 			Files.walkFileTree(DSpath, new SimpleFileVisitor<Path>() {
 				@Override
 				public FileVisitResult visitFile(Path file, BasicFileAttributes attrs) throws IOException {
-
-					if (file.getFileName().toString().endsWith(".txt"))
+					if (file.getFileName().toString().endsWith(".txt")){
 						filenumber++;
-					System.out.println(filenumber);
-						indexDoc(file,reviwe_path.toString());
+						indexDoc(file,reviwe_path.toString(),reviews_ds_must_created,output_path);
 
+					}
 					return FileVisitResult.CONTINUE;
 				}
+					
 			});
-		} else {
-			indexDoc(DSpath,reviwe_path.toString());
+		} 
+		else {
+			if (DSpath.getFileName().toString().endsWith(".txt")){
+				filenumber++;
+				indexDoc(DSpath,reviwe_path.toString(),reviews_ds_must_created,output_path);
+				
+				}
 		}
 	}
 
 	
 	// index each text file from directory
-	private void indexDoc(Path file, String reviwe_path) {
+	private void indexDoc(Path file, String reviwe_path, boolean reviews_ds_must_created,String output_path) {
 		ArrayList<String> Words = new ArrayList<>();
-
 		try {
+			int Docnomber =0;
+			if(reviews_ds_must_created){
 			FileDetector files=new FileDetector();
-			int Docnomber =files.SepratingDoc(file.toFile(),filenumber,reviwe_path);
+			Docnomber =files.SepratingDoc(file.toFile(),filenumber,reviwe_path);
+			}
+			else {
+				Docnomber=retrive_docnumber_perfile(filenumber,reviwe_path);
+				
+			}
 			
+			System.out.println(" FILE NUMBER   "+filenumber +"    docs_per_file:  "+Docnomber);
 			for(int i=1; i<=Docnomber;i++){
 			Path docpath=Paths.get(reviwe_path+"/file"+filenumber+"review"+i+".txt");
 			ArrayList<STINT> AllWordsperDoc = rawwords.preprocssingonfile(docpath.toFile()); // pre-processing
 
-			int totaldocnumberinfile = rawwords.getDocno();
-			
 			Words.clear();
 			
 			for (int k = 0; k < AllWordsperDoc.size(); k++) {
@@ -93,14 +108,30 @@ public class WordIndexing {
 							Words.add(AllWordsperDoc.get(k).word);
 				}
 			
-			new BuildSimGraph(Words,reviwe_path,filenumber,i,util);
+			new BuildSimGraph(Words,output_path,filenumber,i,util);
 				
 			}
 			} catch (Exception ex) {
 			Logger.getLogger(WordIndexing.class.getName()).log(Level.SEVERE, null, ex);
 		}
 	}
+	
 
+	private int retrive_docnumber_perfile(int filenumber2, String reviwe_path) {
+		int review_number_perfile=0;
+		
+		try {
+			Stream<Path> whole_file = Files.list((Paths.get(reviwe_path)));
+			Object[] allfiles = whole_file.toArray();
+				for(Object temp:allfiles)
+					if(temp.toString().contains("file"+filenumber2))
+						review_number_perfile++;
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		return review_number_perfile;
+	}
 	/*
 	 * this method check to avoid indexing same word tow times
 	 */
