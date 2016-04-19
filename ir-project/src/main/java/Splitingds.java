@@ -19,7 +19,7 @@ public Splitingds(Path DSpath , Path Splitedpath){
 public void splitting() throws IOException{
 	String filepath=DSpath.toString();
 	 RandomAccessFile raf = new RandomAccessFile(filepath, "r");
-	    long numSplits = 100; //from user input, extract it from args
+	    long numSplits = 20; //from user input, extract it from args
 	    long sourceSize = raf.length();
 	    long bytesPerSplit = sourceSize/numSplits ;
 	    long remainingBytes = sourceSize % numSplits;

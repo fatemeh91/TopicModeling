@@ -23,17 +23,18 @@ public class Main {
 	 */
 	
 	public static void main(String[] args) throws IOException {
-		W2VUtil.DEBUG_MODE = true;
+		W2VUtil.DEBUG_MODE = false;
 
 		String dspath = "sample/Health.txt";
 		String splitppath="spilitdata";
 		String reviewpath="review";
 		String output_path="output_MST_weighted";
 		boolean data_set_splited=false; // set true if you want to split data 
-		boolean data_set_seperating_reviews=true; // set true if you want to seperate each reviews 
+		boolean data_set_seperating_reviews=false; // set true if you want to seperate each reviews 
 		final Path DSDir = Paths.get(dspath);
 		final Path SDir = Paths.get(splitppath);
 		final Path reviwe_path=Paths.get(reviewpath);
+		
 		
 		
 		if (!Files.isReadable(DSDir)) {

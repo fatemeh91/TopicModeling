@@ -630,7 +630,7 @@ public class Stopwords implements RevisionHandler {
 	}
 
 	public ArrayList<STINT> read(BufferedReader reader) throws Exception {
-		boolean newdoc = false;
+		boolean newdoc = true;
 		ArrayList<STINT> WordDoc = new ArrayList<>();
 		String line;
 		while ((line = reader.readLine()) != null) {

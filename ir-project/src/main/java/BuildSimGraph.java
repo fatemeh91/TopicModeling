@@ -23,10 +23,10 @@ public class BuildSimGraph {
 			}
 		}
 				
-		//wg.getMST();
+		
 		String filename=output_path+"/file"+filenumber+"review"+docno+".txt";
 		FileWriter fw=new FileWriter(filename,true);
-		wg.getMST();
+		//wg.getMST();
     	wg.centralityAnalysis(wg.getWordGraph(),"weighted");
     	wg.filterTopics(-1.0);    	
 		//fw.write(wg.topicToString());		

@@ -4,7 +4,13 @@
  * and open the template in the editor.
  */
 
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
 import java.io.IOException;
+import java.io.InputStream;
+import java.io.OutputStream;
 import java.nio.file.FileVisitResult;
 import java.nio.file.Files;
 import java.nio.file.Path;
@@ -95,10 +101,15 @@ public class WordIndexing {
 				Docnomber=retrive_docnumber_perfile(filenumber,reviwe_path);
 				
 			}
-			
-			System.out.println(" FILE NUMBER   "+filenumber +"    docs_per_file:  "+Docnomber);
+			System.out.println("File   "+ filenumber + "    docs number  "+Docnomber);
+			File sourceLocation=new File(reviwe_path);
+			File targetLocation=new File(output_path);
+			 makeacopy_of_reviews(sourceLocation,targetLocation);
+			System.out.println(" FILE NUMBER   "+filenumber +"   docs_per_file:  "+Docnomber);
 			for(int i=1; i<=Docnomber;i++){
 			Path docpath=Paths.get(reviwe_path+"/file"+filenumber+"review"+i+".txt");
+			File t=new File(reviwe_path+"/file"+filenumber+"review"+i+".txt");
+			if(t.exists()){
 			ArrayList<STINT> AllWordsperDoc = rawwords.preprocssingonfile(docpath.toFile()); // pre-processing
 
 			Words.clear();
@@ -109,7 +120,10 @@ public class WordIndexing {
 				}
 			
 			new BuildSimGraph(Words,output_path,filenumber,i,util);
-				
+			}
+			else {
+				System.out.println("     File :    "+reviwe_path+"/file"+filenumber+"review"+i+".txt" +"     dose not exist");
+			}
 			}
 			} catch (Exception ex) {
 			Logger.getLogger(WordIndexing.class.getName()).log(Level.SEVERE, null, ex);
@@ -117,6 +131,36 @@ public class WordIndexing {
 	}
 	
 
+	private void makeacopy_of_reviews(File sourceLocation, File targetLocation) throws IOException {
+	
+		 if (sourceLocation.isDirectory()) {
+	            if (!targetLocation.exists()) {
+	                targetLocation.mkdir();
+	            }
+
+	            String[] children = sourceLocation.list();
+	            for (int i=0; i<children.length; i++) {
+	            	makeacopy_of_reviews(new File(sourceLocation, children[i]),
+	                        new File(targetLocation, children[i]));
+	            }
+	        } else {
+	        	if(sourceLocation.getName().contains("file"+filenumber)){
+	            InputStream in = new FileInputStream(sourceLocation);
+	            OutputStream out = new FileOutputStream(targetLocation);
+
+	            // Copy the bits from instream to outstream
+	            byte[] buf = new byte[1024];
+	            int len;
+	            while ((len = in.read(buf)) > 0) {
+	                out.write(buf, 0, len);
+	            }
+	            in.close();
+	            out.close();
+	            }
+	        }
+		 
+		
+	}
 	private int retrive_docnumber_perfile(int filenumber2, String reviwe_path) {
 		int review_number_perfile=0;
 		
