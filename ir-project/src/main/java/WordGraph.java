@@ -119,9 +119,9 @@ public class WordGraph {
         		{
         			String nbr = (graph.getEdgeTarget(e).equals(w))?graph.getEdgeSource(e):graph.getEdgeTarget(e);
         	//		System.out.println(nbr + " " + this.rawCentralities.get(nbr));
-        			sum += this.rawCentralities.get(nbr)/graph.getEdgeWeight(e);
+        			sum += this.rawCentralities.get(nbr)/(graph.getEdgeWeight(e) + .0001);
         		}
-            	this.centralities.put(w, sum/graph.edgesOf(w).size());
+            	this.centralities.put(w, sum/(graph.edgesOf(w).size() + 1));
         	}
         }
 		
