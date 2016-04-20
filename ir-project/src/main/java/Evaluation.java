@@ -5,6 +5,8 @@ import java.io.IOException;
 import java.util.StringTokenizer;
 import java.util.Vector;
 
+import org.junit.experimental.categories.Categories;
+
 public class Evaluation {
 	public Vector<String> label;
 	public Vector<String> prediction;
@@ -30,16 +32,22 @@ public class Evaluation {
 		File[] listOfFiles = folder.listFiles();
 		int n = listOfFiles.length;
 		System.err.println(n);
+		int count = 0;
 		for (File file: listOfFiles)
 		{
 			if (file.getName().startsWith(".")) continue;
+			if (file.getName().contains("file2review2741.txt"))
+				System.out.println("problem!");
 			BufferedReader reader = new BufferedReader(new FileReader(file));
 			reader.readLine(); //read and discard item id
 			
 			//read category into vector
 			String catStr = reader.readLine();
 			catStr = catStr.replaceAll("&", "");
+			if (catStr.isEmpty())
+				continue;
 			StringTokenizer tk = new StringTokenizer(catStr, " ");
+			this.label.clear();
 			while (tk.hasMoreTokens())
 			{
 				this.label.add(tk.nextToken());
@@ -111,14 +119,19 @@ public class Evaluation {
 					{
 						this.prediction.add(tk2.nextToken());
 					}
-					Wscore_wg += util.distance(this.label, this.prediction);
+					Cscore_wg += util.distance(this.label, this.prediction);
 				}
+				if (predStr != null && predStr.isEmpty())
+					return;
 				tmp = reader.readLine();
 			}
 			reader.close();
 			System.out.printf("%s: MST closeness = %f\n MST weighted = %f\n MST betweenness = %f\n MST Exhaustive = %f\n WG closeness = %f\n WG Weighted = %f\n",
 					file.getName(), Cscore, Wscore, Bscore, Escore, Cscore_wg, Wscore_wg);
+
 			//read prediction into vector
+			count ++;
+
 		}
 		System.err.printf("MST closeness = %f\n MST weighted = %f\n MST betweenness = %f\n MST Exhaustive = %f\n WG closeness = %f\n WG Weighted = %f\n",
 				Cscore/n, Wscore/n, Bscore/n, Escore/n, Cscore_wg/n, Wscore_wg/n);	}
