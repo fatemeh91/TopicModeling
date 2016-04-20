@@ -1,125 +1,196 @@
-import java.io.BufferedReader;
-import java.io.File;
-import java.io.FileReader;
-import java.io.IOException;
-import java.util.StringTokenizer;
+import java.util.Collections;
+import java.util.Comparator;
+import java.util.HashMap;
+import java.util.LinkedHashMap;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Map;
+import java.util.Set;
 import java.util.Vector;
 
-public class Evaluation {
-	public Vector<String> label;
-	public Vector<String> prediction;
-	public double Bscore, Cscore, Dscore, Wscore, Escore, Wscore_wg, Cscore_wg;
-	public Evaluation()
-	{
-		this.label = new Vector<String>();
-		this.prediction = new Vector<String>();
+import org.jgrapht.*;
+import org.jgrapht.graph.*;
+import org.jgrapht.alg.KruskalMinimumSpanningTree;
+public class WordGraph {
+	private WeightedGraph<String, DefaultWeightedEdge> wordGraph;
+	private WeightedGraph<String, DefaultWeightedEdge> wordMST;
+	public Vector<String> topicWords;
+
+	List<Map.Entry<String, Double>> centralityList ;
+	private HashMap<String, Double> bCentralities;
+	private HashMap<String, Double> dCentralities;
+	private HashMap<String, Double> cCentralities;
+	private HashMap<String, Double> rawCentralities;
+	private HashMap<String, Double> centralities;
+
+	public WordGraph(){
+		wordGraph = new SimpleWeightedGraph<String, DefaultWeightedEdge>(DefaultWeightedEdge.class);
+		topicWords = new Vector<String>();
 	}
-	public void setLabel(Vector<String> label)
-	{
-		this.label = label;
-	}
-	public void setPrediction(Vector<String> prediction)
-	{
-		this.prediction = prediction;
-	}
-	public void evaluate() throws IOException
-	{
-		W2VUtil.DEBUG_MODE = true;
-	    W2VUtil util = new W2VUtil("GoogleNews-vectors-negative300.bin", W2VUtil.ANGULAR_DIST);
-		String dir = "results";
-		File folder = new File(dir);
-		File[] listOfFiles = folder.listFiles();
-		int n = listOfFiles.length;
-		System.err.println(n);
-		for (File file: listOfFiles)
+    public void addWeightedEdge(String w1, String w2, double distance)
+    {
+
+    	if (distance == Double.NaN)
+    	{
+    		wordGraph.removeVertex(w1);
+    		wordGraph.removeVertex(w2);
+    		return;
+    	}
+        // add the vertices
+    	wordGraph.addVertex(w1);
+    	wordGraph.addVertex(w2); 
+        // add edges to create a circuit
+    	DefaultWeightedEdge ed = wordGraph.addEdge(w1, w2);
+    	if (ed != null)
+    	{
+    		wordGraph.setEdgeWeight(ed, distance);
+    	}
+    }
+    public boolean addVertex(String w)
+    {
+    	return wordGraph.addVertex(w);
+    }
+    public WeightedGraph<String, DefaultWeightedEdge> getWordGraph()
+    {
+    	return this.wordGraph;
+    }
+    public WeightedGraph<String, DefaultWeightedEdge> getMST()
+    {
+    	if (wordMST != null)
+    		return wordMST;
+    	
+    	wordMST = new SimpleWeightedGraph<String, DefaultWeightedEdge>(DefaultWeightedEdge.class);
+    	KruskalMinimumSpanningTree<String, DefaultWeightedEdge> kmst;
+    	kmst =  new KruskalMinimumSpanningTree<String, DefaultWeightedEdge>(wordGraph);
+    	Set<DefaultWeightedEdge> edgeSet = kmst.getMinimumSpanningTreeEdgeSet();
+    	
+    	
+    	for(String w : wordGraph.vertexSet())
+    	{
+    		wordMST.addVertex(w);
+    	}
+    	for (DefaultWeightedEdge e: edgeSet)
+    	{
+    		if(!wordMST.addEdge(wordGraph.getEdgeSource(e), wordGraph.getEdgeTarget(e), e))
+    		{
+    			System.out.println("edge add fail");
+    		}
+    		//wordMST.setEdgeWeight(e, wordGraph.getEdgeWeight(e));
+    		//System.out.println("mst making: " + wordMST.getEdgeWeight(e));
+    		
+    	}
+    	return wordMST;
+    }
+    public void centralityAnalysis(WeightedGraph<String, DefaultWeightedEdge> graph, String mode)
+    {
+    	this.cCentralities =  new HashMap<String, Double>();
+    	this.bCentralities =  new HashMap<String, Double>();
+    	this.dCentralities =  new HashMap<String, Double>();
+    	this.centralities =  new HashMap<String, Double>();
+    	this.rawCentralities =  new HashMap<String, Double>();
+    	double bc, dc, cc;
+    	
+    	CentralityComputer<String, DefaultWeightedEdge> cental = new CentralityComputer<String, DefaultWeightedEdge>(graph);
+    	
+    	for(String w : graph.vertexSet())
+    	{
+    		cc = cental.findClosenessOf(w);
+    		dc = cental.findDegreeOf(w);
+    		bc = cental.findBetweennessOf(w);
+    		this.cCentralities.put(w, cc);
+    		this.dCentralities.put(w, dc);
+    		this.bCentralities.put(w, bc);
+    		if (mode.equals("exhaustive"))
+    			this.centralities.put(w, cc + dc + bc);
+    		else if (mode.equals("betweenness"))
+    			this.centralities.put(w, bc);
+    		else if (mode.equals("weighted"))
+    			this.rawCentralities.put(w, cc);
+    		else this.centralities.put(w, cc);
+    	}
+    	if (mode.equals("weighted"))
 		{
-			if (file.getName().startsWith(".")) continue;
-			BufferedReader reader = new BufferedReader(new FileReader(file));
-			reader.readLine(); //read and discard item id
-			
-			//read category into vector
-			String catStr = reader.readLine();
-			catStr = catStr.replaceAll("&", "");
-			StringTokenizer tk = new StringTokenizer(catStr, " ");
-			while (tk.hasMoreTokens())
-			{
-				this.label.add(tk.nextToken());
-			}
-			
-			String predStr = null;
-			String tmp = reader.readLine();
-			while(tmp != null)
-			{
-				this.prediction.clear();
-				if (tmp.contains("MST weighted"))
-				{
-					predStr = reader.readLine();
-					StringTokenizer tk2 = new StringTokenizer(predStr, ", ");
-					while (tk2.hasMoreTokens())
-					{
-						this.prediction.add(tk2.nextToken());
-					}
-					Wscore += util.distance(this.label, this.prediction);
-				}
+        	for(String w : graph.vertexSet())
+        	{
+        		double sum = this.rawCentralities.get(w);
 
-				if (tmp.contains("MST closeness"))
-				{
-					predStr = reader.readLine();
-					StringTokenizer tk2 = new StringTokenizer(predStr, ", ");
-					while (tk2.hasMoreTokens())
-					{
-						this.prediction.add(tk2.nextToken());
-					}
-					Cscore += util.distance(this.label, this.prediction);
-				}
+        	//	System.out.println("nbrs of" + " " + w + ":");
+        		for(DefaultWeightedEdge e : graph.edgesOf(w))
+        		{
+        			String nbr = (graph.getEdgeTarget(e).equals(w))?graph.getEdgeSource(e):graph.getEdgeTarget(e);
+        	//		System.out.println(nbr + " " + this.rawCentralities.get(nbr));
+        			sum += this.rawCentralities.get(nbr)/graph.getEdgeWeight(e);
+        		}
+            	this.centralities.put(w, sum/graph.edgesOf(w).size());
+        	}
+        }
+		
+    //	System.out.println(this.centralities);
 
-				if (tmp.contains("MST exhaustive"))
-				{
-					predStr = reader.readLine();
-					StringTokenizer tk2 = new StringTokenizer(predStr, ", ");
-					while (tk2.hasMoreTokens())
-					{
-						this.prediction.add(tk2.nextToken());
-					}
-					Escore += util.distance(this.label, this.prediction);
-				}
-
-				if (tmp.contains("MST betwennness"))
-				{
-					predStr = reader.readLine();
-					StringTokenizer tk2 = new StringTokenizer(predStr, ", ");
-					while (tk2.hasMoreTokens())
-					{
-						this.prediction.add(tk2.nextToken());
-					}
-					Bscore += util.distance(this.label, this.prediction);
-				}
-				if (tmp.contains("WG weighted"))
-				{
-					predStr = reader.readLine();
-					StringTokenizer tk2 = new StringTokenizer(predStr, ", ");
-					while (tk2.hasMoreTokens())
-					{
-						this.prediction.add(tk2.nextToken());
-					}
-					Wscore_wg += util.distance(this.label, this.prediction);
-				}
-				if (tmp.contains("WG closeness"))
-				{
-					predStr = reader.readLine();
-					StringTokenizer tk2 = new StringTokenizer(predStr, ", ");
-					while (tk2.hasMoreTokens())
-					{
-						this.prediction.add(tk2.nextToken());
-					}
-					Wscore_wg += util.distance(this.label, this.prediction);
-				}
-				tmp = reader.readLine();
-			}
-			reader.close();	
-			//read prediction into vector
-		}
-		System.out.printf("MST closeness = %f\n MST weighted = %f\n MST betweenness = %f\n MST Exhaustive = %f\n WG closeness = %f\n WG Weighted = %f\n",
-				Cscore/n, Wscore/n, Bscore/n, Escore/n, Cscore_wg/n, Wscore_wg/n);	}
-
+    	this.centralities = sortByValues(this.centralities);
+    }
+    private double getThreshold(String string) {
+    	double sum = 0;
+    	for(String k : this.centralities.keySet())
+    	{
+    		sum += this.centralities.get(k);
+    	}		
+    	
+    	System.out.println("Threshold = " + sum/this.centralities.size());
+    	if(sum/this.centralities.size()==Double.NaN){
+    		System.exit(1);
+    	}
+    		
+    	return sum/this.centralities.size();
+	}
+	private HashMap<String, Double> sortByValues(HashMap<String, Double> centralities) {
+    	
+        this.centralityList = new LinkedList<Map.Entry<String, Double>>( centralities.entrySet() );
+    	Collections.sort( centralityList, new Comparator<Map.Entry<String, Double>>()
+        {
+            public int compare( Map.Entry<String, Double> o1, Map.Entry<String, Double> o2 )
+            {
+                return (o2.getValue()).compareTo( o1.getValue() );
+            }
+        } );
+        centralities = new LinkedHashMap<String, Double>();
+        for (Map.Entry<String, Double> entry : centralityList)
+        {
+            centralities.put( entry.getKey(), entry.getValue() );
+        }
+    	return centralities;
+    }
+    public HashMap<String, Double> filterTopics(double threshold) 
+    {
+    	if (threshold == -1)
+    		threshold = this.getThreshold("mean");
+    		
+        for (Map.Entry<String, Double> entry : this.centralityList)
+        {
+        	if (entry.getValue() < threshold)
+        	{
+        		centralities.remove(entry.getKey());
+        	}
+        }
+    	return centralities;
+    }
+    public String topicToString()
+    {
+        this.setTopicWords();
+    	String topicsStr = "";
+    	for(String k : topicWords)
+    	{
+    		topicsStr += (k + ", ");
+    	}
+    	return topicsStr;
+    }
+    private void setTopicWords()
+    {
+    	if (!topicWords.isEmpty())
+    		topicWords.clear();
+    	for(String k : this.centralities.keySet())
+    	{
+    		topicWords.add(k);
+    	}   
+    }
 }
