@@ -34,7 +34,7 @@ public class BuildSimGraph {
 		wg.centralityAnalysis(wg.getMST(),"weighted");
     	wg.filterTopics(-1.0);    			
 		fw.flush();	
-		fw.write("MST weighted");
+		fw.write("MST weighted ");
 		fw.write("\n"+wg.topicToString()+"\n");
 		
 		wg.centralityAnalysis(wg.getMST(),"closeness");
@@ -52,20 +52,20 @@ public class BuildSimGraph {
 		wg.centralityAnalysis(wg.getMST(),"betweenness");
 		wg.filterTopics(-1.0);    			
 		fw.flush();	
-		fw.write("MST betwenness");
+		fw.write("MST betwennness");
 		fw.write("\n"+wg.topicToString()+"\n");
 		
 		
 		wg.centralityAnalysis(wg.getWordGraph(),"weighted");
     	wg.filterTopics(-1.0);    			
 		fw.flush();	
-		fw.write("WG weighted");
+		fw.write(" weighted ");
 		fw.write("\n"+wg.topicToString()+"\n");
 		
 		wg.centralityAnalysis(wg.getWordGraph(),"closeness");
 		wg.filterTopics(-1.0);    			
 		fw.flush();	
-		fw.write("WG closeness");
+		fw.write(" closeness");
 		fw.write("\n"+wg.topicToString()+"\n");
 				
 		fw.close();
