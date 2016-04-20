@@ -168,8 +168,7 @@ public class WordGraph {
     }
     public String topicToString()
     {
-    	if (topicWords.isEmpty())
-    		this.setTopicWords();
+        this.setTopicWords();
     	String topicsStr = "";
     	for(String k : topicWords)
     	{
