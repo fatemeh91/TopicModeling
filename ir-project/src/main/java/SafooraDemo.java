@@ -36,9 +36,22 @@ public class SafooraDemo {
     	wg.addWeightedEdge(w1, w3, .5);
     	wg.addWeightedEdge(w2, w4, .9);
     	
-    	wg.getMST();
-    	//wg.centralityAnalysis();
-    	System.out.println("it's over!");
+        wg.getMST();
+	    wg.centralityAnalysis(wg.getMST(),"weighted");
+	    wg.filterTopics(-1.0);
+	    System.out.println("\n"+wg.topicToString());
+	
+	    wg.centralityAnalysis(wg.getMST(),"exhaustive");
+	    wg.filterTopics(-1.0);
+	    System.out.println("\n"+wg.topicToString());
+
+	    wg.centralityAnalysis(wg.getMST(),"betweenness");
+	    wg.filterTopics(-1.0);
+	    System.out.println("\n"+wg.topicToString());
+	    
+	    wg.centralityAnalysis(wg.getMST(),"closeness");
+	    wg.filterTopics(-1.0);
+	    System.out.println("\n"+wg.topicToString());
     	
     }
     
