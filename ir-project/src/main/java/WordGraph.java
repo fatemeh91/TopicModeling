@@ -20,7 +20,7 @@ public class WordGraph {
 	private HashMap<String, Double> bCentralities;
 	private HashMap<String, Double> dCentralities;
 	private HashMap<String, Double> cCentralities;
-	private HashMap<String, Double> neighborCentralities;
+	private HashMap<String, Double> rawCentralities;
 	private HashMap<String, Double> centralities;
 
 	public WordGraph(){
@@ -79,6 +79,7 @@ public class WordGraph {
     	this.bCentralities =  new HashMap<String, Double>();
     	this.dCentralities =  new HashMap<String, Double>();
     	this.centralities =  new HashMap<String, Double>();
+    	this.rawCentralities =  new HashMap<String, Double>();
     	double bc, dc, cc;
     	
     	CentralityComputer<String, DefaultWeightedEdge> cental = new CentralityComputer<String, DefaultWeightedEdge>(graph);
@@ -95,9 +96,28 @@ public class WordGraph {
     			this.centralities.put(w, cc + dc + bc);
     		else if (mode.equals("betweenness"))
     			this.centralities.put(w, bc);
+    		else if (mode.equals("weighted"))
+    			this.rawCentralities.put(w, cc);
     		else this.centralities.put(w, cc);
     	}
-    	System.out.println(this.centralities);
+    	if (mode.equals("weighted"))
+		{
+        	for(String w : graph.vertexSet())
+        	{
+        		double sum = this.rawCentralities.get(w);
+
+        	//	System.out.println("nbrs of" + " " + w + ":");
+        		for(DefaultWeightedEdge e : graph.edgesOf(w))
+        		{
+        			String nbr = (graph.getEdgeTarget(e).equals(w))?graph.getEdgeSource(e):graph.getEdgeTarget(e);
+        	//		System.out.println(nbr + " " + this.rawCentralities.get(nbr));
+        			sum += this.rawCentralities.get(nbr)/graph.getEdgeWeight(e);
+        		}
+            	this.centralities.put(w, sum/graph.edgesOf(w).size());
+        	}
+        }
+		
+    //	System.out.println(this.centralities);
 
     	this.centralities = sortByValues(this.centralities);
     }
@@ -107,7 +127,12 @@ public class WordGraph {
     	{
     		sum += this.centralities.get(k);
     	}		
+    	
     	System.out.println("Threshold = " + sum/this.centralities.size());
+    	if(sum/this.centralities.size()==Double.NaN){
+    		System.exit(1);
+    	}
+    		
     	return sum/this.centralities.size();
 	}
 	private HashMap<String, Double> sortByValues(HashMap<String, Double> centralities) {
@@ -162,4 +187,3 @@ public class WordGraph {
     	}   
     }
 }
-    

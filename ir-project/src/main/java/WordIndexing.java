@@ -56,7 +56,7 @@ public class WordIndexing {
 		indexDocs(DSpath,reviwe_path,reviews_ds_must_created,output_path);
 		}
 		else {
-			System.out.println("splilit nemishe");
+			//System.out.println("splilit nemishe");
 			indexDocs(DSpath,reviwe_path,reviews_ds_must_created,output_path);
 		}
 		
@@ -101,11 +101,11 @@ public class WordIndexing {
 				Docnomber=retrive_docnumber_perfile(filenumber,reviwe_path);
 				
 			}
-			System.out.println("File   "+ filenumber + "    docs number  "+Docnomber);
+		//	System.out.println("File   "+ filenumber + "    docs number  "+Docnomber);
 			File sourceLocation=new File(reviwe_path);
 			File targetLocation=new File(output_path);
 			 makeacopy_of_reviews(sourceLocation,targetLocation);
-			System.out.println(" FILE NUMBER   "+filenumber +"   docs_per_file:  "+Docnomber);
+	//		System.out.println(" FILE NUMBER   "+filenumber +"   docs_per_file:  "+Docnomber);
 			for(int i=1; i<=Docnomber;i++){
 			Path docpath=Paths.get(reviwe_path+"/file"+filenumber+"review"+i+".txt");
 			File t=new File(reviwe_path+"/file"+filenumber+"review"+i+".txt");
@@ -118,7 +118,7 @@ public class WordIndexing {
 						if (!indexed(Words, AllWordsperDoc.get(k).word))
 							Words.add(AllWordsperDoc.get(k).word);
 				}
-			
+			System.out.println("     File :    "+reviwe_path+"/file"+filenumber+"review"+i+".txt");
 			new BuildSimGraph(Words,output_path,filenumber,i,util);
 			}
 			else {
