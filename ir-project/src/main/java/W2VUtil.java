@@ -1,14 +1,13 @@
-package org;
 
 /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
+
 import java.io.File;
 import java.io.IOException;
 import java.util.List;
-import java.util.Vector;
 
 import org.deeplearning4j.models.embeddings.loader.WordVectorSerializer;
 //import org.deeplearning4j.models.word2vec.Word2Vec;
@@ -74,48 +73,54 @@ public class W2VUtil {
 //    }
     public double distance(String word1, String word2)
     {
-    	if (!DEBUG_MODE)
-    	{
-    		try
-    		{
-	        	if (this.distMeasure == ANGULAR_DIST)
-	        	{
-	        		return Math.acos(vec.similarity(word1, word2)) * 2 / Math.PI;
-	        	}
-	            return 1 - vec.similarity(word1, word2);
-    		}
-            catch(Exception e)
-            {
-                e.printStackTrace();
-                return -1.0;
-            }
-    	}
-    	else return Math.random();
+        try{
+        	if (!DEBUG_MODE)
+        	{
+        		try
+        		{
+		        	if (this.distMeasure == ANGULAR_DIST)
+		        	{
+		        		return Math.acos(vec.similarity(word1, word2)) * 2 / Math.PI;
+		        	}
+		            return 1 - vec.similarity(word1, word2);
+        		}
+        		catch(NullPointerException e)
+        		{
+        			System.exit(1);
+        			return 0;
+        		}
+        	}
+        	else return Math.random();
+        }
+        catch(Exception e)
+        {
+            e.printStackTrace();
+            return -1.0;
+        }
     }
-    public double distance(Vector<String> y, Vector<String> p)
+    public double distance(List<String> y, List<String> p)
     {
     	double distSum = 0;
 
     	if (!DEBUG_MODE)
     	{
+    		try
+    		{
     		for (String wy: y)
     		{
     			for (String wp: p)
     			{
-    				try
-    				{
-	    				if (this.distMeasure == ANGULAR_DIST)
-	    	        		distSum +=  Math.acos(vec.similarity(wy, wp)) * 2 / Math.PI;
-	    				else
-	    					distSum += 1 - vec.similarity(wy, wp);
-    				}
-    				catch(Exception e)
-    	            {
-    	                e.printStackTrace();
-    	                distSum += Math.random();
-    	            }
+    				if (this.distMeasure == ANGULAR_DIST)
+    	        		distSum +=  Math.acos(vec.similarity(wy, wp)) * 2 / Math.PI;
+    				else
+    					distSum += 1 - vec.similarity(wy, wp);
     			}
     		}
+    		}catch(Exception e)
+            {
+                e.printStackTrace();
+                return -1.0;
+            }
     	}
     	else 
     	{
