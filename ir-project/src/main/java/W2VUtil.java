@@ -123,7 +123,7 @@ public class W2VUtil {
     		{
     			for (String wp: p)
     			{
-    				distSum =+ Math.random();
+    				distSum += Math.random();
     			}
     		}
     	}
