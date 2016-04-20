@@ -96,21 +96,28 @@ public class W2VUtil {
     	double tmpDist = 0;
     	if (!DEBUG_MODE)
     	{
-    		for (String wy: y)
+    		for (int i = 0; i < y.size(); i ++)
     		{
-    			for (String wp: p)
+    			String wy = y.get(i);
+    			for (int j = i + 1; j < p.size(); j ++)
     			{
+    				String wp = p.get(j);
     				try
     				{
+    					if(!vec.hasWord(wy) || !(vec.hasWord(wp)))
+    						continue;
 	    				if (this.distMeasure == ANGULAR_DIST)
-	    				{
 	    	        		tmpDist =  Math.acos(vec.similarity(wy, wp)) * 2 / Math.PI;
-	    	        		if (tmpDist == Double.NaN)
-		    					distSum += Math.random();
-	    	        		else distSum +=tmpDist;
-	    				}
 	    				else
-	    					distSum += 1 - vec.similarity(wy, wp);
+	    					tmpDist = 1 - vec.similarity(wy, wp);
+    	        		if (tmpDist == Double.NaN)
+    	        		{
+	    					distSum += Math.random();
+	    				}
+    	        		else
+    	        		{
+    	        			distSum +=tmpDist;
+    	        		}
     				}
     				catch(Exception e)
     	            {
