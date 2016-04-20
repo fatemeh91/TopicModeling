@@ -93,7 +93,7 @@ public class W2VUtil {
     public double distance(Vector<String> y, Vector<String> p)
     {
     	double distSum = 0;
-
+    	double tmpDist = 0;
     	if (!DEBUG_MODE)
     	{
     		for (String wy: y)
@@ -103,7 +103,12 @@ public class W2VUtil {
     				try
     				{
 	    				if (this.distMeasure == ANGULAR_DIST)
-	    	        		distSum +=  Math.acos(vec.similarity(wy, wp)) * 2 / Math.PI;
+	    				{
+	    	        		tmpDist =  Math.acos(vec.similarity(wy, wp)) * 2 / Math.PI;
+	    	        		if (tmpDist == Double.NaN)
+		    					distSum += Math.random();
+	    	        		else distSum +=tmpDist;
+	    				}
 	    				else
 	    					distSum += 1 - vec.similarity(wy, wp);
     				}
