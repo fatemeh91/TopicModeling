@@ -30,13 +30,21 @@ public class WordGraph {
     public void addWeightedEdge(String w1, String w2, double distance)
     {
 
+    	if (distance == Double.NaN)
+    	{
+    		wordGraph.removeVertex(w1);
+    		wordGraph.removeVertex(w2);
+    		return;
+    	}
         // add the vertices
     	wordGraph.addVertex(w1);
     	wordGraph.addVertex(w2); 
         // add edges to create a circuit
     	DefaultWeightedEdge ed = wordGraph.addEdge(w1, w2);
     	if (ed != null)
+    	{
     		wordGraph.setEdgeWeight(ed, distance);
+    	}
     }
     public boolean addVertex(String w)
     {
