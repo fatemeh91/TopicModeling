@@ -90,10 +90,15 @@ public class W2VUtil {
     	}
     	else return Math.random();
     }
-    public double distance(Vector<String> y, Vector<String> p)
+    public double distance(Vector<String> y, Vector<String> p,boolean mallet)
     {
     	double distSum = 0;
     	double tmpDist = 0;
+    	if(mallet){
+			
+			System.out.println("size labelha     "+y.size()+ "     sizepredictionha:      "+p.size());
+		}
+    	
     	if (!DEBUG_MODE)
     	{
     		for (int i = 0; i < y.size(); i ++)
@@ -110,13 +115,19 @@ public class W2VUtil {
 	    	        		tmpDist =  Math.acos(vec.similarity(wy, wp)) * 2 / Math.PI;
 	    				else
 	    					tmpDist = 1 - vec.similarity(wy, wp);
-    	        		if (tmpDist == Double.NaN)
+	    				
+	    				if(mallet){
+	    					
+	    					System.out.println("words  "+wy+ "     secword   "+wp+"    tmpdist    "+tmpDist);
+	    				}
+	    				if (tmpDist == Double.NaN)
     	        		{
 	    					distSum += Math.random();
 	    				}
     	        		else
     	        		{
     	        			distSum +=tmpDist;
+    	        		
     	        		}
     				}
     				catch(Exception e)
@@ -137,7 +148,11 @@ public class W2VUtil {
     			}
     		}
     	}
+    	if(mallet)
+    	System.out.println("sum      "+distSum);
+		
     	distSum /= (y.size()*p.size());
+    
     	return distSum;
     }
 }
